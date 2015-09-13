@@ -1,0 +1,82 @@
+@media all and (max-width: 414px) {
+    .hide-mobile { display:none !important; }
+
+    header.site-header { display:none; }
+
+    footer.site-footer { margin-top:20px; }
+
+    #sidebar {
+
+        .content {
+
+            ul.social-links { display:none; }
+        }
+
+        .mobile-menu { display:block; }
+    }
+
+    .image-header { display:none; }
+
+    .post {
+
+        .photography {
+
+            h3 {
+                color:$brand-color;
+                margin:0 0 20px 0;
+                font-size:22px;
+            }
+
+            .links {
+                text-align:center;
+                color:$brand-color-darker;
+
+                a {
+                    padding:0 15px;
+                }
+            }
+
+            .album {
+
+                .thumbnail {
+                    float:none;
+                    width:100%;
+                    margin:0 0 15px 0;
+                }
+
+                .description {
+                    float:none;
+                    width:100%;
+                    margin-left:0;
+
+                    .summary {
+                        margin:10px 0 0 0
+                    }
+                }
+            }
+        }
+    }
+
+    .photo.double {
+        .left, .right {
+            float:none;
+            width:100%;
+        }
+
+        .left {
+            margin-bottom:20px;
+        }
+    }
+
+    .photo.triple {
+        .left, .right, .center {
+            float:none;
+            width:100%;
+            margin-left:0;
+        }
+
+        .left, .center {
+            margin-bottom:20px;
+        }
+    }
+}

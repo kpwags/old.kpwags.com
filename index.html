@@ -1,0 +1,40 @@
+---
+layout: default
+title: "Keith Wagner"
+---
+
+<div class="home">
+    <div class="image-header">
+        <div class="triple">
+            <img src="/assets/images/triple1.png" alt="" class="left" />
+            <img src="/assets/images/triple3.png" alt="" class="center" />
+            <img src="/assets/images/triple2.png" alt="" class="right" />
+            <div class="clearfix"></div>
+        </div>
+    </div>
+
+    {% for post in paginator.posts %}
+        <div class="post">
+            <div class="content">
+                <h2>
+                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                </h2>
+
+                <div class="post-meta">Posted {{ post.date | date: "%B %-d, %Y" }}</div>
+
+                <div class="text">{{ post.excerpt }}</div>
+            </div>
+        </div>
+    {% endfor %}
+
+    <div class="pagination">
+        {% if paginator.previous_page %}
+            <div class="newer-link"><a href="{{ paginator.previous_page_path }}" class="previous">Newer Posts</a></div>
+        {% endif %}
+
+        {% if paginator.next_page %}
+            <div class="older-link"><a href="{{ paginator.next_page_path }}" class="next">Older Posts</a></div>
+        {% endif %}
+        <div class="clearfix"></div>
+    </div>
+</div>
