@@ -2,7 +2,6 @@
 layout: post
 title:  "Recipe - Tuna Marinated in an Orange Pepper Garlic Sauce"
 date:   2013-12-18 20:18:00
-categories: recipe, cooking
 ---
 
 So this was my first attempt at making my own recipe. My first time taking basic ingredients and putting them together, hoping that it turns into something edible. Well, it was most definitely successful and the tuna was absolutely delicious. So, with my glee, I figured I'd share the recipe.

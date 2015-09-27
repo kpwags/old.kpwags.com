@@ -2,7 +2,6 @@
 layout: post
 title:  "I Did It! Half Marathon Complete!"
 date:   2013-11-18 11:11:00
-categories: life, fitness, goals
 header: "single"
 image1: "/assets/images/posts/header-half-marathon-complete.jpg"
 ---

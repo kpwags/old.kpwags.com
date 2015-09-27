@@ -2,7 +2,6 @@
 layout: post
 title:  "Making a Switch to Ghost?"
 date:   2014-01-24 20:00:00
-categories: blog, ghost, wordpress
 header: "single"
 image1: "/assets/images/posts/header-ghost-logo.png"
 ---

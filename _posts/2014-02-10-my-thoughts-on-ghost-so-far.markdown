@@ -2,7 +2,6 @@
 layout: post
 title:  "My Thoughts on Ghost so Far"
 date:   2014-02-10 12:15:00
-categories: blog, ghost, wordpress
 header: "single"
 image1: "/assets/images/posts/header-ghost-logo.png"
 ---

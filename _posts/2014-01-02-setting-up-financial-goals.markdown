@@ -2,7 +2,6 @@
 layout: post
 title:  "Setting Up Financial Goals"
 date:   2014-01-02 11:53:00
-categories: planning, finances
 ---
 
 So as part of my goals for 2014, I want to buy a house.

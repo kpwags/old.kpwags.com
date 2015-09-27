@@ -2,7 +2,6 @@
 layout: post
 title:  "The Redesign"
 date:   2014-11-14 15:36:00
-categories: blog, design, update
 header: "single"
 image1: "/assets/images/posts/header-redesign.jpg"
 ---

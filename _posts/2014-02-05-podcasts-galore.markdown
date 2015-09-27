@@ -2,7 +2,6 @@
 layout: post
 title:  "Podcasts galore!"
 date:   2014-02-05 13:01:00
-categories: podcasts
 header: "single"
 image1: "/assets/images/posts/pocket_casts.png"
 ---

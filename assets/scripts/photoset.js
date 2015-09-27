@@ -9,7 +9,10 @@ PhotoSet = function() {
 
     var initialize = function() {
         $(document).ready(function() {
-
+            $('#photoset').lightGallery({
+                selector: 'a',
+                download: false
+            });
         });
     }();
 
