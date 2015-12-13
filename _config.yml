@@ -13,3 +13,4 @@ github_username:  darknemesis618
 # Build settings
 markdown: kramdown
 paginate: 5
+gems: [jekyll-paginate]
