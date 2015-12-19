@@ -2,6 +2,8 @@
 layout: post
 title:  "I Finally Ran a Marathon"
 date:   2015-12-17 10:00:00
+header: "single"
+image1: "/assets/images/posts/header-marathon-complete.jpg"
 ---
 
 I did it.  I actually did it.  Even almost a month later it sometimes dawns on me how amazing it is that I was able to run a full marathon (26.2 miles).
