@@ -396,6 +396,34 @@ header.site-header {
     }
 }
 
+.projects .project {
+    margin:20px 0;
+}
+
+.projects .project .screen {
+    float:left;
+    width:35%;
+    text-align:center;
+}
+
+.projects .project .description {
+    float:left;
+    width:60%;
+    margin-left:25px;
+}
+
+.projects .project .description h3 {
+    color:$brand-color;
+    font-weight:bold;
+}
+
+.projects .project-separator {
+    margin:35px auto;
+    width:450px;
+    border-bottom:1px solid #888;
+    clear:both;
+}
+
 footer.site-footer {
     border-top:1px solid #ddd;
     width:100%;

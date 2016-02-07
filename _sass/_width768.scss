@@ -10,4 +10,26 @@
         width:100%;
         margin:15px 0;
     }
+
+    .projects .project {
+        margin:20px 0;
+    }
+
+    .projects .project .screen {
+        float:none;
+        width:100%;
+        margin-bottom:15px;
+    }
+
+    .projects .project .description {
+        float:none;
+        width:100%;
+        margin-left:0px;
+    }
+
+    .projects .project-separator {
+        margin:20px auto;
+        width:200px;
+        clear:both;
+    }
 }
