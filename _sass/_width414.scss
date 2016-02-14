@@ -5,78 +5,56 @@
 
     footer.site-footer { margin-top:20px; }
 
-    #sidebar {
-
-        .content {
-
-            ul.social-links { display:none; }
-        }
-
-        .mobile-menu { display:block; }
-    }
+    #sidebar .content ul.social-links { display:none; }
+    #sidebar .mobile-menu { display:block; }
 
     .image-header { display:none; }
 
-    .post {
-
-        .photography {
-
-            h3 {
-                color:$brand-color;
-                margin:0 0 20px 0;
-                font-size:22px;
-            }
-
-            .links {
-                text-align:center;
-                color:$brand-color-darker;
-
-                a {
-                    padding:0 15px;
-                }
-            }
-
-            .album {
-
-                .thumbnail {
-                    float:none;
-                    width:100%;
-                    margin:0 0 15px 0;
-                }
-
-                .description {
-                    float:none;
-                    width:100%;
-                    margin-left:0;
-
-                    .summary {
-                        margin:10px 0 0 0
-                    }
-                }
-            }
-        }
+    .post .photography h3 {
+        color:$brand-color;
+        margin:0 0 20px 0;
+        font-size:22px;
     }
 
-    .photo.double {
-        .left, .right {
-            float:none;
-            width:100%;
-        }
-
-        .left {
-            margin-bottom:20px;
-        }
+    .post .photography .links {
+        text-align:center;
+        color:$brand-color-darker;
     }
 
-    .photo.triple {
-        .left, .right, .center {
-            float:none;
-            width:100%;
-            margin-left:0;
-        }
+    .post .photography .links a {
+        padding:0 15px;
+    }
 
-        .left, .center {
-            margin-bottom:20px;
-        }
+    .post .photography .album .thumbnail {
+        float:none;
+        width:100%;
+        margin:0 0 15px 0;
+    }
+
+    .post .photography .album .description {
+        float:none;
+        width:100%;
+        margin-left:0;
+    }
+
+    .post .photography .album .description .summary { margin:10px 0 0 0; }
+
+    .photo.double .left, .photo.double .right {
+        float:none;
+        width:100%;
+    }
+
+    .photo.double .left {
+        margin-bottom:20px;
+    }
+
+    .photo.triple .left, .photo.triple .right, .photo.triple .center {
+        float:none;
+        width:100%;
+        margin-left:0;
+    }
+
+    .photo.triple .left, .photo.triple .center {
+        margin-bottom:20px;
     }
 }
