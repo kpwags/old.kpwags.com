@@ -187,6 +187,13 @@ header.site-header .links ul li a:hover {
     margin:20px 0;
 }
 
+.post .text .image {
+    margin:20px 0;
+    text-align:center;
+}
+
+.post .text .image img { max-width:90%; }
+
 .post .photography h3 {
     color:$brand-color;
     margin:0 0 20px 0;
