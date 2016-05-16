@@ -16,29 +16,29 @@ The only downside is that sometimes the counts go up to the point where it is di
 
 Here's a list of the podcasts I listen to:
 
-- <a href="http://99percentinvisible.org" target="_blank">99% Invisible</a>
-- <a href="http://www.androidpolice.com" target="_blank">Android Police Podcast</a>
-- <a href="http://www.arstechnica.com" target="_blank">Ars Technica Podcast</a>
-- <a href="http://www.npr.org/podcasts/510299/ask-me-another" target="_blank">Ask Me Another</a>
-- <a href="http://www.wnyc.org/shows/bl/" target="_blank">The Brian Lehrer Show</a>
-- <a href="http://www.dancarlin.com/hardcore-history-series/" target="_blank">Dan Carlin's Hardcore History</a>
-- <a href="http://freakonomics.com" target="_blank">Freakonomics</a>
-- <a href="http://www.npr.org/programs/fresh-air/" target="_blank">Fresh Air</a>
-- <a href="http://www.marketplace.org" target="_blank">Marketplace</a>
-- <a href="http://www.npr.org/rss/podcast/podcast_detail.php?siteId=4819382" target="_blank">NPR: Technology</a>
-- <a href="http://www.onthemedia.org/" target="_blank">On The Media</a>
-- <a href="http://onpoint.wbur.org/" target="_blank">On Point with Tom Ashbrook</a>
-- <a href="http://www.npr.org/blogs/money/" target="_blank">Planet Money</a>
-- <a href="http://krpoliticaljunkie.com" target="_blank">Political Junkie with Ken Rudin</a>
-- <a href="http://www.puckpodcast.com/" target="_blank">The Puck Podcast</a>
-- <a href="http://www.radiolab.org/" target="_blank">Radiolab</a>
-- <a href="http://sciencefriday.com/" target="_blank">Science Friday</a>
-- <a href="http://www.startalkradio.net" target="_blank">Star Talk with Neil DeGrasse Tyson</a>
-- <a href="http://www.stuffyoushouldknow.com/podcasts/" target="_blank">Stuff You Should Know</a>
-- <a href="http://www.npr.org/programs/ted-radio-hour/" target="_blank">TED Radio Hour</a>
-- <a href="http://www.thisamericanlife.org" target="_blank">This American Life</a>
-- <a href="http://twit.tv/" target="_blank">TWit: This Week in Tech</a>
-- <a href="http://www.npr.org/programs/wait-wait-dont-tell-me/" target="_blank">Wait, Wait&#8230;Don&#8217;t Tell Me</a>
-- <a href="http://whyy.org/cms/radiotimes/" target="_blank">WHYY Radio Times</a>
+- <a href="http://99percentinvisible.org" target="_blank" rel="noopener">99% Invisible</a>
+- <a href="http://www.androidpolice.com" target="_blank" rel="noopener">Android Police Podcast</a>
+- <a href="http://www.arstechnica.com" target="_blank" rel="noopener">Ars Technica Podcast</a>
+- <a href="http://www.npr.org/podcasts/510299/ask-me-another" target="_blank" rel="noopener">Ask Me Another</a>
+- <a href="http://www.wnyc.org/shows/bl/" target="_blank" rel="noopener">The Brian Lehrer Show</a>
+- <a href="http://www.dancarlin.com/hardcore-history-series/" target="_blank" rel="noopener">Dan Carlin's Hardcore History</a>
+- <a href="http://freakonomics.com" target="_blank" rel="noopener">Freakonomics</a>
+- <a href="http://www.npr.org/programs/fresh-air/" target="_blank" rel="noopener">Fresh Air</a>
+- <a href="http://www.marketplace.org" target="_blank" rel="noopener">Marketplace</a>
+- <a href="http://www.npr.org/rss/podcast/podcast_detail.php?siteId=4819382" target="_blank" rel="noopener">NPR: Technology</a>
+- <a href="http://www.onthemedia.org/" target="_blank" rel="noopener">On The Media</a>
+- <a href="http://onpoint.wbur.org/" target="_blank" rel="noopener">On Point with Tom Ashbrook</a>
+- <a href="http://www.npr.org/blogs/money/" target="_blank" rel="noopener">Planet Money</a>
+- <a href="http://krpoliticaljunkie.com" target="_blank" rel="noopener">Political Junkie with Ken Rudin</a>
+- <a href="http://www.puckpodcast.com/" target="_blank" rel="noopener">The Puck Podcast</a>
+- <a href="http://www.radiolab.org/" target="_blank" rel="noopener">Radiolab</a>
+- <a href="http://sciencefriday.com/" target="_blank" rel="noopener">Science Friday</a>
+- <a href="http://www.startalkradio.net" target="_blank" rel="noopener">Star Talk with Neil DeGrasse Tyson</a>
+- <a href="http://www.stuffyoushouldknow.com/podcasts/" target="_blank" rel="noopener">Stuff You Should Know</a>
+- <a href="http://www.npr.org/programs/ted-radio-hour/" target="_blank" rel="noopener">TED Radio Hour</a>
+- <a href="http://www.thisamericanlife.org" target="_blank" rel="noopener">This American Life</a>
+- <a href="http://twit.tv/" target="_blank" rel="noopener">TWit: This Week in Tech</a>
+- <a href="http://www.npr.org/programs/wait-wait-dont-tell-me/" target="_blank" rel="noopener">Wait, Wait&#8230;Don&#8217;t Tell Me</a>
+- <a href="http://whyy.org/cms/radiotimes/" target="_blank" rel="noopener">WHYY Radio Times</a>
 
 Do you listen to podcasts? If so, what podcasts do you subscribe to?

@@ -8,7 +8,7 @@ image1: "/assets/images/posts/header-redesign.jpg"
 
 This has been in the works for some time now.
 
-I decided I wanted a better <a href="http://photography.kpwags.com/">photography site</a> first, and then along the way I decided that maybe I should short of unite the two.  My blog had its own simplistic look, and my photography site was just out there with no real tie to my blog other than my name being in the header.
+I decided I wanted a better <a href="http://kpwags.com/photography">photography site</a> first, and then along the way I decided that maybe I should short of unite the two.  My blog had its own simplistic look, and my photography site was just out there with no real tie to my blog other than my name being in the header.
 
 The first thing that really made me want to move past my old photography site was The Daily Shot.  It was a good idea, at least I think it was, but I found that I never really found all that much to take photos of.  That, and I felt like the photos I were taking were becoming more and more repetitive.
 
