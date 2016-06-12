@@ -52,7 +52,7 @@ header.site-header .links ul li a:hover {
 }
 
 #sidebar .content .twitter-handle {
-    color:$grey-color;
+    color:#777;
     font-size:18px;
     margin-bottom:25px;
 }
@@ -222,13 +222,13 @@ header.site-header .links ul li a:hover {
 .post .photography .album .description h4 {
     font-size:22px;
     font-weight:bold;
-    color:$brand-color-darker;
+    color:$brand-color;
     margin:0;
     padding:0;
 }
 
 .post .photography .album .description h4 a {
-    color:$brand-color-darker;
+    color:$brand-color;
     text-decoration:none;
 }
 
@@ -412,7 +412,7 @@ header.site-header .links ul li a:hover {
 }
 
 .fitness-section {
-    margin:12px 0;
+    margin:30px 0 12px 0;
 }
 
 .fitness-section h3 { margin:8px 0 2px 0; }
