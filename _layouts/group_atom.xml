@@ -1,0 +1,34 @@
+---
+title: nil
+---
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+   {% if page.grouptype == 'tag' %}
+    <title>kpwags.com - Tag: {{page.tag}}</title>
+   {% elsif page.grouptype == 'category' %}
+    <title>kpwags.com - Category: {{page.category}}</title>
+   {% else %}
+    <title>kpwags.com</title>
+   {% endif %}
+   <link>http://kpwags.com</link>
+   <description>I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.</description>
+   <language>en-us</language>
+   <managingEditor>Keith Wagner</managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+    {% for post in page.posts %}
+      <item>
+        <title>{{ post.title }}</title>
+        <link>http://kpwags.com{{ post.url }}</link>
+        <author>Keith Wagner</author>
+        <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+        <guid>http://kpwags.com{{ post.url }}</guid>
+        <description><![CDATA[
+           {{ post.content | expand_urls : site.url }}
+        ]]></description>
+      </item>
+    {% endfor %}
+  </channel>
+</rss>

@@ -1,0 +1,63 @@
+---
+layout: default
+title: "Keith Wagner"
+---
+
+<div class="home">
+    {% include category-bar.html %}
+
+    <h1>
+      {% if page.grouptype == 'tag' %}
+        {{ page.tag }}
+      {% elsif page.grouptype == 'category' %}
+        {{ page.category }}
+      {% endif %}
+    </h1>
+
+    {% for post in paginator.posts %}
+        <div class="post">
+            <div class="content">
+                <h2>
+                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                </h2>
+
+                <div class="post-meta">Posted {{ post.date | date: "%B %-d, %Y" }}</div>
+
+                <div class="text">{{ post.excerpt }}</div>
+            </div>
+        </div>
+    {% endfor %}
+
+    <div class="pagination">
+        {% if paginator.previous_page %}
+            <div class="newer-link">
+            {% if page.grouptype == 'tag' %}
+
+                {% if paginator.previous_page == 1 %}
+                        <a href="/tag/{{ page.tag }}" class="previous">Newer Posts</a>
+                {% else %}
+                        <a href="/tag/{{ page.tag }}/page{{paginator.previous_page}}" class="previous">Newer Posts</a>
+                {% endif %}
+
+            {% elsif page.grouptype == 'category' %}
+                
+                {% if paginator.previous_page == 1 %}
+                        <a href="/category/{{ page.category }}" class="previous">Newer Posts</a>
+                {% else %}
+                        <a href="/category/{{ page.category }}/page{{paginator.previous_page}}" class="previous">Newer Posts</a>
+                {% endif %}
+                
+            {% endif %}
+            </div>
+        {% endif %}
+
+        {% if paginator.next_page %}
+            {% if page.grouptype == 'tag' %}
+                <div class="older-link"><a href="/tag/{{ page.tag }}/page{{ paginator.next_page }}" class="previous">Older Posts</a></div>
+            {% elsif page.grouptype == 'category' %}
+                <div class="older-link"><a href="/category/{{ page.category }}/page{{ paginator.next_page }}" class="previous">Older Posts</a></div>
+            {% endif %}
+        {% endif %}
+        <div class="clearfix"></div>
+    </div>
+</div>
