@@ -1,122 +1,155 @@
+body {
+    background:url('/assets/images/background.png') repeat;
+}
+
+.container {
+    width:1280px;
+    margin:15px auto;
+}
+
 /* HEADER */
 header.site-header {
     width:100%;
-    border-bottom:1px solid #ddd;
-    background:$light-background-color;
-    font-size:18px;
+    line-height:36px;
+    padding:0 0 15px 0;
 }
 
-header.site-header .links {
-    text-align:center;
+header.site-header .site-title {
+    float:left;
+    width:450px;
+    padding-left:15px;
+}
+
+header.site-header .site-title .logo {
+    float:left;
+    width:36px;
+    vertical-align:middle;
+}
+
+header.site-header .site-title .title {
+    float:left;
+    margin-left:25px;
+    vertical-align:middle;
+    font-size:30px;
+}
+
+header.site-header .site-title .title  a { color:$text-color; }
+
+header.site-header .site-title .title span {
+    font-size:22px;
+    color:#bbb;
+    padding-left:15px;
+}
+
+header.site-header .menu {
+    float:right;
+    text-align:right;
+    padding-right:15px;
     line-height:36px;
 }
 
-header.site-header .links ul {
+header.site-header .menu ul {
     list-style-type:none;
     margin:0;
     padding:0;
 }
 
-header.site-header .links ul li {
+header.site-header .menu ul li {
     display:inline;
     padding:0 12px;
 }
 
-header.site-header .links ul li a {
+header.site-header .menu ul li a {
     color:$text-color;
     text-decoration:none;
+    font-size:20px;
 }
 
-header.site-header .links ul li a:hover {
+header.site-header .menu ul li a:hover {
     color:$brand-color;
 }
 
-/* SIDEBAR */
-
-#sidebar {
-    float:left;
-    width:23%;
-    margin:15px 0 0 15px;
-    text-align:center;
+.photography-header {
+    height:600px;
 }
 
-#sidebar .content {
-    padding:20px 0;
-    background:$light-background-color;
+.photography-header.flower {
+    background-image:url('../assets/images/photography_background.jpg');
+    background-repeat:no-repeat;
+    background-position:50% 60%;
+    color:#fff;
 }
 
-#sidebar .content .title-text {
-    margin:15px 0 0 0;
-    font-size:28px;
-    color:$brand-color;
+.photography-header.about {
+    background-image:url('../assets/images/about_background.jpg');
+    background-repeat:no-repeat;
+    background-position:50% 70%;
+    color:#fff;
 }
 
-#sidebar .content .twitter-handle {
-    color:#777;
-    font-size:18px;
-    margin-bottom:25px;
+.photography-header.contact {
+    background-image:url('../assets/images/contact_background.jpg');
+    background-repeat:no-repeat;
+    background-position:50% 50%;
+    color:#fff;
 }
 
-#sidebar .content .about-text {
-    padding:0 35px;
+.photography-header.projects {
+    background-image:url('../assets/images/projects_background.jpg');
+    background-repeat:no-repeat;
+    background-position:35% 23%;
+    color:#fff;
 }
 
-#sidebar .content .what-i-use { padding:12px 0 0 0; }
-
-
-#sidebar .content ul.social-links {
-    margin:20px 0 0 0;
-    text-align:center;
-    padding:20px 0 0 0;
+.photography-header.home {
+    background-image:url('../assets/images/home_background.jpg');
+    background-repeat:no-repeat;
+    background-position:50% 48%;
+    color:#fff;
 }
 
-#sidebar .content ul.social-links li {
-    display:inline;
-    padding:0 8px;
+.photography-header.whatiuse {
+    background-image:url('../assets/images/whatiuse_background.jpg');
+    background-repeat:no-repeat;
+    background-position:65% 36%;
+    color:#fff;
 }
 
-#sidebar .content ul.social-links li a img {
-    width:48px;
+.photography-header.gymroutine {
+    background-image:url('../assets/images/gymroutine_background.jpg');
+    background-repeat:no-repeat;
+    background-position:50% 36%;
+    color:#fff;
 }
 
-#sidebar .mobile-menu {
-    margin:20px 0 0 0;
-    text-align:center;
-    border-top:1px solid #ededed;
-    padding:20px 0 0 0;
-    font-size:16px;
-    display:none;
+.photography-header.current {
+    background-image:url('../assets/images/current_background.jpg');
+    background-repeat:no-repeat;
+    background-position:50% 0%;
+    color:#fff;
 }
 
-#sidebar .mobile-menu ul {
-    list-style-type:none;
-    margin:0;
-    padding:0;
-}
-
-#sidebar .mobile-menu ul li {
-    display:inline;
-    padding:0 12px;
-}
-
-#sidebar .mobile-menu ul li a {
-    color:$text-color;
-    text-decoration:none;
-}
-
-#sidebar .mobile-menu ul li a:hover {
-    color:$brand-color;
+.photography-header h1 {
+    position:absolute;
+    bottom:20px;
+    left:20%;
+    z-index:5;
+    font-size:48px;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.75);
 }
 
 /* MAIN AREA */
 #main {
-    float:right;
-    width:73%;
-    margin:15px 15px 0 15px;
+    width:1280px;
+    margin:15px auto;
 }
 
 #photoset-main {
     margin:15px;
+}
+
+.page-summary {
+    margin-bottom:25px;
 }
 
 /* IMAGE HEADER */
@@ -160,9 +193,10 @@ header.site-header .links ul li a:hover {
 
 /* CATEGORY BAR */
 .category-bar {
-    margin:10px 0;
-    padding:20px;
-    background:$light-background-color;
+    margin:0 0 20px 0;
+    padding:10px;
+    border-top:1px solid #efefef;
+    border-bottom:1px solid #efefef;
 }
 
 .category-bar ul.main {
@@ -175,6 +209,15 @@ header.site-header .links ul li a:hover {
     list-style-type:none;
     padding:0 10px;
     display:inline;
+}
+
+.category-bar ul.main li a { 
+    color:$text-color;
+    font-size:20px;
+}
+
+.category-bar ul.main li a:hover { 
+    color:$brand-color;
 }
 
 .mobile-categories {
@@ -198,14 +241,38 @@ header.site-header .links ul li a:hover {
     margin:15px 0;
 }
 
+#sticky-header {
+    display:none;
+    position:fixed;
+    top:0px;
+    border-bottom: 1px solid #ccc;
+    width:100%;
+    background:url('/assets/images/background.png') repeat;
+    padding:10px 20px;
+}
+
+#sticky-header .title {
+    color:$brand-color;
+    font-size:30px;
+    float:left;
+    width:65%;
+}
+
+#sticky-header .sharelinks {
+    float:right;
+    width:30%;
+    text-align:right;
+    margin-right:30px;
+}
+
 .post {
-    background:$light-background-color;
     padding:20px;
     margin-bottom:15px;
 }
+
 .post h1.post-title {
     color:$brand-color;
-    font-size:36px;
+    font-size:45px;
     margin:0px;
     padding:0px;
 }
@@ -215,6 +282,17 @@ header.site-header .links ul li a:hover {
     font-size:30px;
     margin:0;
     padding:0px;
+}
+
+.post .index-post-cover {
+    height:300px;
+    margin-bottom:12px;
+    background-repeat:no-repeat;
+}
+
+.post-cover {
+    background-repeat:no-repeat;
+    height:500px;
 }
 
 .post .post-meta {
@@ -235,69 +313,44 @@ header.site-header .links ul li a:hover {
 
 .post .share-post {
     margin-top:25px;
-}
-
-.post .share-post a {
-    padding-left:10px;
-    vertical-align:middle;
-}
-
-.post .share-post img { vertical-align:middle; }
-
-.post .photography h3 {
-    color:$brand-color;
-    margin:0 0 20px 0;
-    font-size:26px;
-}
-
-.post .photography.links {
     text-align:center;
-    color:$brand-color-darker;
 }
 
-.post .photography .links a {
-    padding:0 15px;
-}
-
-.post .photography .album .thumbnail {
-    float:left;
-    width:40%;
-}
-
-.post .photography .album .thumbnail img {
-    width:100%;
-}
-
-.post .photography .album .description {
-    float:left;
-    width:55%;
-    margin-left:2%;
-}
-
-.post .photography .album .description h4 {
-    font-size:22px;
-    font-weight:bold;
-    color:$brand-color;
+ul.album-list {
+    list-style-type:none;
     margin:0;
-    padding:0;
 }
 
-.post .photography .album .description h4 a {
-    color:$brand-color;
-    text-decoration:none;
+ul.album-list li {
+    display:block;
+    float:left;
+    width:400px;
+    height:300px;
+    margin:10px;
+    text-align:center;
+    color:#fff;
+    position:relative;
+    cursor:pointer;
+    background-position:50% 50%;
 }
 
-.post .photography .album .description h4 a:hover {
-    text-decoration:underline;
+ul.album-list li a {
+    color:#fff;
+    display:block;
+    width:100%;
+    position:absolute;
+    z-index:5;
+    bottom:10px;
 }
- 
-.post .photography .album .description .meta {
+
+ul.album-list li a div.title {
+    font-weight:bold;
+    font-size:24px;
+}
+
+ul.album-list li a div.dates {
     font-style:italic;
-    font-size:14px;
-}
-
-.post .photography .album .description.summary {
-    margin:20px 0 0 0
+    font-size:16px;
 }
 
 .post .photography .separator {
@@ -308,8 +361,8 @@ header.site-header .links ul li a:hover {
 
 .pagination {
     margin:15px 0;
-    background:$light-background-color;
     padding:10px 20px;
+    border-top:1px solid #efefef;
 }
 
 .pagination .newer-link {
@@ -323,9 +376,10 @@ header.site-header .links ul li a:hover {
     width:40%;
 }
 
+#photoset { padding:0 20px; }
+
 .photo {
-    background:$light-background-color;
-    padding:20px;
+    //padding:20px;
     margin-bottom:15px;
     // border:1px solid #eaeaea;
 }
@@ -428,12 +482,8 @@ header.site-header .links ul li a:hover {
 
 .projects .project {
     margin:20px 0;
-    background:$light-background-color;
     padding:20px;
-}
-
-.projects .project .content {
-
+    border-bottom:1px solid #efefef;
 }
 
 .projects .project .screen {
@@ -506,13 +556,60 @@ footer.site-footer ul.social-links {
 }
 
 h1 {
-    background:$light-background-color;
     padding:10px 20px;
     margin-bottom:10px;
 }
 
-h3 { font-weight:bold; }
+h1.page-title {
+    font-size:50px;
+}
+
+h2 {
+    color:$brand-color;
+    font-size:30px;
+    margin:0;
+    padding:0px;
+}
+
+h3 { 
+    color:$brand-color;
+    margin:0 0 20px 0;
+    font-size:26px;
+}
 
 h3#comments {
     margin:20px 0 0 0;
 }
+
+.title-case { text-transform:capitalize; }
+.bolded { font-weight:bold; }
+
+/* SHARE */
+.share-btn {
+    display: inline-block;
+    color: #ffffff;
+    border: none;
+    padding: 0.5em;
+    width: 4em;
+    opacity: 0.9;
+    box-shadow: 0 2px 0 0 rgba(0,0,0,0.2);
+    outline: none;
+    text-align: center;
+}
+.share-btn:hover {
+  color: #eeeeee;
+}
+.share-btn:active {
+  position: relative;
+  top: 2px;
+  box-shadow: none;
+  color: #e2e2e2;
+  outline: none;
+}
+.share-btn.twitter { background: #55acee; color:#fff; }
+.share-btn.google-plus { background: #dd4b39; }
+.share-btn.facebook { background: #3B5998; }
+.share-btn.stumbleupon { background: #EB4823; }
+.share-btn.reddit { background: #ff5700; }
+.share-btn.linkedin    { background: #4875B4; }
+.share-btn.email { background: #444444; }

@@ -2,8 +2,6 @@
 layout: post
 title:  "I Finally Ran a Marathon"
 date:   2015-12-17 10:00:00
-header: "single"
-image1: "/assets/images/posts/header-marathon-complete.jpg"
 category: fitness
 ---
 
@@ -20,5 +18,7 @@ My training started at the end of July, right after vacation, and right as my wi
 The pain was excruciating.  Around mile 2, my right knee started hurting.  At mile 17, my foot started hurting.  At mile 23, I developed a blister on one of my toes.  But I can proudly say I was able to persevere and finish.  I like to think it was my determination to not have to train to run another marathon that helped me finish, but running 24 miles with some pretty sharp pain in my right knee was not fun.  My cousin Tim met up with me in Manyunk and thankfully I had him to run the last 6-7 miles with.  It made the pain a lot easier to bear.  I did have to take a few more walking breaks than I would have liked, but at the end of the days, who cares, I did it!  My parents, sister & her boyfriend, as well as my best friend all showed up and I was in tears as I crossed the finish line.
 
 I wanted to say I ran a marathon in my lifetime, and now I can say I did so.
+
+<p class="center-align"><img src="/assets/images/posts/header-marathon-complete.jpg" alt="Half Marathon Complete" style="max-width:100%" /></p>
 
 **TL;DR:** Ran 26.2 miles after a long journey.

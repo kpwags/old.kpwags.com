@@ -1,36 +1,24 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
 
-<div class="home">
-    {% if page.header == "single" %}
-        <div class="image-header">
-            <div class="single">
-                <img src="{{page.image1}}" alt="" />
-            </div>
-        </div>
-    {% endif %}
+<head>
+    {% include head.html %}
+</head>
 
-    {% if page.header == "double" %}
-        <div class="image-header">
-            <div class="double">
-                <img src="{{page.image1}}" alt="" class="left" />
-                <img src="{{page.image2}}" alt="" class="right" />
-                <div class="clearfix"></div>
-            </div>
-        </div>
-    {% endif %}
-
-    {% if page.header == "triple" %}
-        <div class="image-header">
-            <div class="triple">
-                <img src="{{page.image1}}" alt="" class="left" />
-                <img src="{{page.image2}}" alt="" class="center" />
-                <img src="{{page.image3}}" alt="" class="right" />
-                <div class="clearfix"></div>
-            </div>
-        </div>
-    {% endif %}
+<body>
+    <div class="container">
+      {% include header.html %}
+    </div>
 
     {{ content }}
-</div>
+
+    <div class="clearfix"></div>
+
+    <div class="container">
+        {% include footer.html %}
+    </div>
+
+    {% include google-analytics.html %}
+</body>
+
+</html>

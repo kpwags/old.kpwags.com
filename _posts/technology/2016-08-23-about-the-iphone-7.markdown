@@ -2,8 +2,9 @@
 layout: post
 title:  "About the iPhone 7"
 date:   2016-08-23
-header: "single"
-image1: "/assets/images/posts/iphone.jpeg"
+cover: "/assets/images/posts/iphone.jpeg"
+indexpos: "50% 22%"
+bgposition: "50% 22%"
 category: technology
 ---
 

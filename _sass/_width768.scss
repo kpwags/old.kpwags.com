@@ -1,14 +1,47 @@
 @media all and (max-width: 769px) {
-    #sidebar {
-        float:none;
-        width:100%;
-        margin:15px 0;
+    .container { width:100%; }
+
+    header.site-header .site-title {
+        width:335px;
     }
 
-    #main {
-        float:none;
-        width:100%;
-        margin:15px 0;
+    header.site-header .site-title .title {
+        margin-left:15px;
+        font-size:28px;
+    }
+
+    header.site-header .site-title .title span {
+        font-size:20px;
+    }
+
+    header.site-header .menu ul li {
+        padding:0 8px;
+    }
+    
+    header.site-header .menu ul li.desktop-only { display:none; }
+
+    .photography-header.flower {
+        background-position:54% 60%;
+    }
+
+    .photography-header.about {
+        background-position:23% 66%;
+    }
+
+    .photography-header.contact {
+        background-position:61% 50%;
+    }
+
+    .photography-header.projects {
+        background-position:50% 10%;
+    }
+
+    .photography-header.home {
+        background-position:50% 48%;
+    }
+
+    .photography-header.gymroutine {
+        background-position:50% 36%;
     }
 
     .projects .project {
@@ -39,5 +72,12 @@
 
     .fitness-section {
         margin:20px 0 12px 0;
+    }
+
+    #sticky-header .sharelinks { display:none; }
+
+    ul.album-list li {
+        width:360px;
+        height:250px;
     }
 }

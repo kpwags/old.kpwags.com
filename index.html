@@ -1,27 +1,19 @@
 ---
-layout: default
+layout: homepage
 title: "Keith Wagner"
 ---
 
 <div class="home">
-    <div class="image-header">
-        <div class="double">
-            <img src="/assets/images/homepage-header-left.jpg" alt="" class="left" />
-            <img src="/assets/images/homepage-header-right.jpg" alt="" class="right" />
-            <div class="clearfix"></div>
-        </div>
-    </div>
-
-    {% include category-bar.html %}
-
     {% for post in paginator.posts %}
         <div class="post">
             <div class="content">
+                {% if post.cover != nil %}
+                    <div class="index-post-cover" style="background-image:url('{{ post.cover }}'); background-position:{{ post.indexpos }}"></div>
+                {% endif %}
+
                 <h2>
                     <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                 </h2>
-
-                <div class="post-meta">Posted {{ post.date | date: "%B %-d, %Y" }}</div>
 
                 <div class="text">{{ post.excerpt }}</div>
             </div>

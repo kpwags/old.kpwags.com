@@ -1,9 +1,61 @@
 @media all and (max-width: 414px) {
     .hide-mobile { display:none !important; }
 
-    header.site-header { display:none; }
+    header.site-header {
+        width:100%;
+        line-height:36px;
+        padding:0;
+    }
 
-    footer.site-footer { margin-top:20px; }
+    header.site-header .site-title {
+        float:none;
+        width:100%;
+        text-align:center;
+        padding:0;
+    }
+
+    header.site-header .site-title .logo {
+        display:none;
+    }
+
+    header.site-header .site-title .title {
+        float:none;
+        font-size:20px;
+    }
+
+    header.site-header .site-title .title span {
+        font-size:20px;
+    }
+
+    header.site-header .menu {
+        float:none;
+        text-align:center;
+        padding-right:0;
+        line-height:36px;
+    }
+
+    header.site-header .menu ul {
+        list-style-type:none;
+        margin:0;
+        padding:0;
+    }
+
+    header.site-header .menu ul li {
+        display:inline;
+        padding:0 6px;
+    }
+
+    header.site-header .menu ul li a {
+        color:$text-color;
+        text-decoration:none;
+        font-size:16px;
+    }
+
+    .photography-header, .post-cover {
+        height:300px;
+    }
+
+    footer.site-footer { margin-top:20px; font-size:16px; }
 
     #sidebar .content ul.social-links { display:none; }
     #sidebar .mobile-menu { display:block; }
@@ -12,6 +64,19 @@
     .mobile-categories { display:block; }
 
     .image-header { display:none; }
+
+    ul.album-list li {
+        width:355px;
+    }
+
+    .post .index-post-cover {
+        display:none;
+    }
+
+    .post-cover {
+        background-repeat:no-repeat;
+        height:250px;
+    }
 
     .post .photography h3 {
         color:$brand-color;
@@ -59,5 +124,9 @@
 
     .photo.triple .left, .photo.triple .center {
         margin-bottom:20px;
+    }
+
+    h1.page-title {
+        font-size:36px;
     }
 }

@@ -2,8 +2,6 @@
 layout: post
 title:  "Redesigned Again"
 date:   2015-12-12 19:43:00
-header: "single"
-image1: "/assets/images/posts/header-redesign.jpg"
 category: programming
 ---
 

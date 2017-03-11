@@ -1,55 +1,80 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+    <head>
+        {% include head.html %}
+        <script type="text/javascript" src="/assets/scripts/post.js"></script>
+        <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    </head>
 
-<div class="home">
-    {% if page.header == "single" %}
-        <div class="image-header">
-            <div class="single">
-                <img src="{{page.image1}}" alt="" />
+    <body>
+        <div class="container">
+            {% include header.html %}
+        </div>
+
+        <div class="container"> 
+            {% include category-bar.html %}
+        </div>
+
+    
+        {% if page.cover != nil %}
+            <div class="post-cover" style="background-image:url('{{ page.cover }}'); background-position:{{ page.bgposition }}"></div>
+        {% endif %}
+
+        <div id="sticky-header">
+            <div class="title">{{ page.title }}</div>
+            <div class="sharelinks">
+                <a href="http://twitter.com/share?url={{ post.url | prepend: site.baseurl }}&text={{ page.title }}&via=kpwags" target="_blank" class="share-btn twitter">
+                    <i class="fa fa-twitter"></i>
+                </a>
+
+                <a href="http://www.facebook.com/sharer/sharer.php?u={{ post.url | prepend: site.baseurl }}" target="_blank" class="share-btn facebook">
+                    <i class="fa fa-facebook"></i>
+                </a>
+
+                <a href="https://plus.google.com/share?url={{ post.url | prepend: site.baseurl }}" target="_blank" class="share-btn google-plus">
+                    <i class="fa fa-google-plus"></i>
+                </a>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+
+        <div class="container">
+            <div class="post">
+                <div class="content">
+                    <h1 class="post-title">{{ page.title }}</h1>
+
+                    <div class="post-meta">Posted {{ page.date | date: "%B %-d, %Y" }} in <a href="/category/{{ page.category }}">{{ page.category | capitalize }}</a></div>
+
+                    <div class="text">{{ content }}</div>
+
+                    <div class="share-post">
+                        <a href="http://twitter.com/share?url={{ post.url | prepend: site.baseurl }}&text={{ page.title }}&via=kpwags" target="_blank" class="share-btn twitter">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+
+                        <a href="http://www.facebook.com/sharer/sharer.php?u={{ post.url | prepend: site.baseurl }}" target="_blank" class="share-btn facebook">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+
+                        <a href="https://plus.google.com/share?url={{ post.url | prepend: site.baseurl }}" target="_blank" class="share-btn google-plus">
+                            <i class="fa fa-google-plus"></i>
+                        </a>
+                    </div>
+
+                    <h3 id="comments">Comments</h3>
+                    {% include disqus.html %}
+                </div>
             </div>
         </div>
-    {% endif %}
 
-    {% if page.header == "double" %}
-        <div class="image-header">
-            <div class="double">
-                <img src="{{page.image1}}" alt="" class="left" />
-                <img src="{{page.image2}}" alt="" class="right" />
-                <div class="clearfix"></div>
-            </div>
+        <div class="clearfix"></div>
+    
+        <div class="container">
+            {% include footer.html %}
         </div>
-    {% endif %}
 
-    {% if page.header == "triple" %}
-        <div class="image-header">
-            <div class="triple">
-                <img src="{{page.image1}}" alt="" class="left" />
-                <img src="{{page.image2}}" alt="" class="center" />
-                <img src="{{page.image3}}" alt="" class="right" />
-                <div class="clearfix"></div>
-            </div>
-        </div>
-    {% endif %}
+        {% include google-analytics.html %}        
+    </body>
+</html>
 
-    <div class="post">
-        <div class="content">
-            <h1 class="post-title">{{ page.title }}</h1>
 
-            <div class="post-meta">Posted {{ page.date | date: "%B %-d, %Y" }} in <a href="/category/{{ page.category }}">{{ page.category | capitalize }}</a></div>
-
-            <div class="text">{{ content }}</div>
-
-            <div class="share-post">
-                Share: 
-                <a id="share-twitter" data-title="{{ page.title }}" title="Share on Twitter"><img src="/assets/images/share-twitter.png" alt="Share on Twitter" /></a>
-                <a id="share-facebook" data-title="{{ page.title }}" title="Share on Facebook"><img src="/assets/images/share-facebook.png" alt="Share on Facebook" /></a>
-                <a id="share-google" title="Share on Google +"><img src="/assets/images/share-google.png" alt="Share on Google +" /></a>
-                <a href="http://www.reddit.com/submit?url=http://kpwags.com{{ page.url }}&amp;title={{ page.title }}" target="_blank" title="Submit to Reddit"><img src="/assets/images/share-reddit.png" alt="Share on Reddit" /></a>
-            </div>
-
-            <h3 id="comments">Comments</h3>
-            {% include disqus.html %}
-        </div>
-    </div>
-</div>
