@@ -5,7 +5,7 @@ title: "Keith Wagner"
 
 <div class="home">
     {% for post in paginator.posts %}
-        <div class="post">
+        <div class="post index-post">
             <div class="content">
                 {% if post.cover != nil %}
                     <div class="index-post-cover" style="background-image:url('{{ post.cover }}'); background-position:{{ post.indexpos }}"></div>

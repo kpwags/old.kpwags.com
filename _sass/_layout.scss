@@ -253,7 +253,7 @@ header.site-header .menu ul li a:hover {
 
 #sticky-header .title {
     color:$brand-color;
-    font-size:30px;
+    font-size:20px;
     float:left;
     width:65%;
 }
@@ -268,6 +268,13 @@ header.site-header .menu ul li a:hover {
 .post {
     padding:20px;
     margin-bottom:15px;
+}
+
+.index-post {
+    border:1px solid #ededed;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(204,204,204,1);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(204,204,204,1);
+    box-shadow: 3px 3px 5px 0px rgba(204,204,204,1);
 }
 
 .post h1.post-title {
