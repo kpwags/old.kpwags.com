@@ -15,10 +15,14 @@ title: "Keith Wagner"
                     <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                 </h2>
 
+                <div class="post-meta">Posted {{ post.date | date: "%B %-d, %Y" }}</div>
+
                 <div class="text">{{ post.excerpt }}</div>
             </div>
         </div>
     {% endfor %}
+
+    <div class="clearfix"></div>
 
     <div class="pagination">
         {% if paginator.previous_page %}

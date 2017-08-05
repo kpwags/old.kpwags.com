@@ -1,5 +1,11 @@
 @media all and (max-width: 769px) {
-    .container { width:100%; }
+    .container, .container.small { width:100%; }
+
+    .index-post {
+        width:100%;
+        float:none;
+        margin:0 0 15px 0;
+    }
 
     header.site-header .site-title {
         width:335px;

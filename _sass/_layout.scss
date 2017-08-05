@@ -7,6 +7,10 @@ body {
     margin:15px auto;
 }
 
+.container.small {
+    width:750px;
+}
+
 /* HEADER */
 header.site-header {
     width:100%;
@@ -256,6 +260,7 @@ header.site-header .menu ul li a:hover {
     font-size:20px;
     float:left;
     width:65%;
+    line-height:45px;
 }
 
 #sticky-header .sharelinks {
@@ -275,6 +280,9 @@ header.site-header .menu ul li a:hover {
     -webkit-box-shadow: 3px 3px 5px 0px rgba(204,204,204,1);
     -moz-box-shadow: 3px 3px 5px 0px rgba(204,204,204,1);
     box-shadow: 3px 3px 5px 0px rgba(204,204,204,1);
+    width:44%;
+    float:left;
+    margin:1%;
 }
 
 .post h1.post-title {
