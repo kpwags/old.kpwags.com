@@ -8,6 +8,8 @@ indexpos: "20% 50%"
 bgposition: "20% 50%"
 ---
 
+I've been having an itch lately to get working on a new side project.
+
 A little over a year ago I built a recipe site for Lauren and I to use to try to consolidate all our recipes. Our recipes are mixed around between Evernote, Google Drive, and random browser bookmarks.  It isn’t the most efficient system and when once of us ends up cooking, it’s not always easy to remember where the recipe is stored.  I built a little tool using Ruby on Rails and deployed it.  It worked, but it was kind of clunky, not all that pretty, and rather quickly I forgot about it.
 
 The initial version was primarily meant to be a down and dirty version of it.  Get it to work and then optimize it and make it better later.  I even built it with the idea that people could download it and install it on their own servers if they like.  While there are other services out there, it’d be nice to know that you control the data &amp; recipes so that you don’t have to worry about the services shutting down and all your saved recipes go out the window. If you hadn’t guessed, the improvements never ended up happening.  The code worked, but that was about the extent of it.  It also didn’t help that Lauren and I ended up buying a house and had project after project lined up, which took up much of our time. So now I’m looking into reviving the project.  I ended up shutting down the server it was running on, and I’m pretty much just going to throw out the old code and start fresh.  

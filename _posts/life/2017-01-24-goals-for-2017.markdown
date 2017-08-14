@@ -3,6 +3,9 @@ layout: post
 title:  "Goals for 2017"
 date:   2017-01-24 20:34:00
 category: life
+cover: "/assets/images/posts/2017.jpg"
+indexpos: "50% 50%"
+bgposition: "50% 50%"
 ---
 
 2016 was super busy for me and I really am hoping that 2017 is not quite as busy.

@@ -8,7 +8,9 @@ bgposition: "50% 22%"
 category: technology
 ---
 
-There have been a lot of rumors swirling around about the iPhone 7 coming out in September.  One of the biggest rumors is that it will lack a 3.5mm headphones port.  The more I think about this, the more I feel like this is a mistake on Apple’s part.
+There have been a lot of rumors swirling around about the iPhone 7 coming out in September.  
+
+One of the biggest rumors is that it will lack a 3.5mm headphones port.  The more I think about this, the more I feel like this is a mistake on Apple’s part.
 
 I’ve seen people compare this change to the whole idea of Apple getting rid of the 3.5” floppy drive in the past, and more recently the optical drives.  But here’s the difference between the standard headphone jack and the floppy and optical drives, the floppy drive and the optical drives were already on their way out.  Apple just decided to be the one of the first to move on from them.  I can’t remember the last time I tried to put a DVD in my Macbook Pro only to remember I don’t have one.  Simply put, I just don’t miss it.
 

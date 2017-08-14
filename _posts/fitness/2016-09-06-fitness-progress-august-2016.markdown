@@ -3,9 +3,14 @@ layout: post
 title:  "Fitness Progress - August 2016"
 date:   2016-09-06 20:25:00
 category: fitness
+cover: "/assets/images/posts/weights.jpg"
+indexpos: "50% 50%"
+bgposition: "50% 50%"
 ---
 
-I feel like August was another wash for me.  I could never really get into any kind of rhythm with trips to the gym or runs.  It did start looking up towards the end of the month, so there's that.
+I feel like August was another wash for me.  I could never really get into any kind of rhythm with trips to the gym or runs.  
+
+It did start looking up towards the end of the month, so there's that.
 
 The downside of the lesser gym trips is that I lost some of the strength I had gained.  Weights that I had previously been able to lift with normal ease (relatively speaking) I now struggled to even do half the reps I wanted.  I ended up having to drop the weight levels and start working my way back up.  Fortunately I really only had to drop by 10 lbs., but I'd rather not have to drop at all.
 

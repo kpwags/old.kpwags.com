@@ -1,80 +1,82 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        {% include head.html %}
-        <script type="text/javascript" src="/assets/scripts/post.js"></script>
-        <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-    </head>
 
-    <body>
-        <div class="container">
-            {% include header.html %}
-        </div>
+<head>
+    {% include head.html %}
+    <script type="text/javascript" src="/assets/scripts/post.js"></script>
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+</head>
 
-        <div class="container"> 
-            {% include category-bar.html %}
-        </div>
+<body>
+    <div class="container">
+        {% include header.html %}
+    </div>
 
-    
-        {% if page.cover != nil %}
-            <div class="post-cover" style="background-image:url('{{ page.cover }}'); background-position:{{ page.bgposition }}"></div>
-        {% endif %}
+    <div class="container">
+        {% include category-bar.html %}
+    </div>
 
-        <div id="sticky-header">
-            <div class="title">{{ page.title }}</div>
-            <div class="sharelinks">
-                <a href="http://twitter.com/share?url={{ post.url | prepend: site.baseurl }}&text={{ page.title }}&via=kpwags" target="_blank" class="share-btn twitter">
+
+    {% if page.cover != nil %}
+    <div class="post-cover" style="background-image:url('{{ page.cover }}'); background-position:{{ page.bgposition }}"></div>
+    {% endif %}
+
+    <div id="sticky-header">
+        <div class="title">{{ page.title }}</div>
+        <div class="sharelinks">
+            <a href="http://twitter.com/share?url={{ post.url | prepend: site.baseurl }}&text={{ page.title }}&via=kpwags" target="_blank"
+                class="share-btn twitter">
                     <i class="fa fa-twitter"></i>
                 </a>
 
-                <a href="http://www.facebook.com/sharer/sharer.php?u={{ post.url | prepend: site.baseurl }}" target="_blank" class="share-btn facebook">
+            <a href="http://www.facebook.com/sharer/sharer.php?u={{ post.url | prepend: site.baseurl }}" target="_blank" class="share-btn facebook">
                     <i class="fa fa-facebook"></i>
                 </a>
 
-                <a href="https://plus.google.com/share?url={{ post.url | prepend: site.baseurl }}" target="_blank" class="share-btn google-plus">
+            <a href="https://plus.google.com/share?url={{ post.url | prepend: site.baseurl }}" target="_blank" class="share-btn google-plus">
                     <i class="fa fa-google-plus"></i>
                 </a>
-            </div>
-            <div class="clearfix"></div>
         </div>
+        <div class="clearfix"></div>
+    </div>
 
-        <div class="container small">
-            <div class="post">
-                <div class="content">
-                    <h1 class="post-title">{{ page.title }}</h1>
+    <div class="container small">
+        <div class="post">
+            <div class="content">
+                <h1 class="post-title">{{ page.title }}</h1>
 
-                    <div class="post-meta">Posted {{ page.date | date: "%B %-d, %Y" }} in <a href="/category/{{ page.category }}">{{ page.category | capitalize }}</a></div>
+                <div class="post-meta">Posted {{ page.date | date: "%B %-d, %Y" }} in <a href="/category/{{ page.category }}">{{ page.category | capitalize }}</a></div>
 
-                    <div class="text">{{ content }}</div>
+                <div class="text">{{ content }}</div>
 
-                    <div class="share-post">
-                        <a href="http://twitter.com/share?url={{ post.url | prepend: site.baseurl }}&text={{ page.title }}&via=kpwags" target="_blank" class="share-btn twitter">
+                <div class="share-post">
+                    <a href="http://twitter.com/share?url={{ post.url | prepend: site.baseurl }}&text={{ page.title }}&via=kpwags" target="_blank"
+                        class="share-btn twitter">
                             <i class="fa fa-twitter"></i>
                         </a>
 
-                        <a href="http://www.facebook.com/sharer/sharer.php?u={{ post.url | prepend: site.baseurl }}" target="_blank" class="share-btn facebook">
+                    <a href="http://www.facebook.com/sharer/sharer.php?u={{ post.url | prepend: site.baseurl }}" target="_blank" class="share-btn facebook">
                             <i class="fa fa-facebook"></i>
                         </a>
 
-                        <a href="https://plus.google.com/share?url={{ post.url | prepend: site.baseurl }}" target="_blank" class="share-btn google-plus">
+                    <a href="https://plus.google.com/share?url={{ post.url | prepend: site.baseurl }}" target="_blank" class="share-btn google-plus">
                             <i class="fa fa-google-plus"></i>
                         </a>
-                    </div>
-
-                    <h3 id="comments">Comments</h3>
-                    {% include disqus.html %}
                 </div>
+
+                <h3 id="comments">Comments</h3>
+                {% include disqus.html %}
             </div>
         </div>
+    </div>
 
-        <div class="clearfix"></div>
-    
-        <div class="container">
-            {% include footer.html %}
-        </div>
+    <div class="clearfix"></div>
 
-        {% include google-analytics.html %}        
-    </body>
+    <div class="container">
+        {% include footer.html %}
+    </div>
+
+    {% include google-analytics.html %}
+</body>
+
 </html>
-
-
