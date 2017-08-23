@@ -8,7 +8,7 @@ indexpos: "20% 50%"
 bgposition: "45% 50%"
 ---
 
-The last couple months have been really hectic for me and needless to say, I didn’t get much done on my recipe side project.  
+The last couple months have been really hectic for me and unfortunately I didn’t get much done on my recipe side project.  
 
 I ended up getting a fair amount in using Ruby on Rails 5.1, but never was really able to really get a rhythm going and am still not sure that I want to write it in Rails.  
 
