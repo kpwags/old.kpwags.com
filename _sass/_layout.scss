@@ -424,6 +424,10 @@ ul.album-list li a div.dates {
     padding: 0;
 }
 
+.photo.padded { padding:15px 0; }
+.photo.padded-top { padding: 15px 0 0 0; }
+.photo.padded-bottom { padding: 0 0 15px 0; }
+
 .photo .meta {
     font-style: italic;
     font-size: 14px;

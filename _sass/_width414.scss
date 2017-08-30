@@ -107,6 +107,9 @@
 
     .post .photography .album .description .summary { margin:10px 0 0 0; }
 
+    .photo.padded, .photo.padded-top { padding: 15px 0 0 0; }
+    .photo.padded-bottom { padding: 0 0 15px 0; }
+
     .photo.double .left, .photo.double .right {
         float:none;
         width:100%;
