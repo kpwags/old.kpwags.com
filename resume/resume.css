@@ -1,0 +1,88 @@
+* {  }
+
+html, body {
+    font:16px 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    background:#fff;
+    color:#333;
+    width:960px;
+    margin:0 auto;
+}
+
+header {
+    border-bottom:1px solid #666;
+    text-align:center;
+}
+
+header h1 {
+    text-transform:uppercase;
+    font-weight:normal;
+    margin:12px;
+    padding:0;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    letter-spacing:5px;
+    font-size:36px;
+}
+
+header p {
+    letter-spacing:3px;
+}
+
+h2 {
+    color:#005ce6;
+    font-size:18px;
+    font-weight:normal;
+    margin:0 0 6px 0;
+    text-transform:uppercase;
+}
+
+.clearfix { clear:both; }
+.accented { color:#005ce6; }
+
+.row {
+    clear:both;
+    margin:10px 0;
+    padding:10px 0;
+    border-bottom:1px solid #666;
+}
+
+.row.bottom { border-bottom:none; }
+
+.sidebar {
+    float:left;
+    width:230px;
+}
+
+.sidebar-section {
+    margin:0 0 20px 0;
+    padding:0 0 20px 0;
+    border-bottom:1px solid #666;
+}
+
+.sidebar-row {
+    margin:10px 0;
+}
+
+.sidebar-row img {
+    vertical-align:middle;
+    padding-right:12px;
+}
+
+.summary {
+    float:right;
+    width:700px;
+    padding-left:12px;
+    border-left:1px solid #666;
+}
+
+.job {
+    margin:12px 0 20px 0;
+}
+
+.job .company {
+    color:#005ce6;
+}
+
+.job .title {
+    font-style:italic;
+}
