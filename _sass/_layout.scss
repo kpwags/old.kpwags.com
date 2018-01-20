@@ -315,6 +315,26 @@ header.site-header .menu ul li a:hover {
     padding: 0px;
 }
 
+.post h3 {
+    color: $brand-color;
+    font-size: 24px;
+    padding:0;
+    margin:12px 0;
+}
+
+.post h4 {
+    color: $text-color;
+    font-size: 18px;
+    padding:0;
+    margin:12px 0;
+    font-weight:bold;
+}
+
+.post hr {
+    color:#ccc;
+    margin:30px 0 20px 0;
+}
+
 .post .index-post-cover {
     height: 300px;
     margin-bottom: 12px;
