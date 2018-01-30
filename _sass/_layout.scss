@@ -339,11 +339,13 @@ header.site-header .menu ul li a:hover {
     height: 300px;
     margin-bottom: 12px;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .post-cover {
     background-repeat: no-repeat;
     height: 500px;
+    background-size: cover;
 }
 
 .post .post-meta {
