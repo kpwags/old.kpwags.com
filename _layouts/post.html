@@ -21,25 +21,6 @@
     <div class="post-cover" style="background-image:url('{{ page.cover }}'); background-position:{{ page.bgposition }}"></div>
     {% endif %}
 
-    <div id="sticky-header">
-        <div class="title">{{ page.title }}</div>
-        <div class="sharelinks">
-            <a href="http://twitter.com/share?url={{ post.url | prepend: site.baseurl }}&text={{ page.title }}&via=kpwags" target="_blank"
-                class="share-btn twitter">
-                    <i class="fa fa-twitter"></i>
-                </a>
-
-            <a href="http://www.facebook.com/sharer/sharer.php?u={{ post.url | prepend: site.baseurl }}" target="_blank" class="share-btn facebook">
-                    <i class="fa fa-facebook"></i>
-                </a>
-
-            <a href="https://plus.google.com/share?url={{ post.url | prepend: site.baseurl }}" target="_blank" class="share-btn google-plus">
-                    <i class="fa fa-google-plus"></i>
-                </a>
-        </div>
-        <div class="clearfix"></div>
-    </div>
-
     <div class="container small">
         <div class="post">
             <div class="content">
