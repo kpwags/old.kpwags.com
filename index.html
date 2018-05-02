@@ -3,27 +3,29 @@ layout: homepage
 title: "Keith Wagner"
 ---
 
-<div class="home">
-    {% for post in paginator.posts %}
-        <div class="post index-post">
-            <div class="content">
-                {% if post.cover != nil %}
-                    <div class="index-post-cover" style="background-image:url('{{ post.cover }}'); background-position:{{ post.indexpos }}"></div>
-                {% endif %}
+<div class="container small">
+    <div class="home">
+        {% for post in paginator.posts %}
+            <div class="post index-post">
+                <div class="content">
+                    {% if post.cover != nil %}
+                        <div class="index-post-cover" style="background-image:url('{{ post.cover }}'); background-position:{{ post.indexpos }}"></div>
+                    {% endif %}
 
-                <h2>
-                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                </h2>
+                    <h2>
+                        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                    </h2>
 
-                <div class="post-meta">Posted {{ post.date | date: "%B %-d, %Y" }}</div>
+                    <div class="post-meta">Posted {{ post.date | date: "%B %-d, %Y" }}</div>
 
-                <div class="text">{{ post.excerpt }}</div>
+                    <div class="text">{{ post.excerpt }}</div>
+                </div>
             </div>
-        </div>
-    {% endfor %}
+        {% endfor %}
+    </div>
+</div>
 
-    <div class="clearfix"></div>
-
+<div class="container">
     <div class="pagination">
         {% if paginator.previous_page %}
             <div class="newer-link"><a href="{{ paginator.previous_page_path }}" class="previous">Newer Posts</a></div>

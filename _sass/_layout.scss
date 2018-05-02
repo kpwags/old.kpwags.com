@@ -24,12 +24,6 @@ header.site-header .site-title {
     padding-left: 15px;
 }
 
-header.site-header .site-title .logo {
-    float: left;
-    width: 36px;
-    vertical-align: middle;
-}
-
 header.site-header .site-title .title {
     float: left;
     margin-left: 25px;
@@ -75,6 +69,31 @@ header.site-header .menu ul li a:hover {
     color: $brand-color;
 }
 
+#welcome-message {
+    width:600px;
+    margin:25px auto 10px auto;
+    border:1px solid #ccc;
+    padding:10px;
+}
+
+#welcome-message .logo {
+    float:left;
+    width:120px;
+}
+
+#welcome-message .logo img { width: 100px; }
+
+#welcome-message .logo .text {
+    float:left;
+    width:400px;
+    margin-left:20px;
+}
+
+#welcome-message h3 {
+    margin-bottom:0;
+    padding-bottom:0;
+}
+
 .photography-header {
     height: 600px;
 }
@@ -89,7 +108,7 @@ header.site-header .menu ul li a:hover {
 .photography-header.about {
     background-image: url('../assets/images/about_background.jpg');
     background-repeat: no-repeat;
-    background-position: 50% 70%;
+    background-position: 50% 28%;
     color: #fff;
 }
 
@@ -104,13 +123,6 @@ header.site-header .menu ul li a:hover {
     background-image: url('../assets/images/projects_background.jpg');
     background-repeat: no-repeat;
     background-position: 35% 23%;
-    color: #fff;
-}
-
-.photography-header.home {
-    background-image: url('../assets/images/home_background.jpg');
-    background-repeat: no-repeat;
-    background-position: 50% 48%;
     color: #fff;
 }
 
@@ -291,15 +303,11 @@ header.site-header .menu ul li a:hover {
 }
 
 .index-post {
-    border: 1px solid #ededed;
-    -webkit-box-shadow: 3px 3px 5px 0px rgba(204, 204, 204, 1);
-    -moz-box-shadow: 3px 3px 5px 0px rgba(204, 204, 204, 1);
-    box-shadow: 3px 3px 5px 0px rgba(204, 204, 204, 1);
-    width: 44%;
-    float: left;
-    margin: 1%;
-    min-height: 525px;
+    margin:15px 0;
+    border-bottom:1px solid #999;
 }
+
+.home .index-post:last-child { border-bottom: none; }
 
 .post h1.post-title {
     color: $brand-color;

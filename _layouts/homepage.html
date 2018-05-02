@@ -10,15 +10,11 @@
       {% include header.html %}
     </div>
 
-    <div class="photography-header home"></div>
-     
-    <div class="container"> 
-      {% include category-bar.html %}
-    </div>
-
-    <div class="container">
-      {{ content }}
-    </div>
+    {% if paginator.page == 1 %}
+    {% include welcome.html %}
+    {% endif %}
+      
+    {{ content }}
 
     <div class="clearfix"></div>
 
