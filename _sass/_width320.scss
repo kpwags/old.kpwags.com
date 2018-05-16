@@ -1,0 +1,22 @@
+@media all and (max-width: 320px) {
+    #sidebar .logo-area {
+        width:100%;
+        margin:0 0 25px 0;
+    }
+
+    #sidebar .logo {
+        float:none;
+        width:100%;
+    }
+
+    #sidebar .logo img {
+        width:64px;
+    }
+
+    #sidebar .title-text {
+        font-size:30px;
+        margin-left:0;
+        float:none;
+        text-align:center;
+    }
+}

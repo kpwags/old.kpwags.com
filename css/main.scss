@@ -20,6 +20,7 @@ $light-background-color: #fefefe;
 $brand-color:      #1a75ff;
 $brand-color-darker: #0052cc;
 $dark-gray-color:  #7b7b7b;
+$sidebar-blue: lighten($brand-color, 18%);
 
 $grey-color:       #cccccc;
 $grey-color-light: lighten($grey-color, 40%);
@@ -52,9 +53,13 @@ $on-laptop:        800px;
 @import
         "base",
         "layout",
+        "sidebar",
+        "photography",
+        "width1440",
         "width1280",
         "width1024",
         "width768",
         "width414",
+        "width320",
         "syntax-highlighting"
 ;

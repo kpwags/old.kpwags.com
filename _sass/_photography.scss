@@ -1,0 +1,190 @@
+/* --------------------- */
+/* ---- MOST RECENT ---- */
+/* --------------------- */
+
+.photography .most-recent {
+    width:600px;
+    margin:25px auto;
+}
+
+.photography .most-recent .image {
+    width:600px;
+    height:400px;
+    position: relative;
+    cursor: pointer;
+    background-position: 50% 50%;
+    margin:25px auto;
+    text-align: center;
+}
+
+.photography .most-recent .image a div.title {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.photography .most-recent .image a div.dates {
+    font-style: italic;
+    font-size: 16px;
+}
+
+.photography .most-recent .image a {
+    color: #fff;
+    display: block;
+    width: 100%;
+    position: absolute;
+    z-index: 5;
+    bottom: 10px;
+}
+
+/* -------------------- */
+/* ---- ALBUM LIST ---- */
+/* -------------------- */
+
+ul.album-list {
+    list-style-type: none;
+    margin: 0;
+}
+
+ul.album-list li {
+    display: block;
+    float: left;
+    width: 430px;
+    height: 290px;
+    margin: 10px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+    background-position: 50% 50%;
+}
+
+ul.album-list li a {
+    color: #fff;
+    display: block;
+    width: 100%;
+    position: absolute;
+    z-index: 5;
+    bottom: 10px;
+}
+
+ul.album-list li a div.title {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+ul.album-list li a div.dates {
+    font-style: italic;
+    font-size: 16px;
+}
+
+/* ------------------ */
+/* ---- PHOTOSET ---- */
+/* ------------------ */
+
+.back-link {
+    margin-top:20px;
+}
+
+.back-link.bottom {
+    margin:20px 0;
+}
+
+.photo.header {
+    margin:30px 0;
+}
+
+.photo h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.photo .meta {
+    font-style: italic;
+    font-size: 16px;
+    margin-bottom:20px;
+}
+
+.photo.padded { padding:15px 0; }
+.photo.padded-top { padding: 15px 0 0 0; }
+.photo.padded-bottom { padding: 0 0 15px 0; }
+
+.photo p {
+    margin: 8px 0 0 0;
+    text-align: center;
+}
+
+.photo img {
+    width: 100%;
+}
+
+.photo.header p {
+    margin: 15px 0 0 0;
+    text-align: left;
+}
+
+.photo.double .left {
+    float: left;
+    width: 49%;
+}
+
+.photo.double .right {
+    float: right;
+    width: 49%;
+}
+
+.photo.triple .left {
+    float: left;
+    width: 32%;
+}
+
+.photo.triple .center {
+    float: left;
+    width: 32%;
+    margin-left: 2%;
+}
+
+.photo.triple .right {
+    float: right;
+    width: 32%;
+}
+
+.photo.multiple {
+    padding: 0 20px;
+}
+
+.photo.multiple .row {
+    padding: 10px 0;
+}
+
+.photo.multiple .row:first-child {
+    padding-top: 20px;
+}
+.photo.multiple .row:last-child {
+    padding-bottom: 20px;
+}
+
+.photo.multiple .row.double .left {
+    float: left;
+    width: 49%;
+}
+
+.photo.multiple .row.double .right {
+    float: right;
+    width: 49%;
+}
+
+.photo.multiple .row.triple.left {
+    float: left;
+    width: 32%;
+}
+
+.photo.multiple .row.triple .center {
+    float: left;
+    width: 32%;
+    margin-left: 2%;
+}
+
+.photo.multiple .row.triple .right {
+    float: right;
+    width: 32%;
+}

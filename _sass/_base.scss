@@ -74,7 +74,7 @@ figcaption {
  * Lists
  */
 ul, ol {
-    margin-left: $spacing-unit;
+    margin-left: 0;
 }
 
 li {
@@ -209,12 +209,12 @@ pre {
 
     > svg {
         display: inline-block;
-        width: 16px;
-        height: 16px;
+        width: 24px;
+        height: 24px;
         vertical-align: middle;
 
         path {
-            fill: $text-color;
+            fill: #ddd;
         }
     }
 }
@@ -222,7 +222,7 @@ pre {
 .icon:hover {
     > svg {
         path {
-            fill: $brand-color;
+            fill: #efefef;
         }
     }
 }

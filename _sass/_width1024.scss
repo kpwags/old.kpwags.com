@@ -1,0 +1,30 @@
+@media all and (max-width: 1024px) {
+    #main .content {
+        padding:0 50px;
+    }
+
+    /* --------------------- */
+    /* ---- PHOTOGRAPHY ---- */
+    /* --------------------- */
+
+    .photography .most-recent {
+        width:400px;
+        margin:25px auto;
+    }
+
+    .photography .most-recent .image {
+        width:400px;
+        height:280px;
+    }
+
+    ul.album-list li {
+        width:250px;
+        height:150px;
+        margin:10px;
+    }
+
+    ul.album-list li a div.title {
+        font-weight: bold;
+        font-size: 20px;
+    }
+}

@@ -1,105 +1,63 @@
-@media all and (max-width: 769px) {
-    .container,
-    .container.small {
-        width: 100%;
+@media all and (max-width: 768px) {
+    #main {
+        margin-left:0;
     }
 
-    .index-post {
-        width: 100%;
-        float: none;
-        margin: 0 0 15px 0;
-        min-height: auto;
-        border-top: none;
-        border-left: none;
-        border-right: none;
-        border-bottom: 1px sold #ededed;
-        -webkit-box-shadow: none;
-        -moz-box-shadow: none;
-        box-shadow: none;
-        padding: 0;
+    #main .content {
+        padding:20px;
     }
 
-    .index-post .content {
-        padding: 10px;
+    footer { display:block; }
+
+    /* ----------------- */
+    /* ---- SIDEBAR ---- */
+    /* ----------------- */
+    
+    #sidebar {
+        width:100%;
+        position:relative;
+        top:0;
+        left:0;
+        height:auto;
     }
 
-    header.site-header .site-title {
-        width: 335px;
+    #sidebar .logo-area {
+        width:400px;
+        margin:0 auto 25px auto;
     }
 
-    header.site-header .site-title .title {
-        margin-left: 15px;
-        font-size: 28px;
+    #sidebar .logo {
+        margin:0;
+        float:left;
+        width:80px;
     }
 
-    header.site-header .site-title .title span {
-        font-size: 20px;
+    #sidebar .logo img {
+        width:64px;
     }
 
-    header.site-header .menu ul li {
-        padding: 0 8px;
+    #sidebar .title-text {
+        font-size:40px;
+        color:$sidebar-blue;
+        text-align:center;
+        margin-bottom:0;
+        margin-left:15px;
+        float:left;
+        text-align:right;
     }
 
-    header.site-header .menu ul li.desktop-only {
-        display: none;
+    #sidebar ul.social-links,
+    #sidebar .copyright {
+        display:none;
     }
 
-    .photography-header.flower {
-        background-position: 54% 60%;
-    }
-
-    .photography-header.about {
-        background-position: 23% 66%;
-    }
-
-    .photography-header.contact {
-        background-position: 61% 50%;
-    }
-
-    .photography-header.projects {
-        background-position: 50% 10%;
-    }
-
-    .photography-header.gymroutine {
-        background-position: 50% 36%;
-    }
-
-    .projects .project {
-        margin: 20px 0;
-    }
-
-    .projects .project .screen {
-        float: none;
-        width: 100%;
-        margin-bottom: 15px;
-    }
-
-    .projects .project .description {
-        float: none;
-        width: 100%;
-        margin-left: 0px;
-    }
-
-    .projects .project-separator {
-        margin: 20px auto;
-        width: 200px;
-        clear: both;
-    }
-
-    blockquote div.source {
-        margin-right: 0px;
-    }
-
-    .fitness-section {
-        margin: 20px 0 12px 0;
-    }
-
-    #sticky-header .sharelinks {
-        display: none;
-    }
+    /* --------------------- */
+    /* ---- PHOTOGRAPHY ---- */
+    /* --------------------- */
 
     ul.album-list li {
-        width: 360px;
-        height: 250px;
+        width:340px;
+        height:200px;
+        margin:12px;
     }
 }
