@@ -9,17 +9,14 @@
     </head>
 
     <body>
-
-        <div class="container">
-            {% include header.html %}
-        </div>
-
-        <div class="container">
-            <div id="photoset">
-                {{ content }}
-            </div>
-
-            {% include footer.html %}
+        {% include sidebar.html %}
+      
+        <div id="main">
+          <div class="content">
+            <div class="back-link"><a href="/photography">&lt; Back to Photo Sets</a></div>
+            <div id="photoset">{{ content }}</div>
+            <div class="back-link bottom"><a href="/photography">&lt; Back to Photo Sets</a></div>
+          </div>
         </div>
     </body>
 

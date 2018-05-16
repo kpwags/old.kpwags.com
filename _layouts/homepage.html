@@ -6,20 +6,15 @@
   </head>
 
   <body>
-    <div class="container">
-      {% include header.html %}
-    </div>
-
-    {% if paginator.page == 1 %}
-    {% include welcome.html %}
-    {% endif %}
+    {% include sidebar.html %}
       
-    {{ content }}
+    <div id="main">
+      <div class="content">
+        {{ content }}
+      </div>
+    </div>
 
     <div class="clearfix"></div>
-
-    <div class="container">
-      {% include footer.html %}
-    </div>
+    {% include footer.html %}
   </body>
 </html>

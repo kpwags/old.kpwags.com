@@ -1,159 +1,71 @@
 @media all and (max-width: 414px) {
-    .hide-mobile { display:none !important; }
+    /* ----------------- */
+    /* ---- SIDEBAR ---- */
+    /* ----------------- */
 
-    header.site-header {
-        width:100%;
-        line-height:36px;
-        padding:0;
+    #sidebar .logo-area {
+        width:320px;
+        margin:0 auto 25px auto;
     }
 
-    header.site-header .site-title {
-        float:none;
-        width:100%;
-        text-align:center;
-        padding:0;
-    }
-
-    header.site-header .site-title .logo {
-        display:none;
-    }
-
-    header.site-header .site-title .title {
-        float:none;
-        font-size:26px;
-    }
-
-    header.site-header .site-title .title span {
-        font-size:20px;
-    }
-
-    header.site-header .menu {
-        float:none;
-        text-align:center;
-        padding-right:0;
-        line-height:36px;
-    }
-
-    header.site-header .menu ul {
-        list-style-type:none;
+    #sidebar .logo {
         margin:0;
-        padding:0;
+        float:left;
+        width:80px;
     }
 
-    header.site-header .menu ul li {
-        display:inline;
-        padding:0 6px;
+    #sidebar .logo img {
+        width:64px;
     }
 
-    header.site-header .menu ul li a {
-        color:$text-color;
-        text-decoration:none;
-        font-size:16px;
-    }
-
-    #welcome-message {
-        width:280px;
-        margin:25px auto 10px auto;
-        border:1px solid #ccc;
-        padding:10px;
-    }
-
-    #welcome-message .logo {
-        float:none;
-        display:none;
-    }
-
-    #welcome-message .logo .text {
-        float:none;
-        width:100%;
-        margin-left:0;
-    }
-
-    #welcome-message h3 {
+    #sidebar .title-text {
+        font-size:30px;
+        color:$sidebar-blue;
         margin-bottom:0;
-        padding-bottom:0;
+        margin-left:15px;
+        float:left;
+        text-align:right;
     }
 
-    .photography-header, .post-cover {
-        height:300px;
+    #sidebar ul.menu li {
+        margin-bottom:20px;
     }
 
-    footer.site-footer { margin-top:20px; font-size:16px; }
-    footer ul.links li { padding: 0 10px; }
+    /* --------------------- */
+    /* ---- PHOTOGRAPHY ---- */
+    /* --------------------- */
 
-    #sidebar .content ul.social-links { display:none; }
-    #sidebar .mobile-menu { display:block; }
+    .photography .most-recent {
+        width:100%;
+        margin:0;
+    }
 
-    .category-bar { display:none; }
-    .mobile-categories { display:block; }
-
-    .image-header { display:none; }
+    .photography .most-recent .image {
+        width:100%;
+        height:200px;
+    }
 
     ul.album-list li {
-        width:355px;
-    }
-
-    .post .index-post-cover {
-        display:none;
-    }
-
-    .post-cover {
-        background-repeat:no-repeat;
-        height:250px;
-    }
-
-    .post .photography h3 {
-        color:$brand-color;
-        margin:0 0 20px 0;
-        font-size:22px;
-    }
-
-    .post .photography .links {
-        text-align:center;
-        color:$brand-color-darker;
-    }
-
-    .post .photography .links a {
-        padding:0 15px;
-    }
-
-    .post .photography .album .thumbnail {
-        float:none;
         width:100%;
-        margin:0 0 15px 0;
+        height:200px;
+        margin:12px 0;
     }
 
-    .post .photography .album .description {
-        float:none;
-        width:100%;
-        margin-left:0;
+    .photo.padded,
+    .photo.padded-top,
+    .photo.padded-bottom,
+    .photo.double .left,
+    .photo.triple .left,
+    .photo.triple .center { 
+        padding:0 0 15px 0;
     }
 
-    .post .photography .album .description .summary { margin:10px 0 0 0; }
-
-    .photo.padded, .photo.padded-top { padding: 15px 0 0 0; }
-    .photo.padded-bottom { padding: 0 0 15px 0; }
-
-    .photo.double .left, .photo.double .right {
-        float:none;
-        width:100%;
-    }
-
-    .photo.double .left {
-        margin-bottom:20px;
-    }
-
-    .photo.triple .left, .photo.triple .right, .photo.triple .center {
-        float:none;
-        width:100%;
-        margin-left:0;
-    }
-
-    .photo.triple .left, .photo.triple .center {
-        margin-bottom:20px;
-    }
-
-    h1.page-title {
-        font-size:36px;
+    .photo.double .left,
+    .photo.double .right,
+    .photo.triple .left,
+    .photo.triple .center,
+    .photo.triple .right {
+        float: none;
+        width: 100%;
     }
 }
