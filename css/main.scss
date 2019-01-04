@@ -1,38 +1,35 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+
 @charset "utf-8";
 
-
-
 // Our variables
-$base-font-family: Rockwell, Georgia, Garamond, serif;
-$base-font-size:   20px;
-$small-font-size:  $base-font-size * 0.875;
+$base-font-family: Helvetica, 'Helvetica Neue', Arial, serif;
+$base-font-size: 20px;
+$small-font-size: $base-font-size * 0.875;
 $base-line-height: 1.8;
-$heading-font-family: Rockwell, Georgia, Garamond, serif;
+$heading-font-family: Helvetica, 'Helvetica Neue', Arial, serif;
 
-$spacing-unit:     30px;
+$spacing-unit: 30px;
 
-$text-color:       #444444;
+$text-color: #444444;
 $background-color: #ededed;
 $light-background-color: #fefefe;
-$brand-color:      #1a75ff;
+$brand-color: #1a75ff;
 $brand-color-darker: #0052cc;
-$dark-gray-color:  #7b7b7b;
+$dark-gray-color: #7b7b7b;
 $sidebar-blue: lighten($brand-color, 18%);
 
-$grey-color:       #cccccc;
+$grey-color: #cccccc;
 $grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$grey-color-dark: darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    800px;
+$content-width: 800px;
 
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
+$on-palm: 600px;
+$on-laptop: 800px;
 
 // Using media queries with like this:
 // @include media-query($on-palm) {
@@ -42,25 +39,11 @@ $on-laptop:        800px;
 //     }
 // }
 @mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+  @media screen and (max-width: $device) {
+    @content;
+  }
 }
 
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "sidebar",
-        "photography",
-        "width1920",
-        "width1440",
-        "width1280",
-        "width1024",
-        "width768",
-        "width414",
-        "width320",
-        "syntax-highlighting"
-;
+@import 'base', 'layout', 'sidebar', 'photography', 'width1920', 'width1440', 'width1280', 'width1024', 'width768',
+  'width414', 'width320', 'syntax-highlighting';

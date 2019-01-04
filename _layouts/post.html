@@ -1,45 +1,31 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     {% include head.html %}
     <script type="text/javascript" src="/assets/scripts/post.js"></script>
-    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-</head>
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" />
+  </head>
 
-<body>
+  <body>
     {% include sidebar.html %}
-    
+
     <div id="main">
-        {% if page.cover != nil %}
-            <div class="post-cover" style="background-image:url('{{ page.cover }}'); background-position:{{ page.bgposition }}"></div>
-        {% endif %}
+      {% if page.cover != nil %}
+      <div
+        class="post-cover"
+        style="background-image:url('{{ page.cover }}'); background-position:{{ page.bgposition }}"
+      ></div>
+      {% endif %}
 
-        <div class="content">
-            <div class="post">
-                <h1 class="post-title">{{ page.title }}</h1>
+      <div class="content">
+        <div class="post">
+          <h1 class="post-title">{{ page.title }}</h1>
 
-                <div class="post-meta">Posted {{ page.date | date: "%B %-d, %Y" }}</div>
+          <div class="post-meta">Posted {{ page.date | date: '%B %-d, %Y' }}</div>
 
-                <div class="text">{{ content }}</div>
-
-                <div class="share-post">
-                    <a href="http://twitter.com/share?url={{ post.url | prepend: site.baseurl }}&text={{ page.title }}&via=kpwags" target="_blank"
-                        class="share-btn twitter">
-                            <i class="fa fa-twitter"></i>
-                        </a>
-
-                    <a href="http://www.facebook.com/sharer/sharer.php?u={{ post.url | prepend: site.baseurl }}" target="_blank" class="share-btn facebook">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-
-                    <a href="https://plus.google.com/share?url={{ post.url | prepend: site.baseurl }}" target="_blank" class="share-btn google-plus">
-                            <i class="fa fa-google-plus"></i>
-                        </a>
-                </div>
-            </div>
+          <div class="text">{{ content }}</div>
         </div>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
