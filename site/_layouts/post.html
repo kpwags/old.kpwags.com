@@ -1,31 +1,20 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    {% include head.html %}
-    <script type="text/javascript" src="/assets/scripts/post.js"></script>
-    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" />
-  </head>
+    <head>
+        {% include head.html %}
+    </head>
 
-  <body>
-    {% include sidebar.html %}
+    <body>
+        {% include header.html %}
 
-    <div id="main">
-      {% if page.cover != nil %}
-      <div
-        class="post-cover"
-        style="background-image:url('{{ page.cover }}'); background-position:{{ page.bgposition }}"
-      ></div>
-      {% endif %}
+        <main>
+            <article class="post-page">
+                <h1>{{ page.title }}</h1>
+                <div class="meta">Posted {{ page.date | date: '%B %-d, %Y' }}</div>
+                <div class="content">{{ content }}</div>
+            </article>
+        </main>
 
-      <div class="content">
-        <div class="post">
-          <h1 class="post-title">{{ page.title }}</h1>
-
-          <div class="post-meta">Posted {{ page.date | date: '%B %-d, %Y' }}</div>
-
-          <div class="text">{{ content }}</div>
-        </div>
-      </div>
-    </div>
-  </body>
+        {% include footer.html %}
+    </body>
 </html>

@@ -7,7 +7,7 @@ main {
 }
 
 header {
-    border-bottom: 2px solid $blue-primary;
+    border-bottom: 2px solid $blue-dark;
     height: 60px;
     line-height: 60px;
     padding: 0 10px;
@@ -23,7 +23,7 @@ header span.title {
     font-weight: 400;
     font-size: 1.4rem;
     padding: 0 25px 0 10px;
-    color: $blue-primary;
+    color: $blue-medium;
     letter-spacing: 0.08rem;
 }
 
@@ -38,25 +38,89 @@ header nav a {
 }
 
 header nav a:hover {
-    color: $blue-primary;
+    color: $blue-dark;
+}
+
+footer {
+    border-top: 1px solid $blue-dark;
+    padding:0 15px;
+    height:50px;
+    line-height:50px;
+    margin-top:50px;
+    text-align:center;
+}
+
+footer .copyright {
+    font-size:1rem;
+    font-style: italic;
+    color: $dark-grey;
+}
+
+footer ul {
+    margin:0;
+}
+
+footer ul li {
+    display:inline;
+    list-style-type:none;
+    padding:0 15px;
+}
+
+footer ul li.link-start {
+    padding-left:60px;
+}
+
+footer ul li.link-end {
+    padding-right:60px;
 }
 
 article {
     margin: 25px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
 }
 
-article h2 {
+article h1 {
     font-weight: bold;
-    font-size: 1.75rem;
+    color: $blue-dark;
+    font-size: 2.1rem;
     margin: 0;
     padding: 0;
 }
 
+article h2 {
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin: 0;
+    padding: 0;
+}
+
+article.post-page h2 {
+    font-size: 1.6rem;
+    margin: 24px 0 15px 0;
+    color: $blue-medium;
+}
+
+article h3 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin: 22px 0 18px 0;
+}
+
+article h4 {
+    font-size: 1.3rem;
+    margin:12px 0;
+}
+
 article .meta {
     font-style: italic;
-    font-size: 0.9rem;
+    font-size: 1.05rem;
     color: $grey-text;
     margin: 5px 0 0 0;
+}
+
+article.post-page .meta {
+    margin-bottom: 25px;
 }
 
 article .content {
@@ -69,8 +133,72 @@ article .read-more {
     font-size: 1rem;
 }
 
+article .centered-image {
+    text-align: center;
+}
+
+article .centered-image img {
+    width: 80%;
+}
+
+article ul,
+article ol {
+    margin-bottom: 40px;
+}
+
 article hr {
     width: 250px;
     margin: 40px auto;
     border-bottom: 1px solid hsl(0, 0%, 87.1%);
+    background-color: transparent;
+}
+
+.contact-list {
+    margin: 25px 0;
+    text-align: center;
+}
+
+.contact-list li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 15px;
+}
+
+.projects .project {
+    display:grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 0px;
+    margin: 40px 0;
+    padding: 40px 0;
+    border-bottom: 1px solid $dark-grey;
+}
+
+.projects .project:last-child {
+    border-bottom:none;
+}
+
+.projects .project .screen {
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.projects .project .description {
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.projects .project .description h3 {
+    margin-top: 0;
+}
+
+@media all and (max-width: 800px) {
+    main {
+        padding: 0 15px;
+    }
+
+    article .centered-image img {
+        width: 100%;
+    }
 }

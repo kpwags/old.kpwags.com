@@ -5,15 +5,10 @@
     </head>
 
     <body>
-        {% include sidebar.html %}
+        {% include header.html %}
 
-        <div id="main">
-            <div class="content">
-                {{ content }}
-            </div>
-        </div>
+        <main>{{ content }}</main>
 
-        <div class="clearfix"></div>
         {% include footer.html %}
     </body>
 </html>

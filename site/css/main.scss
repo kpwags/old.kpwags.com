@@ -31,10 +31,12 @@ $content-width: 800px;
 $on-palm: 600px;
 $on-laptop: 800px;
 
-$blue-primary: hsl(224.5, 90.7%, 21%);
+$blue-dark: hsl(224.5, 90.7%, 21%);
 $blue-medium: hsl(215.9, 100%, 40%);
 
 $grey-text: hsl(0, 0%, 51.4%);
+
+$dark-grey: hsl(0, 0%, 40%);
 
 // Using media queries with like this:
 // @include media-query($on-palm) {
