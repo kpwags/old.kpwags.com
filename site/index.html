@@ -21,10 +21,11 @@ title: 'Keith Wagner'
 {% endfor %}
 
 <div class="pagination">
-    {% if paginator.previous_page %}
-    <div class="newer-link"><a href="{{ paginator.previous_page_path }}" class="previous">Newer Posts</a></div>
-    {% endif %} {% if paginator.next_page %}
-    <div class="older-link"><a href="{{ paginator.next_page_path }}" class="next">Older Posts</a></div>
-    {% endif %}
-    <div class="clearfix"></div>
+
+        {% if paginator.next_page %}
+        <div class="previous"><a href="{{ paginator.next_page_path }}" class="next">&#171; Older</a></div>
+        {% endif %}
+        {% if paginator.previous_page %}
+            <div class="next"><a href="{{ paginator.previous_page_path }}" class="previous">Newer &#187;</a></div>
+        {% endif %}
 </div>

@@ -135,6 +135,7 @@ article .read-more {
 
 article .centered-image {
     text-align: center;
+    margin:20px 0;
 }
 
 article .centered-image img {
@@ -143,7 +144,11 @@ article .centered-image img {
 
 article ul,
 article ol {
-    margin-bottom: 40px;
+    margin:0 70px 40px 70px;
+}
+
+article ul li, article ol li {
+    padding-left:12px;
 }
 
 article hr {
@@ -191,6 +196,26 @@ article hr {
 
 .projects .project .description h3 {
     margin-top: 0;
+}
+
+.pagination {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin:20px 0;
+}
+
+.pagination .previous {
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.pagination .next {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    text-align:right;
 }
 
 @media all and (max-width: 800px) {
