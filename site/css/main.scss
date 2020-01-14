@@ -31,6 +31,8 @@ $content-width: 800px;
 $on-palm: 600px;
 $on-laptop: 800px;
 
+$box-shadow: 0 12px 24px 0 hsla(0, 0%, 0%, 0.2);
+
 $blue-dark: hsl(224.5, 90.7%, 21%);
 $blue-medium: hsl(215.9, 100%, 40%);
 
@@ -52,4 +54,4 @@ $dark-grey: hsl(0, 0%, 40%);
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import 'base', 'layout', '_syntax-highlighting';
+@import 'base', 'layout', 'photography', '_syntax-highlighting';

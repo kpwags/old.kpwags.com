@@ -1,190 +1,116 @@
-/* --------------------- */
-/* ---- MOST RECENT ---- */
-/* --------------------- */
-
-.photography .most-recent {
-    width:600px;
-    margin:25px auto;
+.photoset-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
 }
 
-.photography .most-recent .image {
-    width:600px;
-    height:400px;
+.photoset-list a {
+    display:block;
+    border: 1px solid hsl(0, 0%, 60%);
+    box-shadow: $box-shadow;
     position: relative;
-    cursor: pointer;
-    background-position: 50% 50%;
-    margin:25px auto;
-    text-align: center;
 }
 
-.photography .most-recent .image a div.title {
-    font-weight: bold;
-    font-size: 24px;
-}
-
-.photography .most-recent .image a div.dates {
-    font-style: italic;
-    font-size: 16px;
-}
-
-.photography .most-recent .image a {
-    color: #fff;
-    display: block;
+.photoset-list a .description {
+    position:absolute;
+    bottom: 0px;
+    right: 0px;
     width: 100%;
-    position: absolute;
-    z-index: 5;
-    bottom: 10px;
+    background: hsla(0, 0%, 20%, 0.75);
+    display:none;
+    color: hsl(0, 0%, 100%);
+    text-align:center;
 }
 
-/* -------------------- */
-/* ---- ALBUM LIST ---- */
-/* -------------------- */
-
-ul.album-list {
-    list-style-type: none;
-    margin: 0;
+.photoset-list a .description .container {
+    padding:8px;
 }
 
-ul.album-list li {
-    display: block;
-    float: left;
-    width: 430px;
-    height: 290px;
-    margin: 10px;
-    text-align: center;
-    color: #fff;
-    position: relative;
-    cursor: pointer;
-    background-position: 50% 50%;
+.photoset-list a .description h4 {
+    color: hsl(0, 0%, 100%);
+    font-size:1.45rem;
+    margin:0 0 4px 0;
+    padding:0;
+    font-weight:600;
 }
 
-ul.album-list li a {
-    color: #fff;
-    display: block;
-    width: 100%;
-    position: absolute;
-    z-index: 5;
-    bottom: 10px;
+.photoset-list a .description .container div {
+    font-style:italic;
 }
 
-ul.album-list li a div.title {
-    font-weight: bold;
-    font-size: 24px;
+.photoset-list a:hover .description {
+    display:block;
 }
-
-ul.album-list li a div.dates {
-    font-style: italic;
-    font-size: 16px;
-}
-
-/* ------------------ */
-/* ---- PHOTOSET ---- */
-/* ------------------ */
 
 .back-link {
-    margin-top:20px;
+    margin-bottom:30px;
 }
 
-.back-link.bottom {
-    margin:20px 0;
+.back-link-bottom {
+    margin-top:30px;
 }
 
-.photo.header {
-    margin:30px 0;
+.photoset-header {
+    margin:0 0 25px 0;
 }
 
-.photo h1 {
+.photoset-header h1 {
+    font-weight: bold;
+    color: $blue-dark;
+    font-size: 2.1rem;
     margin: 0;
     padding: 0;
 }
 
-.photo .meta {
+.photoset-header .meta {
     font-style: italic;
-    font-size: 16px;
-    margin-bottom:20px;
+    font-size: 1.05rem;
+    color: $grey-text;
+    margin: 5px 0 25px 0;
 }
 
-.photo.padded { padding:15px 0; }
-.photo.padded-top { padding: 15px 0 0 0; }
-.photo.padded-bottom { padding: 0 0 15px 0; }
-
-.photo p {
-    margin: 8px 0 0 0;
-    text-align: center;
+.photoset {
+    display:grid;
+    margin-bottom: 10px;
+    grid-column-gap: 10px;
 }
 
-.photo img {
-    width: 100%;
+.photoset.single-row {
+    grid-template-columns: 1fr;
 }
 
-.photo.header p {
-    margin: 15px 0 0 0;
-    text-align: left;
+.photoset.double-row {
+    grid-template-columns: 1fr 1fr;
 }
 
-.photo.double .left {
-    float: left;
-    width: 49%;
+.photoset.triple-row {
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
-.photo.double .right {
-    float: right;
-    width: 49%;
+.photoset a:nth-child(1) {
+    grid-column-start:1;
+    grid-column-end: 1;
 }
 
-.photo.triple .left {
-    float: left;
-    width: 32%;
+.photoset a:nth-child(2) {
+    grid-column-start: 2;
+    grid-column-end: 2;
 }
 
-.photo.triple .center {
-    float: left;
-    width: 32%;
-    margin-left: 2%;
+.photoset a:nth-child(3) {
+    grid-column-start: 3;
+    grid-column-end: 3;
 }
 
-.photo.triple .right {
-    float: right;
-    width: 32%;
+div.caption {
+    margin: 5px 0 15px 0;
 }
 
-.photo.multiple {
-    padding: 0 20px;
+div.caption p {
+    margin-bottom:10px;
 }
 
-.photo.multiple .row {
-    padding: 10px 0;
-}
-
-.photo.multiple .row:first-child {
-    padding-top: 20px;
-}
-.photo.multiple .row:last-child {
-    padding-bottom: 20px;
-}
-
-.photo.multiple .row.double .left {
-    float: left;
-    width: 49%;
-}
-
-.photo.multiple .row.double .right {
-    float: right;
-    width: 49%;
-}
-
-.photo.multiple .row.triple.left {
-    float: left;
-    width: 32%;
-}
-
-.photo.multiple .row.triple .center {
-    float: left;
-    width: 32%;
-    margin-left: 2%;
-}
-
-.photo.multiple .row.triple .right {
-    float: right;
-    width: 32%;
+div.caption p:last-child {
+    margin-bottom:0;
 }

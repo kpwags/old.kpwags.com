@@ -6,9 +6,12 @@
   </head>
 
   <body>
+    {% include header.html %}
 
-    {{ content }}
+    <main>
+        {{ content }}
+    </main>
 
-    <div class="clearfix"></div>
+    {% include footer.html %}
   </body>
 </html>
