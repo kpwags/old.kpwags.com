@@ -1,5 +1,10 @@
 body {
-    background: url('/assets/images/background.png') repeat;
+    background-image: url('/assets/images/background.png');
+    background-repeat: repeat;
+}
+
+body.dark-mode {
+    background-image:none;
 }
 
 main {
@@ -12,6 +17,10 @@ header {
     line-height: 60px;
     padding: 0 10px;
     margin-bottom: 50px;
+}
+
+body.dark-mode header {
+    border-bottom-color: $dark-mode-blue-medium;
 }
 
 header img.logo {
@@ -50,6 +59,10 @@ footer {
     text-align:center;
 }
 
+body.dark-mode footer {
+    border-top-color: $dark-mode-blue-medium;
+}
+
 footer .copyright {
     font-size:1rem;
     font-style: italic;
@@ -74,6 +87,32 @@ footer ul li.link-end {
     padding-right:60px;
 }
 
+footer button {
+    display: inline-block;
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-family: $base-font-family;
+    font-size: 1rem;
+    line-height: 1;
+    background: transparent;
+    font-weight:300;
+    color: $blue-medium;
+    cursor:pointer;
+}
+
+body.dark-mode footer button {
+    color: $dark-mode-blue-medium;
+}
+
+footer button:hover {
+    color: $blue-dark;
+}
+
+body.dark-mode footer button:hover {
+    color: $dark-mode-blue-dark;
+}
+
 article {
     margin: 25px 0;
     font-family: 'Montserrat', sans-serif;
@@ -88,6 +127,10 @@ article h1 {
     padding: 0;
 }
 
+body.dark-mode article h1 {
+    color: $dark-mode-blue-dark;
+}
+
 article h2 {
     font-weight: bold;
     font-size: 1.8rem;
@@ -99,6 +142,10 @@ article.post-page h2 {
     font-size: 1.6rem;
     margin: 24px 0 15px 0;
     color: $blue-medium;
+}
+
+body.dark-mode article.post-page h2 {
+    color: $dark-mode-blue-medium;
 }
 
 article h3 {

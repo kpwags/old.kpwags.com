@@ -27,6 +27,11 @@ $grey-text: hsl(0, 0%, 51.4%);
 
 $dark-grey: hsl(0, 0%, 40%);
 
+$dark-mode-background: hsl(0, 0%, 13.3%);
+$dark-mode-text-color: hsl(0, 0%, 93.7%);
+$dark-mode-blue-medium: hsl(199, 98.3%, 45.9%);
+$dark-mode-blue-dark: hsl(209.1, 78.5%, 43.7%);
+
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;

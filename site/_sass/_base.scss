@@ -34,6 +34,11 @@ body {
     -webkit-text-size-adjust: 100%;
 }
 
+body.dark-mode {
+    background-color:$dark-mode-background;
+    color:$dark-mode-text-color;
+}
+
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
@@ -137,6 +142,21 @@ a {
     }
 }
 
+body.dark-mode a {
+    color: $dark-mode-blue-medium;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:visited {
+        color: $dark-mode-blue-medium;
+    }
+
+    &:hover {
+        color: $dark-mode-blue-dark;
+        text-decoration: none;
+    }
+}
+
 /**
  * Blockquotes
  */
@@ -225,6 +245,14 @@ strong {
     > svg {
         path {
             fill: $blue-medium;
+        }
+    }
+}
+
+body.dark-mode .icon:hover {
+    > svg {
+        path {
+            fill: $dark-mode-blue-medium;
         }
     }
 }
