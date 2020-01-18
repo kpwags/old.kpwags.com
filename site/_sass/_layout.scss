@@ -4,7 +4,7 @@ body {
 }
 
 body.dark-mode {
-    background-image:none;
+    background-image: none;
 }
 
 main {
@@ -52,11 +52,11 @@ header nav a:hover {
 
 footer {
     border-top: 1px solid $blue-dark;
-    padding:0 15px;
-    height:50px;
-    line-height:50px;
-    margin-top:50px;
-    text-align:center;
+    padding: 0 15px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 50px;
+    text-align: center;
 }
 
 body.dark-mode footer {
@@ -64,27 +64,27 @@ body.dark-mode footer {
 }
 
 footer .copyright {
-    font-size:1rem;
+    font-size: 1rem;
     font-style: italic;
     color: $dark-grey;
 }
 
 footer ul {
-    margin:0;
+    margin: 0;
 }
 
 footer ul li {
-    display:inline;
-    list-style-type:none;
-    padding:0 15px;
+    display: inline;
+    list-style-type: none;
+    padding: 0 15px;
 }
 
 footer ul li.link-start {
-    padding-left:60px;
+    padding-left: 60px;
 }
 
 footer ul li.link-end {
-    padding-right:60px;
+    padding-right: 60px;
 }
 
 footer button {
@@ -96,9 +96,9 @@ footer button {
     font-size: 1rem;
     line-height: 1;
     background: transparent;
-    font-weight:300;
+    font-weight: 300;
     color: $blue-medium;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 body.dark-mode footer button {
@@ -115,7 +115,6 @@ body.dark-mode footer button:hover {
 
 article {
     margin: 25px 0;
-    font-family: 'Montserrat', sans-serif;
     font-size: 1.25rem;
 }
 
@@ -128,7 +127,7 @@ article h1 {
 }
 
 body.dark-mode article h1 {
-    color: $dark-mode-blue-dark;
+    color: $dark-mode-blue-medium;
 }
 
 article h2 {
@@ -156,7 +155,7 @@ article h3 {
 
 article h4 {
     font-size: 1.3rem;
-    margin:12px 0;
+    margin: 12px 0;
 }
 
 article .meta {
@@ -182,7 +181,7 @@ article .read-more {
 
 article .centered-image {
     text-align: center;
-    margin:20px 0;
+    margin: 20px 0;
 }
 
 article .centered-image img {
@@ -191,11 +190,12 @@ article .centered-image img {
 
 article ul,
 article ol {
-    margin:0 70px 40px 70px;
+    margin: 0 70px 40px 70px;
 }
 
-article ul li, article ol li {
-    padding-left:12px;
+article ul li,
+article ol li {
+    padding-left: 12px;
 }
 
 article hr {
@@ -203,6 +203,11 @@ article hr {
     margin: 40px auto;
     border-bottom: 1px solid hsl(0, 0%, 87.1%);
     background-color: transparent;
+}
+
+.about-image {
+    float: left;
+    margin-right: 50px;
 }
 
 .contact-list {
@@ -217,7 +222,7 @@ article hr {
 }
 
 .projects .project {
-    display:grid;
+    display: grid;
     grid-template-columns: 2fr 3fr;
     grid-template-rows: 1fr;
     grid-column-gap: 50px;
@@ -228,7 +233,7 @@ article hr {
 }
 
 .projects .project:last-child {
-    border-bottom:none;
+    border-bottom: none;
 }
 
 .projects .project .screen {
@@ -241,7 +246,7 @@ article hr {
     grid-column-end: 2;
 }
 
-.projects .project .description h3 {
+.projects .project .description h2 {
     margin-top: 0;
 }
 
@@ -251,7 +256,7 @@ article hr {
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    margin:20px 0;
+    margin: 20px 0;
 }
 
 .pagination .previous {
@@ -262,7 +267,17 @@ article hr {
 .pagination .next {
     grid-column-start: 2;
     grid-column-end: 2;
-    text-align:right;
+    text-align: right;
+}
+
+@media all and (max-width: 1024px) {
+    .about-image {
+        margin: 0 40px 0 0;
+    }
+
+    .about-image img {
+        width: 300px;
+    }
 }
 
 @media all and (max-width: 800px) {
@@ -272,5 +287,91 @@ article hr {
 
     article .centered-image img {
         width: 100%;
+    }
+
+    footer ul li.hidden-tablet {
+        display: none;
+    }
+
+    footer ul li.link-end {
+        padding: 0 60px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    header img.logo {
+        display: none;
+    }
+
+    header span.title {
+        font-size: 1.1rem;
+        padding: 0 10px 0 0;
+    }
+
+    header nav {
+        display: inline;
+    }
+
+    header nav a {
+        padding: 0 10px;
+        font-size: 1rem;
+    }
+
+    header nav a.hidden-mobile {
+        display: none;
+    }
+
+    footer ul li.hidden-mobile {
+        display: none;
+    }
+
+    footer ul li.link-end {
+        padding: 0;
+    }
+
+    article h1 {
+        font-size: 1.8rem;
+    }
+
+    article h2 {
+        font-size: 1.5rem;
+    }
+
+    article .meta {
+        font-size: 1rem;
+    }
+
+    article.post-page h2 {
+        font-size: 1.4rem;
+    }
+
+    article h3 {
+        font-size: 1.3rem;
+    }
+
+    article h4 {
+        font-size: 1.2rem;
+    }
+
+    article {
+        font-size: 1.05rem;
+    }
+
+    .about-image {
+        float: none;
+        margin: 30px 0;
+        text-align: center;
+    }
+
+    .about-image img {
+        width: 250px;
+    }
+
+    .projects .project {
+        display: block;
+    }
+
+    .projects .project .description {
+        margin-top: 15px;
     }
 }
