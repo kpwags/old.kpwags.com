@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        {% include head.html %}
+        <!-- <link rel="stylesheet" href="/assets/scripts/lightGallery/css/lightgallery.min.css" />
+        <script type="text/javascript" src="/assets/scripts/lightGallery/js/lightgallery-all.min.js"></script>
+        <script type="text/javascript" src="/assets/scripts/photoset.js"></script> -->
+    </head>
+
+    <body>
+        {% include header.html %}
+
+        <main>
+            <div class="back-link"><a href="/photography">&#171; Back to Photo Sets</a></div>
+
+            {{ content }}
+
+            <div class="back-link-bottom"><a href="/photography">&#171; Back to Photo Sets</a></div>
+        </main>
+
+        {% include footer.html %}
+    </body>
+
+</html>

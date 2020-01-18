@@ -1,5 +1,5 @@
-_site
+/site/_site
 .sass-cache
 .jekyll-metadata
 .DS_Store
-/s3_website.yml
+/site/s3_website.yml

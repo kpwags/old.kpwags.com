@@ -1,0 +1,42 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+// Our variables
+$base-font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$base-line-height: 1;
+$heading-font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+$spacing-unit: 30px;
+
+$text-color: #444444;
+$grey-text: hsl(0, 0%, 51.4%);
+$grey-color: #cccccc;
+$grey-color-light: lighten($grey-color, 40%);
+
+$background-color: #ededed;
+
+$box-shadow: 0 12px 24px 0 hsla(0, 0%, 0%, 0.2);
+
+$blue-dark: hsl(224.5, 90.7%, 21%);
+$blue-medium: hsl(215.9, 100%, 40%);
+
+$grey-text: hsl(0, 0%, 51.4%);
+
+$dark-grey: hsl(0, 0%, 40%);
+
+$dark-mode-background: hsl(0, 0%, 13.3%);
+$dark-mode-text-color: hsl(0, 0%, 93.7%);
+$dark-mode-blue-medium: hsl(199, 98.3%, 45.9%);
+$dark-mode-blue-dark: hsl(209.1, 78.5%, 43.7%);
+
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import 'base', 'layout', 'photography', '_syntax-highlighting';

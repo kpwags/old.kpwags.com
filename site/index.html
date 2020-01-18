@@ -1,0 +1,31 @@
+---
+layout: default
+title: 'Keith Wagner'
+---
+
+{% for post in paginator.posts %}
+<article>
+    <h2>
+        <a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title}}">{{ post.title }}</a>
+    </h2>
+    <div class="meta">Posted {{ post.date | date: "%B %-d, %Y" }}</div>
+
+    <div class="content">{{ post.excerpt }}</div>
+
+    <div class="read-more">
+        <a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title}}">Read More &#187;</a>
+    </div>
+
+    <hr />
+</article>
+{% endfor %}
+
+<div class="pagination">
+
+        {% if paginator.next_page %}
+        <div class="previous"><a href="{{ paginator.next_page_path }}" class="next">&#171; Older</a></div>
+        {% endif %}
+        {% if paginator.previous_page %}
+            <div class="next"><a href="{{ paginator.previous_page_path }}" class="previous">Newer &#187;</a></div>
+        {% endif %}
+</div>

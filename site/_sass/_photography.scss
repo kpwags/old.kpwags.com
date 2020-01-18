@@ -1,0 +1,126 @@
+.photoset-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.photoset-list a {
+    display: block;
+    box-shadow: $box-shadow;
+    position: relative;
+}
+
+.photoset-list a .description {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    background: hsla(0, 0%, 20%, 0.75);
+    display: none;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+
+.photoset-list a .description .container {
+    padding: 8px;
+}
+
+.photoset-list a .description h4 {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.45rem;
+    margin: 0 0 4px 0;
+    padding: 0;
+    font-weight: 600;
+}
+
+.photoset-list a .description .container div {
+    font-style: italic;
+}
+
+.photoset-list a:hover .description {
+    display: block;
+}
+
+.back-link {
+    margin-bottom: 30px;
+}
+
+.back-link-bottom {
+    margin-top: 30px;
+}
+
+.photoset-header {
+    margin: 0 0 25px 0;
+}
+
+.photoset-header h1 {
+    font-weight: bold;
+    color: $blue-dark;
+    font-size: 2.1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.dark-mode .photoset-header h1 {
+    color: $dark-mode-blue-medium;
+}
+
+.photoset-header .meta {
+    font-style: italic;
+    font-size: 1.05rem;
+    color: $grey-text;
+    margin: 5px 0 25px 0;
+}
+
+.photoset {
+    display: grid;
+    margin-bottom: 10px;
+    grid-column-gap: 10px;
+}
+
+.photoset.single-row {
+    grid-template-columns: 1fr;
+}
+
+.photoset.double-row {
+    grid-template-columns: 1fr 1fr;
+}
+
+.photoset.triple-row {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.photoset a:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.photoset a:nth-child(2) {
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.photoset a:nth-child(3) {
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+div.caption {
+    margin: 5px 0 15px 0;
+    font-size: 1.25rem;
+}
+
+div.caption p {
+    margin-bottom: 10px;
+}
+
+div.caption p:last-child {
+    margin-bottom: 0;
+}
+
+@media all and (max-width: 800px) {
+    .photoset-list a .description {
+        display: block;
+    }
+}

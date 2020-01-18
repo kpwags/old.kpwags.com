@@ -1,0 +1,268 @@
+/**
+ * Reset some basic elements
+ */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+hr,
+dl,
+dd,
+ol,
+ul,
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+/**
+ * Basic styling
+ */
+body {
+    font-family: $base-font-family;
+    font-size: 100%;
+    line-height: $base-line-height;
+    font-weight: 300;
+    color: $text-color;
+    background-color: $background-color;
+    -webkit-text-size-adjust: 100%;
+}
+
+body.dark-mode {
+    background-color:$dark-mode-background;
+    color:$dark-mode-text-color;
+}
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+ul,
+ol,
+dl,
+figure,
+%vertical-rhythm {
+    margin-bottom: $spacing-unit / 2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.2;
+}
+
+/**
+ * Images
+ */
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+/**
+ * Figures
+ */
+figure > img {
+    display: block;
+}
+
+figcaption {
+    font-size: 0.875rem;
+}
+
+/**
+ * Lists
+ */
+ul,
+ol {
+    margin-left: 30px;
+}
+
+li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    > ul,
+    > ol {
+        margin-bottom: 0;
+    }
+}
+
+/**
+ * Headings
+ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 300;
+}
+
+/**
+ * Paragraphs
+ */
+p {
+    line-height: 1.8;
+    margin-bottom:25px;
+}
+
+/**
+ * Links
+ */
+a {
+    color: $blue-medium;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:visited {
+        color: $blue-medium;
+    }
+
+    &:hover {
+        color: $blue-dark;
+        text-decoration: none;
+    }
+}
+
+body.dark-mode a {
+    color: $dark-mode-blue-medium;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:visited {
+        color: $dark-mode-blue-medium;
+    }
+
+    &:hover {
+        color: $dark-mode-blue-dark;
+        text-decoration: none;
+    }
+}
+
+/**
+ * Blockquotes
+ */
+blockquote {
+    color: $grey-color;
+    border-left: 4px solid $grey-color-light;
+    padding-left: $spacing-unit / 2;
+    font-size: 28px;
+    margin: 25px 45px;
+    font-style: italic;
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+}
+
+blockquote div.source {
+    text-align: right;
+    font-size: 18px;
+    margin-right: 50px;
+    margin-top: 15px;
+}
+
+/**
+ * Code formatting
+ */
+pre,
+code {
+    font-size: 15px;
+    border: 1px solid $grey-color-light;
+    border-radius: 3px;
+}
+
+code {
+    padding: 1px 5px;
+}
+
+pre {
+    padding: 8px 12px;
+    overflow-x: scroll;
+
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+strong {
+    font-weight:600;
+}
+
+.clearfix {
+    clear: both;
+    height: 1px;
+}
+
+/**
+ * Clearfix
+ */
+%clearfix {
+    &:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
+/**
+ * Icons
+ */
+.icon {
+    > svg {
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        vertical-align: middle;
+
+        path {
+            fill: $dark-grey;
+        }
+    }
+}
+
+.icon:hover {
+    > svg {
+        path {
+            fill: $blue-medium;
+        }
+    }
+}
+
+body.dark-mode .icon:hover {
+    > svg {
+        path {
+            fill: $dark-mode-blue-medium;
+        }
+    }
+}
+
+.center-align {
+    text-align: center;
+}
+.left-align {
+    text-align: left;
+}
+.right-align {
+    text-align: right;
+}
