@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Fitness Progress - February 2016'
-date: 2016-03-04 21:18:00
+date: 2016-03-04 9:15 pm
 ---
 
 I feel like I had a good February.

@@ -1,10 +1,7 @@
 ---
 layout: post
 title: 'Reading List 8/5 - 8/11'
-date: 2019-08-11 20:15:00
-cover: '/assets/images/posts/reading.jpg'
-indexpos: '50% 50%'
-bgposition: '50% 50%'
+date: 2019-08-11 10:00 am
 ---
 
 I've decided to start this back up. Some interesting thoughts about making the data social media has on us transferrable, DIY Phone Farms, and a new software development podcast I've found.

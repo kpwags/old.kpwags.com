@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'The Redesign'
-date: 2014-11-14 15:36:00
+date: 2014-11-14 3:30 pm
 ---
 
 This has been in the works for some time now.

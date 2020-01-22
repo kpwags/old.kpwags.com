@@ -35,8 +35,8 @@ body {
 }
 
 body.dark-mode {
-    background-color:$dark-mode-background;
-    color:$dark-mode-text-color;
+    background-color: $dark-mode-background;
+    color: $dark-mode-text-color;
 }
 
 /**
@@ -121,7 +121,7 @@ h6 {
  */
 p {
     line-height: 1.8;
-    margin-bottom:25px;
+    margin-bottom: 25px;
 }
 
 /**
@@ -161,16 +161,21 @@ body.dark-mode a {
  * Blockquotes
  */
 blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light;
+    color: $blue-dark;
+    border-left: 4px solid $blue-medium;
     padding-left: $spacing-unit / 2;
     font-size: 28px;
-    margin: 25px 45px;
+    margin: 2.5rem 45px;
     font-style: italic;
 
     > :last-child {
         margin-bottom: 0;
     }
+}
+
+.dark-mode blockquote {
+    color: $grey-text;
+    border-left-color: $dark-mode-blue-medium;
 }
 
 blockquote div.source {
@@ -206,7 +211,7 @@ pre {
 }
 
 strong {
-    font-weight:600;
+    font-weight: 600;
 }
 
 .clearfix {

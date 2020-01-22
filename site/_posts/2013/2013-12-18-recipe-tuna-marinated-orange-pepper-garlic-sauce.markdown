@@ -1,19 +1,19 @@
 ---
 layout: post
 title: 'Recipe - Tuna Marinated in an Orange Pepper Garlic Sauce'
-date: 2013-12-18 20:18:00
+date: 2013-12-18 8:15 pm
 ---
 
 So this was my first attempt at making my own recipe. My first time taking basic ingredients and putting them together, hoping that it turns into something edible. Well, it was most definitely successful and the tuna was absolutely delicious. So, with my glee, I figured I'd share the recipe.
 
 **Ingredients**
 
-- 2 tuna steaks
-- 4 cloves of garlic, minced
-- 1 green bell pepper, diced
-- 2 oranges
-- 1 tsp. garlic & pepper spice blend
-- 2 tbsp. olive oil
+-   2 tuna steaks
+-   4 cloves of garlic, minced
+-   1 green bell pepper, diced
+-   2 oranges
+-   1 tsp. garlic & pepper spice blend
+-   2 tbsp. olive oil
 
 **Instructions**
 

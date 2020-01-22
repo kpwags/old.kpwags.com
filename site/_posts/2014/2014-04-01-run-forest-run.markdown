@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Run Forest Run!'
-date: 2014-04-01 10:23:00
+date: 2014-04-01 10:30 pm
 ---
 
 Well, it's official, this November I will be running my first full marathon. On November 23, 2014 I will be running the Philadelphia Marathon.

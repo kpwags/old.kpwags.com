@@ -1,13 +1,10 @@
 ---
 layout: post
-title:  "Fitness Progress - September 2016"
-date:   2016-10-07 17:05:00
-cover: "/assets/images/posts/weights.jpg"
-indexpos: "50% 50%"
-bgposition: "50% 50%"
+title: 'Fitness Progress - September 2016'
+date: 2016-10-07 5:00 pm
 ---
 
-I guess the one thing I could say that went well this month is that I got my lifts to my previous bests and I got a lot of runs in. 
+I guess the one thing I could say that went well this month is that I got my lifts to my previous bests and I got a lot of runs in.
 
 Vacation killed my weight loss goals as I was feeling particularly lazy, but considering that, I guess it wasn't too bad.
 
@@ -53,4 +50,5 @@ Here's my progress for the month of August compared with the end of July
             <li><strong>Total Distance Biked:</strong> 23.56 miles</li>
         </ul>
     </div>
+
 </div>

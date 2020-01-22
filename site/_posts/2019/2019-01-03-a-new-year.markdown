@@ -1,10 +1,7 @@
 ---
 layout: post
 title: 'A New Year'
-date: 2019-01-03 20:00:00
-cover: '/assets/images/posts/calendar.jpg'
-indexpos: '32% 25%'
-bgposition: '45% 31%'
+date: 2019-01-03 8:00 pm
 ---
 
 A year later, let's see what happened in 2018 and what I'm looking at for 2019.
@@ -23,9 +20,9 @@ Unfortunately, no progress was really made on this front. I did shed a few pound
 
 I did better with reading than I did with my fitness goals. I ended out the year reading a total of 13 books. I probably could have done better, but as I mentioned, I subscribed to _The Economist_ which occupied some of my reading time as well. I think my three favorite books this year were
 
-- [The 2020 Commission Report on the North Korean Nuclear Attacks Against the United States: A Speculative Novel](https://www.amazon.com/gp/product/B079VDR6HM) by Jeffrey Lewis
-- [Shooting Ghosts: A U.S. Marine, a Combat Photographer, and Their Journey Back from War](https://www.amazon.com/gp/product/B01N1RRDMH) by TJ Brennan &amp; Finbarr O'Reilly
-- [Vacationland](https://www.amazon.com/gp/product/B06VTV2899) by John Hodgman.
+-   [The 2020 Commission Report on the North Korean Nuclear Attacks Against the United States: A Speculative Novel](https://www.amazon.com/gp/product/B079VDR6HM) by Jeffrey Lewis
+-   [Shooting Ghosts: A U.S. Marine, a Combat Photographer, and Their Journey Back from War](https://www.amazon.com/gp/product/B01N1RRDMH) by TJ Brennan &amp; Finbarr O'Reilly
+-   [Vacationland](https://www.amazon.com/gp/product/B06VTV2899) by John Hodgman.
 
 #### Side Projects
 

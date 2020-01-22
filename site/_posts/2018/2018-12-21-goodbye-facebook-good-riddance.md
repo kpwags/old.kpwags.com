@@ -1,10 +1,7 @@
 ---
 layout: post
 title: 'Goodbye Facebook & Good Riddance'
-date: 2018-12-21
-cover: '/assets/images/posts/socialmedia.jpg'
-indexpos: '50% 50%'
-bgposition: '50% 50%'
+date: 2018-12-21 10:00 am
 ---
 
 This past week, I finally pulled the trigger and completely removed Facebook from my life. I deleted my Facebook account in June or July, I forget which month, but I had kept my Instagram account. That ended this week when I downloaded my archive and deleted my Instagram account.

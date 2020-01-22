@@ -1,10 +1,7 @@
 ---
 layout: post
 title: '12 Weeks of P.H.U.L.'
-date: 2019-05-28 20:02:00
-cover: '/assets/images/posts/barbell.jpg'
-indexpos: '50% 60%'
-bgposition: '50% 60%'
+date: 2019-05-28 8:02 pm
 ---
 
 Over the last 12 weeks, I’ve been running the [P.H.U.L. Workout Routine](https://www.muscleandstrength.com/workouts/phul-workout).

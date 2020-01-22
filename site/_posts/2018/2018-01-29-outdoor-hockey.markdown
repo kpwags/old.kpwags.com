@@ -1,10 +1,7 @@
 ---
 layout: post
-title:  "Outdoor Hockey"
-date:   2018-01-29 19:54:00
-cover: "/assets/images/posts/hershey-park-stadium.jpg"
-indexpos: "50% 35%"
-bgposition: "50% 65%"
+title: 'Outdoor Hockey'
+date: 2018-01-29 7:54 pm
 ---
 
 So last Friday night, I was able to do something that I've been dreaming of for a while. I was able to skate outdoors on an ice rink in Hershey, Pennsylvania.

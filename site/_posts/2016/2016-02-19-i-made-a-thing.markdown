@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'I Made A Thing!'
-date: 2016-02-19 21:07:00
+date: 2016-02-19 9:00 pm
 ---
 
 So I was in a "I want to develop something mood" recently, but didn't feel like digging into a big project, so I came up with an idea for a new project.

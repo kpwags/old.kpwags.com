@@ -1,10 +1,7 @@
 ---
 layout: post
 title: 'Reading List 2/18 - 3/3'
-date: 2019-03-02 18:12:00
-cover: '/assets/images/posts/reading.jpg'
-indexpos: '50% 50%'
-bgposition: '50% 50%'
+date: 2019-03-02 6:12 pm
 ---
 
 2 weeks combined this time as I was in NYC last weekend. This week I read about loot boxes, whistle blowing, YouTube conspiracies and more.

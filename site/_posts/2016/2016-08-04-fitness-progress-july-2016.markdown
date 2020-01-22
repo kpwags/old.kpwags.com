@@ -1,10 +1,7 @@
 ---
 layout: post
 title: 'Fitness Progress - July 2016'
-date: 2016-08-04 19:25:00
-cover: '/assets/images/posts/weights.jpg'
-indexpos: '50% 50%'
-bgposition: '50% 50%'
+date: 2016-08-04 7:25 pm
 ---
 
 This month was pretty much a complete wash. I didn't really progress at all.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Geeking Out'
-date: 2013-10-30 15:36:00
+date: 2013-10-30 3:30 pm
 ---
 
 So, almost 2 weeks ago, I got married to the most wonderful woman I know. It was amazing, but this is another story.

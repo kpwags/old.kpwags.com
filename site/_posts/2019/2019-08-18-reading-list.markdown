@@ -1,10 +1,7 @@
 ---
 layout: post
 title: 'Reading List 8/12 - 8/18'
-date: 2019-08-18
-cover: '/assets/images/posts/reading.jpg'
-indexpos: '50% 50%'
-bgposition: '50% 50%'
+date: 2019-08-18 10:00 am
 ---
 
 This week I read about changes in the US Navy, another nuclear accident in Russia, a prank gone wrong, and more.

@@ -1,10 +1,7 @@
 ---
 layout: post
 title: 'Reading List 2/11 - 2/17'
-date: 2019-02-19 19:00:00
-cover: '/assets/images/posts/reading-2.jpg'
-indexpos: '50% 50%'
-bgposition: '50% 50%'
+date: 2019-02-19 7:00 pm
 ---
 
 It's a little late, but here we go. This week we look at code, login forms, and the old Altavista search engine.

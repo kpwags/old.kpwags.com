@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Making a Switch to Ghost?'
-date: 2014-01-24 20:00:00
+date: 2014-01-24 8:00 pm
 ---
 
 Several months ago, when Ghost was first released to the public, I took a look at it and made a note to give it a look-see. Over the past week, I finally got it running on my dev server playing nicely with my Apache setup. So far I've been playing around with it and am contemplating whether I want to switch my blog platform over to it from WordPress, which is what I currently use.

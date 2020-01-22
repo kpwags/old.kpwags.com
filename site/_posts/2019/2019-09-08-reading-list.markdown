@@ -1,10 +1,7 @@
 ---
 layout: post
 title: 'Reading List 9/2 - 9/8'
-date: 2019-09-08
-cover: '/assets/images/posts/reading.jpg'
-indexpos: '50% 50%'
-bgposition: '50% 50%'
+date: 2019-09-08 10:00 am
 ---
 
 This week I read about Firefox improving users' privacy by default, why the GOP and conservatives are wrong about "censorship" on social media, nuclear energy, and a weird bit of tax policy.

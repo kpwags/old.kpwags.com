@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Uncluttered'
-date: 2013-09-03 13:37:00
+date: 2013-09-03 1:30 pm
 ---
 
 One of the biggest things I try to do is keep my desk uncluttered. I find that it helps me stay organized. As an example, here's my desk at work.

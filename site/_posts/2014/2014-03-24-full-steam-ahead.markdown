@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Full Steam Ahead'
-date: 2014-03-24 11:29:00
+date: 2014-03-24 11:30 am
 ---
 
 A week or so ago I decided that I needed a new programming project to work on. I haven't really had something like this since I closed the book on OpenVoter.

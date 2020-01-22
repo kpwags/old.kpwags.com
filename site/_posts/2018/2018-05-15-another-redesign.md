@@ -1,13 +1,10 @@
 ---
 layout: post
-title:  "Another Redesign"
-date:   2018-05-15
-cover: "/assets/images/posts/code.jpg"
-indexpos: "20% 50%"
-bgposition: "45% 50%"
+title: 'Another Redesign'
+date: 2018-05-15 10:00 am
 ---
 
-As you can tell, I've decided to give my blog a little bit of a facelift. 
+As you can tell, I've decided to give my blog a little bit of a facelift.
 
 The primary reason I decided to do this was that I realized I basically made my posts dependent upon having an image for every blog post, and in some cases, limited how long the opening of my posts could be. If I didn't make it fall within these constraints, the alignment of the boxes would end up being off. It wasn't really a long-term solution that worked. I decided that a redesign was in order.
 
@@ -19,4 +16,4 @@ On mobile, the sidebar slims down and becomes the header. I was slightly concern
 
 I might end up doing something different for the photography page, but I like the way the design turned out for the blog portion of my site.
 
-I think another, probable less glamorous part of it is that I can never seem to stick with a design. After a while, I just want to dig in and redesign it. I wish I would end up spending more time writing posts rather than re-writing the code behind it. 
+I think another, probable less glamorous part of it is that I can never seem to stick with a design. After a while, I just want to dig in and redesign it. I wish I would end up spending more time writing posts rather than re-writing the code behind it.

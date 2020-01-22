@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'My Thoughts on Ghost so Far'
-date: 2014-02-10 12:15:00
+date: 2014-02-10 12:15 pm
 ---
 
 Two weeks ago, I decided to make the switch from WordPress to Ghost as my blogging platform. For me it was a figuratively big jump as I have been using WordPress for years and hadn't really thought of switching to any other platform.

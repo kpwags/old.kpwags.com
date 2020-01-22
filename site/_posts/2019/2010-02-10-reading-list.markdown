@@ -1,10 +1,7 @@
 ---
 layout: post
 title: 'Reading List 2/4 - 2/10'
-date: 2019-02-10 19:00:00
-cover: '/assets/images/posts/reading.jpg'
-indexpos: '50% 50%'
-bgposition: '50% 50%'
+date: 2019-02-10 7:00 pm
 ---
 
 This week looks at controversies at Instacart and DoorDash, possible changes in MLB rules, French battlefields in WWI and WWII, &amp; Google/Facebook lock-in.

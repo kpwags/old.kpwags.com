@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Redesigned Again'
-date: 2015-12-12 19:43:00
+date: 2015-12-12 7:45 pm
 ---
 
 Over the course of the last several months, I’ve been busy building out my website utilizing <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a> instead of Wordpress. It’s not my first time moving away from Wordpress, but I think it will end up being permanent.

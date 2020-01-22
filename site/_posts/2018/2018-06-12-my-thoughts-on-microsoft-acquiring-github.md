@@ -1,13 +1,10 @@
 ---
 layout: post
-title:  "My Thoughts on Microsoft Acquiring GitHub"
-date:   2018-06-12
-cover: "/assets/images/posts/microsoft-github.jpg"
-indexpos: "50% 50%"
-bgposition: "50% 50%"
+title: 'My Thoughts on Microsoft Acquiring GitHub'
+date: 2018-06-12 10:00 am
 ---
 
-Last Monday, [Microsoft bought GitHub for a whopping $7.5 billion](https://www.theverge.com/2018/6/4/17422788/microsoft-github-acquisition-official-deal).
+Last Monday, [Microsoft bought GitHub for a whopping \$7.5 billion](https://www.theverge.com/2018/6/4/17422788/microsoft-github-acquisition-official-deal).
 
 Naturally, given how much the open source community uses GitHub, this caused quite the uproar. There were views from all across the spectrum. Some were saying that it was awful, while others were more optimistic about it. Elsewhere in the community, it has gone so far that GitLab, one of GitHub’s bigger competitors, even saw a [large spike of project imports](https://monitor.gitlab.net/dashboard/db/github-importer?orgId=1), likely because of the acquisition. I know I saw somewhere that SourceForge was even trying to court devs to move their projects to their platform.
 

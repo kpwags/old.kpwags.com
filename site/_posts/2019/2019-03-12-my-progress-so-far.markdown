@@ -1,10 +1,7 @@
 ---
 layout: post
 title: 'My Progress So Far'
-date: 2019-03-12 20:41:00
-cover: '/assets/images/posts/bullseye.jpg'
-indexpos: '50% 50%'
-bgposition: '50% 50%'
+date: 2019-03-12 8:41 pm
 ---
 
 Two and a half months in, I figured I’d reflect on where things stand with regards towards working towards the goals I set for myself.

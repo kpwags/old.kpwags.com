@@ -1,10 +1,7 @@
 ---
 layout: post
 title: '3 Weeks In'
-date: 2019-01-22 19:00:00
-cover: '/assets/images/posts/bullseye.jpg'
-indexpos: '50% 50%'
-bgposition: '50% 50%'
+date: 2019-01-22 7:00 pm
 ---
 
 Since we’re now about 3 weeks into 2019, I figured I’d quickly see where I’m at in terms of my goals for the year.

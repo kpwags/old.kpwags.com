@@ -1,10 +1,7 @@
 ---
 layout: post
 title: 'Reading List 1/28 - 2/3'
-date: 2019-02-03 19:00:00
-cover: '/assets/images/posts/reading.jpg'
-indexpos: '50% 50%'
-bgposition: '50% 50%'
+date: 2019-02-03 10:00 am
 ---
 
 Another week, another set of articles ranging from Apple's row with Facebook to the future of American infrastructure.

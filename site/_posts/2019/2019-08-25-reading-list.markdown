@@ -1,10 +1,7 @@
 ---
 layout: post
 title: 'Reading List 8/19 - 8/25'
-date: 2019-08-25
-cover: '/assets/images/posts/reading.jpg'
-indexpos: '50% 50%'
-bgposition: '50% 50%'
+date: 2019-08-25 10:00 am
 ---
 
 This week I read about Javascript, jQuery, terraforming Mars, baseball cards and more.
