@@ -3,30 +3,124 @@ layout: page
 title: 'Current Activities'
 ---
 
+<script type="text/javascript">
+    window.onload = function() {
+        let dataJson = new Request('/assets/data/current.json', {
+            method: 'GET',
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        });
+
+        fetch(dataJson)
+            .then(function(resp) {
+                return resp.json();
+            })
+            .then(function(result) {
+                processCurrent(result);
+            });
+    };
+
+    function processCurrent(data) {
+        document.getElementById('lastupdate').innerText = data.lastupdate;
+        processReading(data.reading);
+        processPlaying(data.playing);
+        processWatching(data.watching);
+    }
+
+    function processReading(data) {
+        data.forEach(book => {
+            const html = `
+                <div class="book">
+                    <div class="image">
+                        <a href="${book.link}">
+                            <picture>
+                                <source srcset="/assets/images/reading/${book.cover}" media="(min-width: 600px)" />
+                                <img src="/assets/images/1x1.png" alt="${book.title} by ${book.author}" />
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="info">
+                        <h3>
+                            <a href="${book.link}">${book.title}</a>
+                        </h3>
+                        <em>${book.author}</em>
+                    </div>
+                </div>
+            `;
+
+            let newNode = document.createElement('div');
+            newNode.innerHTML = html;
+            document.getElementById('readinglist').appendChild(newNode);
+        });
+    }
+
+    function processPlaying(data) {
+        data.forEach(game => {
+            const html = `
+                <div class="game">
+                    <div class="image">
+                        <a href="${game.link}">
+                            <picture>
+                                <source srcset="/assets/images/games/${game.cover}" media="(min-width: 600px)" />
+                                <img src="/assets/images/1x1.png" alt="${game.title}" />
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="info">
+                        <h3>
+                            <a href="${game.link}">${game.title} <span>(${game.system})</span></a>
+                        </h3>
+                    </div>
+                </div>
+            `;
+
+            let newNode = document.createElement('div');
+            newNode.innerHTML = html;
+            document.getElementById('playinglist').appendChild(newNode);
+        });
+    }
+
+    function processWatching(data) {
+        data.forEach(show => {
+            const html = `
+                <div class="watching">
+                    <div class="image">
+                        <picture>
+                            <source srcset="/assets/images/watching/${show.cover}" media="(min-width: 600px)" />
+                            <img src="/assets/images/1x1.png" alt="${show.title}" />
+                        </picture>
+                    </div>
+                    <div class="info">
+                        <h3>${show.title}</h3>
+                    </div>
+                </div>
+            `;
+
+            let newNode = document.createElement('div');
+            newNode.innerHTML = html;
+            document.getElementById('watchinglist').appendChild(newNode);
+        });
+    }
+</script>
+
 <h1>What I'm Currently Doing</h1>
 <div class="content">
-    <p><em>Last Updated: February 2020</em></p>
+    <p>
+        <em>Last Updated: <span id="lastupdate"></span></em>
+    </p>
+
     <h2>Reading</h2>
-    <ul>
-        <li>
-            <a href="https://www.amazon.com/gp/product/B007UH4EPS" target="_blank" rel="noopener"
-                >The Andromeda Strain</a
-            >
-            by Michael Crichton
-        </li>
-    </ul>
+
+    <div class="current-list" id="readinglist"></div>
+
     <p>You can see my full reading list <a href="/reading-list">here</a>.</p>
 
     <h2>Playing</h2>
-    <ul>
-        <li>The Witcher 3 (PC)</li>
-        <li>NHL 20 (PS4)</li>
-    </ul>
+
+    <div class="current-list" id="playinglist"></div>
 
     <h2>Watching</h2>
-    <ul>
-        <li>The Expanse</li>
-        <li>Star Trek: Discovery</li>
-        <li>Star Trek: Picard</li>
-    </ul>
+
+    <div class="current-list" id="watchinglist"></div>
 </div>

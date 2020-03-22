@@ -210,17 +210,6 @@ article hr {
     margin-right: 50px;
 }
 
-.contact-list {
-    margin: 25px 0;
-    text-align: center;
-}
-
-.contact-list li {
-    list-style-type: none;
-    display: inline-block;
-    margin: 15px;
-}
-
 .projects .project {
     display: grid;
     grid-template-columns: 2fr 3fr;
@@ -268,6 +257,97 @@ article hr {
     grid-column-start: 2;
     grid-column-end: 2;
     text-align: right;
+}
+
+.current-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    grid-column-gap: 10px;
+    grid-row-gap: 25px;
+    margin: 12px 0 50px;
+    justify-items: center;
+}
+
+.current-list .book,
+.current-list .game,
+.current-list .watching,
+.current-list .book .image,
+.current-list .game .image,
+.current-list .watching .image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.current-list .book .image img,
+.current-list .game .image img,
+.current-list .watching .image img {
+    max-height: 300px;
+    box-shadow: 0 12px 24px 0 hsla(0, 0%, 0%, 0.2);
+}
+
+.current-list .book .info h3,
+.current-list .game .info h3,
+.current-list .watching .info h3 {
+    font-size: 1.33rem;
+    margin: 8px 0;
+    color: $blue-medium;
+    text-align: center;
+}
+
+.current-list .book .info h3 span,
+.current-list .game .info h3 span,
+.current-list .watching .info h3 span {
+    white-space: nowrap;
+}
+
+.current-list .book .info em {
+    font-size: 1.05rem;
+    margin: 8px 0 0 0;
+}
+
+.current-list .book .rating img {
+    padding: 0 4px;
+    margin: 12px 0;
+}
+
+.current-list .book .review {
+    font-size: 1.05rem;
+}
+
+.current-list .book .review button {
+    background: none !important;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    cursor: pointer;
+    color: $blue-medium;
+}
+
+.current-list .book .review button:hover {
+    color: $blue-dark;
+}
+
+.current-list .book .review div {
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+ul.contact-list {
+    width: 300px;
+    margin: 20px auto;
+}
+
+ul.contact-list li {
+    list-style-type: none;
+    margin: 16px 0;
+    line-height: 24px;
+}
+
+ul.contact-list li img {
+    width: 24px;
+    height: 24px;
+    padding-right: 10px;
 }
 
 @media all and (max-width: 1024px) {
@@ -373,5 +453,11 @@ article hr {
 
     .projects .project .description {
         margin-top: 15px;
+    }
+
+    .current-list .book .image,
+    .current-list .game .image,
+    .current-list .watching .image {
+        display: none;
     }
 }

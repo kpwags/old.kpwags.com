@@ -140,6 +140,10 @@ a {
         color: $blue-dark;
         text-decoration: none;
     }
+
+    img {
+        border: none;
+    }
 }
 
 body.dark-mode a {

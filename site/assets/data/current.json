@@ -1,0 +1,63 @@
+{
+    "lastupdate": "March 2020",
+    "reading": [
+        {
+            "title": "Congo",
+            "author": "Michael Crichton",
+            "cover": "congo.jpg",
+            "link": "https://www.amazon.com/gp/product/B007UH4FK2",
+            "rating": null,
+            "thoughts": null
+        }
+    ],
+    "watching": [
+        {
+            "title": "Star Trek: Picard",
+            "cover": "picard.jpg"
+        },
+        {
+            "title": "Discovery",
+            "cover": "discovery.jpg"
+        },
+        {
+            "title": "The Expanse",
+            "cover": "expanse.jpg"
+        },
+        {
+            "title": "Person of Interest",
+            "cover": "personofinterest.jpg"
+        }
+    ],
+    "playing": [
+        {
+            "title": "Witcher 3",
+            "system": "PC",
+            "cover": "witcher3.jpg",
+            "link": "https://store.steampowered.com/sub/124923/"
+        },
+        {
+            "title": "NHL 20",
+            "system": "PS4",
+            "cover": "nhl20.jpg",
+            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA15439_00-NHLICEHOCKEY2020"
+        },
+        {
+            "title": "Star Wars: Battlefront II",
+            "system": "XBOX One",
+            "cover": "battlefront2.jpg",
+            "link": "https://www.xbox.com/en-us/games/star-wars-battlefront-II"
+        },
+        {
+            "title": "Halo 5",
+            "system": "XBOX One",
+            "cover": "halo5.jpg",
+            "link": "https://www.microsoft.com/en-us/p/halo-5-guardians/BRRC2BP0G9P0"
+        },
+        {
+            "title": "Pokemon Sword",
+            "system": "Nintendo Switch",
+            "cover": "pokemonsword.jpg",
+            "link": "https://www.amazon.com/Pokemon-Sword-Nintendo-Switch/dp/B07PC7X38X"
+        }
+    ]
+}
