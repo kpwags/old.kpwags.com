@@ -105,11 +105,13 @@ body.dark-mode footer button {
     color: $dark-mode-blue-medium;
 }
 
-footer button:hover {
+footer button:hover,
+footer button:focus {
     color: $blue-dark;
 }
 
-body.dark-mode footer button:hover {
+body.dark-mode footer button:hover,
+body.dark-mode footer button:focus {
     color: $dark-mode-blue-dark;
 }
 
@@ -161,7 +163,6 @@ article h4 {
 article .meta {
     font-style: italic;
     font-size: 1.05rem;
-    color: $grey-text;
     margin: 5px 0 0 0;
 }
 
