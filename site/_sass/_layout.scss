@@ -350,6 +350,13 @@ ul.contact-list li img {
     padding-right: 10px;
 }
 
+.centered {
+    text-align: center;
+}
+.error {
+    color: #ff0000;
+}
+
 @media all and (max-width: 1024px) {
     .about-image {
         margin: 0 40px 0 0;
