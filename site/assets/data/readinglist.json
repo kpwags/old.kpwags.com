@@ -2,15 +2,23 @@
     "lastupdate": "March 2020",
     "current": [
         {
-            "title": "Congo",
-            "author": "Michael Crichton",
-            "cover": "congo.jpg",
-            "link": "https://www.amazon.com/gp/product/B007UH4FK2",
+            "title": "The Incomplete Book of Running",
+            "author": "Peter Sagal",
+            "cover": "incompletebookofrunning.jpg",
+            "link": "https://www.amazon.com/gp/product/B07CMXZC7L",
             "rating": null,
             "thoughts": null
         }
     ],
     "2020": [
+        {
+            "title": "Congo",
+            "author": "Michael Crichton",
+            "cover": "congo.jpg",
+            "link": "https://www.amazon.com/gp/product/B007UH4FK2",
+            "rating": 4,
+            "thoughts": "I enjoyed this one. Wasn't my favorite Crichton novel, but it was an interesting story with a plotline that had the right number of twists."
+        },
         {
             "title": "Sphere",
             "author": "Michael Crichton",
