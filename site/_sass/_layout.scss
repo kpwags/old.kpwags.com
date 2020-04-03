@@ -295,6 +295,12 @@ article hr {
     text-align: center;
 }
 
+body.dark-mode .current-list .book .info h3,
+body.dark-mode .current-list .game .info h3,
+body.dark-mode .current-list .watching .info h3 {
+    color: $dark-mode-blue-medium;
+}
+
 .current-list .book .info h3 span,
 .current-list .game .info h3 span,
 .current-list .watching .info h3 span {
@@ -327,6 +333,14 @@ article hr {
 
 .current-list .book .review button:hover {
     color: $blue-dark;
+}
+
+body.dark-mode .current-list .book .review button {
+    color: $dark-mode-blue-medium;
+}
+
+body.dark-mode .current-list .book .review button:hover {
+    color: $dark-mode-blue-dark;
 }
 
 .current-list .book .review div {

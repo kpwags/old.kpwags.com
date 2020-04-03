@@ -3,3 +3,4 @@
 .jekyll-metadata
 .DS_Store
 /site/s3_website.yml
+.jekyll-cache
