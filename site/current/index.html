@@ -4,19 +4,24 @@ title: 'Current Activities'
 ---
 
 <script type="text/javascript">
-    window.onload = function() {
+    window.onload = function () {
+        if (getCookie('kpwagsdarkmode') === '1') {
+            document.body.classList.add('dark-mode');
+            document.getElementById('dark-mode-button').innerText = 'Light Mode';
+        }
+
         let dataJson = new Request('/assets/data/current.json', {
             method: 'GET',
             headers: {
-                'Content-Type': 'application/json'
-            }
+                'Content-Type': 'application/json',
+            },
         });
 
         fetch(dataJson)
-            .then(function(resp) {
+            .then(function (resp) {
                 return resp.json();
             })
-            .then(function(result) {
+            .then(function (result) {
                 processCurrent(result);
             });
     };
@@ -29,7 +34,7 @@ title: 'Current Activities'
     }
 
     function processReading(data) {
-        data.forEach(book => {
+        data.forEach((book) => {
             const html = `
                 <div class="book">
                     <div class="image">
@@ -56,7 +61,7 @@ title: 'Current Activities'
     }
 
     function processPlaying(data) {
-        data.forEach(game => {
+        data.forEach((game) => {
             const html = `
                 <div class="game">
                     <div class="image">
@@ -82,7 +87,7 @@ title: 'Current Activities'
     }
 
     function processWatching(data) {
-        data.forEach(show => {
+        data.forEach((show) => {
             const html = `
                 <div class="watching">
                     <div class="image">
