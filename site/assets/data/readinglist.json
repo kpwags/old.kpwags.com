@@ -8,17 +8,17 @@
             "link": "https://www.amazon.com/gp/product/0399589813",
             "rating": null,
             "thoughts": null
-        },
+        }
+    ],
+    "2020": [
         {
             "title": "Flash Boys: A Wall Street Revolt",
             "author": "Michael Lewis",
             "cover": "flashboys.jpg",
             "link": "https://www.amazon.com/gp/product/B00HVJB4VM",
-            "rating": null,
-            "thoughts": null
-        }
-    ],
-    "2020": [
+            "rating": 5,
+            "thoughts": "I've been getting more interested in how the financial world works. This was a fantastic read about High-Frequency Trading and how it often screws over common investors like you and me. Michael Lewis then goes on to tell how one guy went about figuring this out to then trying to even the playing field."
+        },
         {
             "title": "The Incomplete Book of Running",
             "author": "Peter Sagal",
