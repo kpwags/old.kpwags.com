@@ -2,15 +2,23 @@
     "lastupdate": "April 2020",
     "current": [
         {
-            "title": "The Soul of America: The Battle for Our Better Angels",
-            "author": "Jon Meacham",
-            "cover": "soulofamerica.jpg",
-            "link": "https://www.amazon.com/gp/product/0399589813",
+            "title": "Auberon",
+            "author": "James S.A. Corey",
+            "cover": "auberon.jpg",
+            "link": "https://www.amazon.com/gp/product/B07YKR19FN",
             "rating": null,
             "thoughts": null
         }
     ],
     "2020": [
+        {
+            "title": "The Soul of America: The Battle for Our Better Angels",
+            "author": "Jon Meacham",
+            "cover": "soulofamerica.jpg",
+            "link": "https://www.amazon.com/gp/product/0399589813",
+            "rating": 3,
+            "thoughts": "Reading this during Trump's presidency gave me some hope for the country being able to move forward. It reminded me of Martin Luther King's Quote \"The arc of the moral universe is long, but it bends toward justice.\" It took a look back at previous tumultuous times in America and showed that while progress hasn't always been as fast as I would like, we as a nation have progressed."
+        },
         {
             "title": "Flash Boys: A Wall Street Revolt",
             "author": "Michael Lewis",
