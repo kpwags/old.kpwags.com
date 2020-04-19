@@ -30,16 +30,16 @@
     ],
     "playing": [
         {
-            "title": "Witcher 3",
-            "system": "PC",
-            "cover": "witcher3.jpg",
-            "link": "https://store.steampowered.com/sub/124923/"
+            "title": "Borderlands 3",
+            "system": "PS4",
+            "cover": "borderlands3.jpg",
+            "link": "https://store.playstation.com/en-us/product/UP1001-CUSA07823_00-000000000OAKSIEA"
         },
         {
-            "title": "NHL 20",
-            "system": "PS4",
-            "cover": "nhl20.jpg",
-            "link": "https://store.playstation.com/en-us/product/UP0006-CUSA15439_00-NHLICEHOCKEY2020"
+            "title": "Destiny 2",
+            "system": "PC",
+            "cover": "destiny2.jpg",
+            "link": "https://store.steampowered.com/app/1085660/Destiny_2/"
         },
         {
             "title": "Star Wars: Battlefront II",
