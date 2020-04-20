@@ -2,15 +2,23 @@
     "lastupdate": "April 2020",
     "current": [
         {
-            "title": "Auberon",
-            "author": "James S.A. Corey",
-            "cover": "auberon.jpg",
-            "link": "https://www.amazon.com/gp/product/B07YKR19FN",
+            "title": "The Fifth Risk",
+            "author": "Michael Lewis",
+            "cover": "fifthrisk.jpg",
+            "link": "https://bookshop.org/books/the-fifth-risk-undoing-democracy/9780393357455",
             "rating": null,
             "thoughts": null
         }
     ],
     "2020": [
+        {
+            "title": "Auberon",
+            "author": "James S.A. Corey",
+            "cover": "auberon.jpg",
+            "link": "https://www.amazon.com/gp/product/B07YKR19FN",
+            "rating": 4,
+            "thoughts": "Another solid novella set in the universe of The Expanse."
+        },
         {
             "title": "The Soul of America: The Battle for Our Better Angels",
             "author": "Jon Meacham",
