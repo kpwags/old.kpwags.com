@@ -2,15 +2,23 @@
     "lastupdate": "April 2020",
     "current": [
         {
-            "title": "The Fifth Risk",
-            "author": "Michael Lewis",
-            "cover": "fifthrisk.jpg",
-            "link": "https://bookshop.org/books/the-fifth-risk-undoing-democracy/9780393357455",
+            "title": "How To: Absurd Scientific Advice for Common Real-World Problems",
+            "author": "Randall Munroe",
+            "cover": "howto.jpg",
+            "link": "https://bookshop.org/books/how-to-absurd-scientific-advice-for-common-real-world-problems/9780525537090",
             "rating": null,
             "thoughts": null
         }
     ],
     "2020": [
+        {
+            "title": "The Fifth Risk",
+            "author": "Michael Lewis",
+            "cover": "fifthrisk.jpg",
+            "link": "https://bookshop.org/books/the-fifth-risk-undoing-democracy/9780393357455",
+            "rating": 5,
+            "thoughts": "This book made me go back and forth between \"wow, that's interesting!\" and anger. I learned a lot about little (but actually big) things different departments within the U.S. Government does and the risks now in place due to the cronyism and general lack of knowledge the Trump Administration has introduced."
+        },
         {
             "title": "Auberon",
             "author": "James S.A. Corey",
