@@ -1,4 +1,5 @@
-body {
+body,
+body.light-mode {
     background-image: url('/assets/images/background.png');
     background-repeat: repeat;
 }
@@ -11,7 +12,8 @@ main {
     padding: 0 150px;
 }
 
-header {
+header,
+body.light-mode header {
     border-bottom: 2px solid $blue-dark;
     height: 60px;
     line-height: 60px;
@@ -50,7 +52,8 @@ header nav a:hover {
     color: $blue-dark;
 }
 
-footer {
+footer,
+body.light-mode footer {
     border-top: 1px solid $blue-dark;
     padding: 0 15px;
     height: 50px;
@@ -87,7 +90,8 @@ footer ul li.link-end {
     padding-right: 60px;
 }
 
-footer button {
+footer button,
+body.light-mode footer button {
     display: inline-block;
     border: none;
     margin: 0;
@@ -106,7 +110,9 @@ body.dark-mode footer button {
 }
 
 footer button:hover,
-footer button:focus {
+footer button:focus,
+body.light-mode footer button:hover,
+body.light-mode footer button:focus {
     color: $blue-dark;
 }
 
@@ -120,7 +126,8 @@ article {
     font-size: 1.25rem;
 }
 
-article h1 {
+article h1,
+body.light-mode article h1 {
     font-weight: bold;
     color: $blue-dark;
     font-size: 2.1rem;
@@ -139,7 +146,8 @@ article h2 {
     padding: 0;
 }
 
-article.post-page h2 {
+article.post-page h2,
+body.light-mode article.post-page h2 {
     font-size: 1.6rem;
     margin: 24px 0 15px 0;
     color: $blue-medium;
@@ -288,7 +296,10 @@ article hr {
 
 .current-list .book .info h3,
 .current-list .game .info h3,
-.current-list .watching .info h3 {
+.current-list .watching .info h3,
+body.light-mode .current-list .book .info h3,
+body.light-mode .current-list .game .info h3,
+body.light-mode .current-list .watching .info h3 {
     font-size: 1.33rem;
     margin: 8px 0;
     color: $blue-medium;
@@ -321,7 +332,8 @@ body.dark-mode .current-list .watching .info h3 {
     font-size: 1.05rem;
 }
 
-.current-list .book .review button {
+.current-list .book .review button,
+body.light-mode .current-list .book .review button {
     background: none !important;
     color: inherit;
     border: none;
@@ -331,7 +343,8 @@ body.dark-mode .current-list .watching .info h3 {
     color: $blue-medium;
 }
 
-.current-list .book .review button:hover {
+.current-list .book .review button:hover,
+body.light-mode .current-list .book .review button:hover {
     color: $blue-dark;
 }
 
@@ -481,5 +494,73 @@ ul.contact-list li img {
     .current-list .game .image,
     .current-list .watching .image {
         display: none;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    #dark-mode-button {
+        display: inline;
+    }
+
+    #light-mode-button {
+        display: none;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    #dark-mode-button {
+        display: none;
+    }
+
+    #light-mode-button {
+        display: inline;
+    }
+
+    body {
+        background-image: none;
+    }
+
+    header {
+        border-bottom-color: $dark-mode-blue-medium;
+    }
+
+    header nav a:hover {
+        color: $blue-dark;
+        color: $dark-mode-blue-dark;
+    }
+
+    footer {
+        border-top-color: $dark-mode-blue-medium;
+    }
+
+    footer button {
+        color: $dark-mode-blue-medium;
+    }
+
+    footer button:hover,
+    footer button:focus {
+        color: $dark-mode-blue-dark;
+    }
+
+    article h1 {
+        color: $dark-mode-blue-medium;
+    }
+
+    article.post-page h2 {
+        color: $dark-mode-blue-medium;
+    }
+
+    .current-list .book .info h3,
+    .current-list .game .info h3,
+    .current-list .watching .info h3 {
+        color: $dark-mode-blue-medium;
+    }
+
+    .current-list .book .review button {
+        color: $dark-mode-blue-medium;
+    }
+
+    .current-list .book .review button:hover {
+        color: $dark-mode-blue-dark;
     }
 }

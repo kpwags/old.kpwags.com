@@ -24,7 +24,8 @@ figure {
 /**
  * Basic styling
  */
-body {
+body,
+body.light-mode {
     font-family: $base-font-family;
     font-size: 100%;
     line-height: $base-line-height;
@@ -127,7 +128,8 @@ p {
 /**
  * Links
  */
-a {
+a,
+body.light-mode a {
     color: $blue-medium;
     text-decoration: none;
     cursor: pointer;
@@ -164,7 +166,8 @@ body.dark-mode a {
 /**
  * Blockquotes
  */
-blockquote {
+blockquote,
+body.light-mode blockquote {
     color: $blue-dark;
     border-left: 4px solid $blue-medium;
     padding-left: $spacing-unit / 2;
@@ -250,7 +253,8 @@ strong {
     }
 }
 
-.icon:hover {
+.icon:hover,
+body.light-mode .icon:hover {
     > svg {
         path {
             fill: $blue-medium;
@@ -274,4 +278,39 @@ body.dark-mode .icon:hover {
 }
 .right-align {
     text-align: right;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: $dark-mode-background;
+        color: $dark-mode-text-color;
+    }
+
+    a {
+        color: $dark-mode-blue-medium;
+        text-decoration: none;
+        cursor: pointer;
+
+        &:visited {
+            color: $dark-mode-blue-medium;
+        }
+
+        &:hover {
+            color: $dark-mode-blue-dark;
+            text-decoration: none;
+        }
+    }
+
+    blockquote {
+        color: $grey-text;
+        border-left-color: $dark-mode-blue-medium;
+    }
+
+    .icon:hover {
+        > svg {
+            path {
+                fill: $dark-mode-blue-medium;
+            }
+        }
+    }
 }

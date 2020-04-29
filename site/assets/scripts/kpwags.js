@@ -1,20 +1,27 @@
-window.onload = function(e) {
-    if (getCookie('kpwagsdarkmode') === '1') {
+window.onload = function (e) {
+    if (getCookie('kpwagsoverridemode') === 'dark') {
         document.body.classList.add('dark-mode');
-        document.getElementById('dark-mode-button').innerText = 'Light Mode';
+    } else if (getCookie('kpwagsoverridemode') === 'light') {
+        document.body.classList.add('light-mode');
     }
 };
 
-function toggleDarkMode() {
-    if (document.body.classList.contains('dark-mode')) {
-        setCookie('kpwagsdarkmode', '0', 365);
-        document.getElementById('dark-mode-button').innerText = 'Dark Mode';
-    } else {
-        setCookie('kpwagsdarkmode', '1', 365);
-        document.getElementById('dark-mode-button').innerText = 'Light Mode';
-    }
+function toggleDarkMode(buttonName) {
+    const buttonText = document.getElementById(`${buttonName}-mode-button`).innerText;
 
-    document.body.classList.toggle('dark-mode');
+    if (buttonText === 'Light Mode') {
+        // override to light
+        setCookie('kpwagsoverridemode', 'light', 365);
+        document.getElementById(`${buttonName}-mode-button`).innerText = 'Light Mode';
+        document.body.classList.remove('dark-mode');
+        document.body.classList.add('light-mode');
+    } else {
+        // override to dark
+        setCookie('kpwagsoverridemode', 'dark', 365);
+        document.getElementById(`${buttonName}-mode-button`).innerText = 'Dark Mode';
+        document.body.classList.remove('light-mode');
+        document.body.classList.add('dark-mode');
+    }
 }
 
 function setCookie(name, value, days) {

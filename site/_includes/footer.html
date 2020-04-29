@@ -17,12 +17,13 @@
         <li class="hidden-tablet"><a href="/projects">Projects</a></li>
         <li class="hidden-tablet"><a href="/contact">Contact</a></li>
         <li class="link-end" id="toggledarkmode">
-            <button type="button" onclick="toggleDarkMode()" id="dark-mode-button">Dark Mode</button>
+            <button type="button" onclick="toggleDarkMode('dark')" id="dark-mode-button">Dark Mode</button>
+            <button type="button" onclick="toggleDarkMode('light')" id="light-mode-button">Light Mode</button>
         </li>
 
         <li class="hidden-mobile">
             <a href="https://twitter.com/{{ site.twitter_username }}" title="Twitter">
-                <span class="icon  icon--twitter">
+                <span class="icon icon--twitter">
                     <svg viewBox="0 0 16 16" role="img" aria-label="Twitter">
                         <path
                             fill="#828282"
@@ -35,7 +36,7 @@
         </li>
         <li class="hidden-mobile">
             <a href="https://github.com/{{ site.github_username }}" title="GitHub">
-                <span class="icon  icon--github">
+                <span class="icon icon--github">
                     <svg viewBox="0 0 16 16" role="img" aria-label="GitHub">
                         <path
                             fill="#828282"
