@@ -17,8 +17,23 @@
         <li class="hidden-tablet"><a href="/projects">Projects</a></li>
         <li class="hidden-tablet"><a href="/contact">Contact</a></li>
         <li class="link-end" id="toggledarkmode">
-            <button type="button" onclick="toggleDarkMode('dark')" id="dark-mode-button">Dark Mode</button>
-            <button type="button" onclick="toggleDarkMode('light')" id="light-mode-button">Light Mode</button>
+            <div class="mode-switcher" id="mode-switcher">
+                <div class="content">
+                    <ul>
+                        <li id="switch-light">
+                            <button type="button" class="mode-switch-button" id="btn-switch-light">Light</button>
+                        </li>
+                        <li id="switch-system">
+                            <button type="button" class="mode-switch-button" id="btn-switch-system">System</button>
+                        </li>
+                        <li id="switch-dark">
+                            <button type="button" class="mode-switch-button" id="btn-switch-dark">Dark</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="arrow"></div>
+            </div>
+            <button type="button" id="open-mode-switcher">Switch Mode</button>
         </li>
 
         <li class="hidden-mobile">

@@ -90,6 +90,10 @@ footer ul li.link-end {
     padding-right: 60px;
 }
 
+footer ul li#toggledarkmode {
+    position: relative;
+}
+
 footer button,
 body.light-mode footer button {
     display: inline-block;
@@ -119,6 +123,82 @@ body.light-mode footer button:focus {
 body.dark-mode footer button:hover,
 body.dark-mode footer button:focus {
     color: $dark-mode-blue-dark;
+}
+
+footer .mode-switcher {
+    display: none;
+    position: absolute;
+    z-index: 10;
+    bottom: 50px;
+    left: -90px;
+    width: 320px;
+}
+
+footer .mode-switcher .content,
+body.light-mode .mode-switcher .content {
+    background: #dbdbdb;
+    border-radius: 6px;
+}
+
+body.dark-mode footer .mode-switcher .content {
+    background: #434343;
+}
+
+footer .mode-switcher .arrow,
+body.light-mode footer .mode-switcher .arrow {
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 20px solid #dbdbdb;
+    left: 50%;
+    position: absolute;
+    margin-left: -30px;
+}
+
+body.dark-mode footer .mode-switcher .arrow {
+    border-top-color: #434343;
+}
+
+footer .mode-switcher ul {
+    padding: 10px;
+    margin: 0;
+}
+
+footer .mode-switcher ul li button {
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+footer .mode-switcher ul li.active button,
+body.light-mode footer .mode-switcher ul li.active button {
+    color: #eee;
+    background: $blue-medium;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+footer .mode-switcher ul li button:hover,
+footer .mode-switcher ul li button:focus,
+body.light-mode footer .mode-switcher ul li button:hover,
+body.light-mode footer .mode-switcher ul li button:focus {
+    color: #eee;
+    background: $blue-medium;
+}
+
+body.dark-mode footer .mode-switcher ul li.active button {
+    color: #eee;
+    background: $dark-mode-blue-medium;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+body.dark-mode .mode-switcher ul li button:hover,
+body.dark-mode .mode-switcher ul li button:focus,
+body.dark-mode .mode-switcher ul li.active button:hover,
+body.dark-mode .mode-switcher ul li.active button:focus {
+    color: #eee;
+    background: $dark-mode-blue-medium;
 }
 
 article {
@@ -497,25 +577,7 @@ ul.contact-list li img {
     }
 }
 
-@media (prefers-color-scheme: light) {
-    #dark-mode-button {
-        display: inline;
-    }
-
-    #light-mode-button {
-        display: none;
-    }
-}
-
 @media (prefers-color-scheme: dark) {
-    #dark-mode-button {
-        display: none;
-    }
-
-    #light-mode-button {
-        display: inline;
-    }
-
     body {
         background-image: none;
     }
@@ -540,6 +602,27 @@ ul.contact-list li img {
     footer button:hover,
     footer button:focus {
         color: $dark-mode-blue-dark;
+    }
+
+    footer .mode-switcher .content {
+        background: #434343;
+    }
+
+    footer .mode-switcher .arrow {
+        border-top-color: #434343;
+    }
+
+    footer .mode-switcher ul li.active button {
+        color: #eee;
+        background: $dark-mode-blue-medium;
+    }
+
+    footer .mode-switcher ul li.active button:hover,
+    footer .mode-switcher ul li.active button:focus,
+    footer .mode-switcher ul li button:hover,
+    footer .mode-switcher ul li button:focus {
+        color: #eee;
+        background: $dark-mode-blue-medium;
     }
 
     article h1 {
