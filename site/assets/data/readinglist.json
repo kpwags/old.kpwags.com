@@ -1,16 +1,32 @@
 {
-    "lastupdate": "April 2020",
+    "lastupdate": "May 2020",
     "current": [
         {
-            "title": "How To: Absurd Scientific Advice for Common Real-World Problems",
-            "author": "Randall Munroe",
-            "cover": "howto.jpg",
-            "link": "https://bookshop.org/books/how-to-absurd-scientific-advice-for-common-real-world-problems/9780525537090",
+            "title": "The Outsider",
+            "author": "Stephen King",
+            "cover": "theoutsider.jpg",
+            "link": "https://bookshop.org/books/the-outsider-9781501181009/9781501181009",
             "rating": null,
             "thoughts": null
         }
     ],
     "2020": [
+        {
+            "title": "Open Borders: The Science and Ethics of Immigration",
+            "author": "Bryan Caplan & Zach Weinersmith",
+            "cover": "openborders.jpg",
+            "link": "https://bookshop.org/books/open-borders-the-science-and-ethics-of-immigration/9781250316967",
+            "rating": 4,
+            "thoughts": "I don't think I would of expected something like this to have been done with a graphic novel, but it was anyway, and done well. It was an interesting read about the economics and some of the misunderstandings of immigration."
+        },
+        {
+            "title": "How To: Absurd Scientific Advice for Common Real-World Problems",
+            "author": "Randall Munroe",
+            "cover": "howto.jpg",
+            "link": "https://bookshop.org/books/how-to-absurd-scientific-advice-for-common-real-world-problems/9780525537090",
+            "rating": 5,
+            "thoughts": "As a fan of XKCD and of Randall's humor, this book was informative and funny. Randall has a fantastic way of bringing science, humor, and the absurd together in an interesting and easy-to-read-and-understand way."
+        },
         {
             "title": "The Fifth Risk",
             "author": "Michael Lewis",
