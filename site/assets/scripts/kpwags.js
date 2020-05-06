@@ -1,4 +1,8 @@
 window.onload = function (e) {
+    initializeMode();
+};
+
+function initializeMode() {
     if (getCookie('kpwagsoverridemode') === 'dark') {
         document.body.classList.add('dark-mode');
     } else if (getCookie('kpwagsoverridemode') === 'light') {
@@ -18,7 +22,7 @@ window.onload = function (e) {
             switchMode(e.target.id.replace('btn-switch-', ''));
         };
     }
-};
+}
 
 function openModeSwitcher() {
     if (isSwitcherOpen()) {
@@ -108,7 +112,7 @@ function getCookie(name) {
 }
 
 function eraseCookie(name) {
-    document.cookie = name + '=; Max-Age=-99999999;';
+    document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
 }
 
 function handleClickOutside(e) {

@@ -5,10 +5,7 @@ title: 'Current Activities'
 
 <script type="text/javascript">
     window.onload = function () {
-        if (getCookie('kpwagsdarkmode') === '1') {
-            document.body.classList.add('dark-mode');
-            document.getElementById('dark-mode-button').innerText = 'Light Mode';
-        }
+        initializeMode();
 
         let dataJson = new Request('/assets/data/current.json', {
             method: 'GET',
