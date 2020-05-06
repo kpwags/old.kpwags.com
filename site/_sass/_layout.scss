@@ -9,6 +9,13 @@ body.dark-mode {
 }
 
 main {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+main.gallery {
+    width: auto;
+    margin: auto;
     padding: 0 150px;
 }
 
@@ -469,6 +476,18 @@ ul.contact-list li img {
     color: #ff0000;
 }
 
+@media all and (max-width: 1280px) {
+    main {
+        margin: auto;
+        width: 100%;
+        padding: 0;
+    }
+
+    main .main-content {
+        padding: 0 15px;
+    }
+}
+
 @media all and (max-width: 1024px) {
     .about-image {
         margin: 0 40px 0 0;
@@ -480,10 +499,6 @@ ul.contact-list li img {
 }
 
 @media all and (max-width: 800px) {
-    main {
-        padding: 0 15px;
-    }
-
     article .centered-image img {
         width: 100%;
     }
