@@ -2,10 +2,10 @@
     "lastupdate": "May 2020",
     "reading": [
         {
-            "title": "The Outsider",
-            "author": "Stephen King",
-            "cover": "theoutsider.jpg",
-            "link": "https://bookshop.org/books/the-outsider-9781501181009/9781501181009",
+            "title": "The Big Short",
+            "author": "Michael Lewis",
+            "cover": "thebigshort.jpg",
+            "link": "https://bookshop.org/books/the-big-short-inside-the-doomsday-machine/9780393338829",
             "rating": null,
             "thoughts": null
         }
@@ -26,6 +26,14 @@
         {
             "title": "Person of Interest",
             "cover": "personofinterest.jpg"
+        },
+        {
+            "title": "Designated Survivor",
+            "cover": "designatedsurvivor.jpg"
+        },
+        {
+            "title": "LOST",
+            "cover": "lost.jpg"
         }
     ],
     "playing": [
@@ -36,10 +44,10 @@
             "link": "https://store.playstation.com/en-us/product/UP1001-CUSA07823_00-000000000OAKSIEA"
         },
         {
-            "title": "Destiny 2",
+            "title": "Dragon Age: Origins",
             "system": "PC",
-            "cover": "destiny2.jpg",
-            "link": "https://store.steampowered.com/app/1085660/Destiny_2/"
+            "cover": "dragonageorigins.jpg",
+            "link": "https://store.steampowered.com/app/47810/Dragon_Age_Origins__Ultimate_Edition/"
         },
         {
             "title": "Star Wars: Battlefront II",
