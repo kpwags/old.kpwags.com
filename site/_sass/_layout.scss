@@ -213,6 +213,18 @@ article {
     font-size: 1.25rem;
 }
 
+article .cover-image {
+    height: 350px;
+    width: 100%;
+    overflow: hidden;
+    background-size: 100%;
+    margin-bottom: 25px;
+}
+
+article.index .cover-image {
+    display: none;
+}
+
 article h1,
 body.light-mode article h1 {
     font-weight: bold;
@@ -281,7 +293,12 @@ article .centered-image {
 }
 
 article .centered-image img {
-    width: 80%;
+    max-width: 80%;
+}
+
+article .centered-image .credit {
+    margin: 10px 0;
+    color: hsl(0, 0%, 60%);
 }
 
 article ul,
@@ -541,6 +558,19 @@ ul.contact-list li img {
 
     footer ul li.link-end {
         padding: 0;
+    }
+
+    footer .mode-switcher {
+        left: -180px;
+    }
+
+    footer .mode-switcher .arrow,
+    body.light-mode footer .mode-switcher .arrow {
+        left: 71%;
+    }
+
+    article .cover-image {
+        display: none;
     }
 
     article h1 {
