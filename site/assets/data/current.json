@@ -38,28 +38,16 @@
     ],
     "playing": [
         {
-            "title": "Borderlands 3",
+            "title": "The Last of Us",
             "system": "PS4",
-            "cover": "borderlands3.jpg",
-            "link": "https://store.playstation.com/en-us/product/UP1001-CUSA07823_00-000000000OAKSIEA"
-        },
-        {
-            "title": "Dragon Age: Origins",
-            "system": "PC",
-            "cover": "dragonageorigins.jpg",
-            "link": "https://store.steampowered.com/app/47810/Dragon_Age_Origins__Ultimate_Edition/"
+            "cover": "lastofus.jpg",
+            "link": "https://www.playstation.com/en-us/games/the-last-of-us-remastered-ps4/"
         },
         {
             "title": "Star Wars: Battlefront II",
-            "system": "XBOX One",
+            "system": "XBOX One & PS4",
             "cover": "battlefront2.jpg",
             "link": "https://www.xbox.com/en-us/games/star-wars-battlefront-II"
-        },
-        {
-            "title": "Halo 5",
-            "system": "XBOX One",
-            "cover": "halo5.jpg",
-            "link": "https://www.microsoft.com/en-us/p/halo-5-guardians/BRRC2BP0G9P0"
         },
         {
             "title": "Pokemon Sword",
