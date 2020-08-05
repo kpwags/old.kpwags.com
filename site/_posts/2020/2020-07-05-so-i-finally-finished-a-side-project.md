@@ -6,11 +6,13 @@ date: 2020-07-05 2:25pm
 
 I’ve often seen a joke going around dev circles talking about how developers have tons of half-finished side projects lying around. And as much as it pains me to say, I’m one of them. But now I can say that that pile has decreased by one.
 
+_Edit: Due to hosting costs on Azure, I'm currently looking for a less expensive option and will update this post if/when I find an alternative_
+
 ## Where Do You Want to Eat?
 
-Ever have a back-and-forth with friends or your better half about where you want to go to eat? Well, I built a little web app so you can use that to make your decision. Now, you can let a web app tell you where to go so no one can be unhappy with each other for the decision! (Be angry at...wait a minute...please don’t be mad at me). Check it out!
+Ever have a back-and-forth with friends or your better half about where you want to go to eat? Well, I built a little web app so you can use that to make your decision. Now, you can let a web app tell you where to go so no one can be unhappy with each other for the decision! (Be angry at...wait a minute...please don’t be mad at me).
 
-[Where Do You Want to Eat?](https://www.wheredoyouwanttoeat.xyz)
+<!-- [Where Do You Want to Eat?](https://www.wheredoyouwanttoeat.xyz) -->
 
 <div class="centered-image"><img src="/assets/images/posts/2020-07-05-so-i-finally-finished-a-side-project/wheredoyouwanttoeat2.jpg" alt="Screen shot of the new Where Do You Want to Eat" class="shadowed" /></div>
 
@@ -40,4 +42,4 @@ From the start, I knew I wanted to use Microsoft Azure for hosting. I used Amazo
 
 I found that it was a fun little project to build, and a good learning experience. I do find it kind of odd to release it during a pandemic where we probably shouldn’t be going out to eat, but for now it can still be used for takeout. So please feel free to check it out, test it out, and let me know what you think!
 
-[Where Do You Want to Eat?](https://www.wheredoyouwanttoeat.xyz)
+<!-- [Where Do You Want to Eat?](https://www.wheredoyouwanttoeat.xyz) -->
