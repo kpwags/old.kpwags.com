@@ -1,16 +1,32 @@
 {
-    "lastupdate": "June 2020",
+    "lastupdate": "August 2020",
     "reading": [
         {
-            "title": "The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power",
-            "author": "Shoshana Zuboff",
-            "cover": "surveillancecapitalism.jpg",
-            "link": "https://bookshop.org/books/the-age-of-surveillance-capitalism-the-fight-for-a-human-future-at-the-new-frontier-of-power/9781610395694",
+            "title": "The Collapsing Empire",
+            "author": "John Scalzi",
+            "cover": "collapsingempire.jpg",
+            "link": "https://bookshop.org/books/the-collapsing-empire/9780765388902",
             "rating": null,
             "thoughts": null
         }
     ],
     "watching": [
+        {
+            "title": "NHL Stanley Cup Playoffs",
+            "cover": "2020stanleycup.jpg"
+        },
+        {
+            "title": "Person of Interest",
+            "cover": "personofinterest.jpg"
+        },
+        {
+            "title": "Designated Survivor",
+            "cover": "designatedsurvivor.jpg"
+        },
+        {
+            "title": "Star Trek",
+            "cover": "startrek.jpg"
+        },
         {
             "title": "Star Trek: Picard",
             "cover": "picard.jpg"
@@ -22,18 +38,6 @@
         {
             "title": "The Expanse",
             "cover": "expanse.jpg"
-        },
-        {
-            "title": "Person of Interest",
-            "cover": "personofinterest.jpg"
-        },
-        {
-            "title": "Designated Survivor",
-            "cover": "designatedsurvivor.jpg"
-        },
-        {
-            "title": "LOST",
-            "cover": "lost.jpg"
         }
     ],
     "playing": [

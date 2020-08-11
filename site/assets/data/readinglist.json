@@ -1,16 +1,24 @@
 {
-    "lastupdate": "June 2020",
+    "lastupdate": "August 2020",
     "current": [
         {
-            "title": "The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power",
-            "author": "Shoshana Zuboff",
-            "cover": "surveillancecapitalism.jpg",
-            "link": "https://bookshop.org/books/the-age-of-surveillance-capitalism-the-fight-for-a-human-future-at-the-new-frontier-of-power/9781610395694",
+            "title": "The Collapsing Empire",
+            "author": "John Scalzi",
+            "cover": "collapsingempire.jpg",
+            "link": "https://bookshop.org/books/the-collapsing-empire/9780765388902",
             "rating": null,
             "thoughts": null
         }
     ],
     "2020": [
+        {
+            "title": "The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power",
+            "author": "Shoshana Zuboff",
+            "cover": "surveillancecapitalism.jpg",
+            "link": "https://bookshop.org/books/the-age-of-surveillance-capitalism-the-fight-for-a-human-future-at-the-new-frontier-of-power/9781610395694",
+            "rating": 4,
+            "thoughts": "This was a long read, but thoughtful and complicated. It goes into how services like Google & Facebook take as much of our data as they possibly can even when it will disturb the general population. It also confirmed my reasons for deleting my Facebook and Instagram accounts as well as moving away from Google."
+        },
         {
             "title": "The Big Short",
             "author": "Michael Lewis",
