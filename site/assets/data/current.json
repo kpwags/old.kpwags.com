@@ -1,11 +1,11 @@
 {
-    "lastupdate": "August 2020",
+    "lastupdate": "September 2020",
     "reading": [
         {
-            "title": "The Collapsing Empire",
+            "title": "The Consuming Fire",
             "author": "John Scalzi",
-            "cover": "collapsingempire.jpg",
-            "link": "https://bookshop.org/books/the-collapsing-empire/9780765388902",
+            "cover": "consumingfire.jpg",
+            "link": "https://bookshop.org/books/the-consuming-fire/9780765388995",
             "rating": null,
             "thoughts": null
         }
@@ -14,10 +14,6 @@
         {
             "title": "NHL Stanley Cup Playoffs",
             "cover": "2020stanleycup.jpg"
-        },
-        {
-            "title": "Person of Interest",
-            "cover": "personofinterest.jpg"
         },
         {
             "title": "Designated Survivor",
@@ -42,14 +38,20 @@
     ],
     "playing": [
         {
-            "title": "The Last of Us",
-            "system": "PS4",
-            "cover": "lastofus.jpg",
+            "title": "Jedi: Fallen Order",
+            "system": "Xbox One",
+            "cover": "fallenorder.jpg",
+            "link": "https://www.xbox.com/en-US/games/star-wars-jedi-fallen-order"
+        },
+        {
+            "title": "Destiny 2",
+            "system": "Xbox One & PC",
+            "cover": "destiny2.jpg",
             "link": "https://www.playstation.com/en-us/games/the-last-of-us-remastered-ps4/"
         },
         {
             "title": "Star Wars: Battlefront II",
-            "system": "XBOX One & PS4",
+            "system": "Xbox One & PS4",
             "cover": "battlefront2.jpg",
             "link": "https://www.xbox.com/en-us/games/star-wars-battlefront-II"
         },
