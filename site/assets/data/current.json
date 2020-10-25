@@ -1,23 +1,19 @@
 {
-    "lastupdate": "September 2020",
+    "lastupdate": "October 2020",
     "reading": [
         {
-            "title": "The Consuming Fire",
+            "title": "Head On",
             "author": "John Scalzi",
-            "cover": "consumingfire.jpg",
-            "link": "https://bookshop.org/books/the-consuming-fire/9780765388995",
+            "cover": "headon.jpg",
+            "link": "https://bookshop.org/books/head-on-a-novel-of-the-near-future/9780765388933",
             "rating": null,
             "thoughts": null
         }
     ],
     "watching": [
         {
-            "title": "NHL Stanley Cup Playoffs",
-            "cover": "2020stanleycup.jpg"
-        },
-        {
-            "title": "Designated Survivor",
-            "cover": "designatedsurvivor.jpg"
+            "title": "Star Trek: Lower Decks",
+            "cover": "lowerdecks.jpg"
         },
         {
             "title": "Star Trek",
@@ -54,12 +50,6 @@
             "system": "Xbox One & PS4",
             "cover": "battlefront2.jpg",
             "link": "https://www.xbox.com/en-us/games/star-wars-battlefront-II"
-        },
-        {
-            "title": "Pokemon Sword",
-            "system": "Nintendo Switch",
-            "cover": "pokemonsword.jpg",
-            "link": "https://www.amazon.com/Pokemon-Sword-Nintendo-Switch/dp/B07PC7X38X"
         }
     ]
 }
