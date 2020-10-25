@@ -1,8 +1,8 @@
 # Site settings
 title: Keith Wagner
-email: keith.p.wagner@gmail.com
+email: keith@kpwags.com
 description: > # this means to ignore newlines until "baseurl:"
-  I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.
+    I'm a software developer, gamer, geek, amateur hockey player, aspiring writer, and a whole lot more. I enjoy tech, baseball, hockey, sci-fi and plenty more.
 baseurl: '' # the subpath of your site, e.g. /blog/
 url: 'https://kpwags.com' # the base hostname & protocol for your site
 twitter_username: kpwags

@@ -1,16 +1,32 @@
 {
-    "lastupdate": "September 2020",
+    "lastupdate": "October 2020",
     "current": [
         {
-            "title": "The Consuming Fire",
+            "title": "Head On",
             "author": "John Scalzi",
-            "cover": "consumingfire.jpg",
-            "link": "https://bookshop.org/books/the-consuming-fire/9780765388995",
+            "cover": "headon.jpg",
+            "link": "https://bookshop.org/books/head-on-a-novel-of-the-near-future/9780765388933",
             "rating": null,
             "thoughts": null
         }
     ],
     "2020": [
+        {
+            "title": "The Last Emperox",
+            "author": "John Scalzi",
+            "cover": "lastemperox.jpg",
+            "link": "https://bookshop.org/books/the-last-emperox/9780765389169",
+            "rating": 5,
+            "thoughts": "Great novel to finish the trilogy. A great ending and worth the read."
+        },
+        {
+            "title": "The Consuming Fire",
+            "author": "John Scalzi",
+            "cover": "consumingfire.jpg",
+            "link": "https://bookshop.org/books/the-consuming-fire/9780765388995",
+            "rating": 4,
+            "thoughts": "Solid continuation of the Interdependency Series by John Scalzi. Definitely made me want to continue reading."
+        },
         {
             "title": "The Collapsing Empire",
             "author": "John Scalzi",

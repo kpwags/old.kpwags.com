@@ -19,25 +19,25 @@ main.gallery {
     padding: 0 150px;
 }
 
-header,
-body.light-mode header {
-    border-bottom: 2px solid $blue-dark;
+header {
     height: 60px;
     line-height: 60px;
     padding: 0 10px;
-    margin-bottom: 50px;
+    width: 1200px;
+    margin: 0 auto 50px auto;
 }
 
-body.dark-mode header {
-    border-bottom-color: $dark-mode-blue-medium;
+header div.site-title {
+    display: inline-block;
 }
 
-header img.logo {
+header div.site-title img.logo {
     width: 40px;
     height: 40px;
+    padding: 10px 0;
 }
 
-header span.title {
+header div.site-title span.title {
     font-weight: 400;
     font-size: 1.4rem;
     padding: 0 25px 0 10px;
@@ -46,7 +46,8 @@ header span.title {
 }
 
 header nav {
-    display: inline;
+    display: block;
+    float: right;
 }
 
 header nav a {
@@ -59,9 +60,7 @@ header nav a:hover {
     color: $blue-dark;
 }
 
-footer,
-body.light-mode footer {
-    border-top: 1px solid $blue-dark;
+footer {
     padding: 0 15px;
     height: 50px;
     line-height: 50px;
@@ -69,18 +68,34 @@ body.light-mode footer {
     text-align: center;
 }
 
+footer,
+body.light-mode footer {
+    border-top: 1px solid $blue-dark;
+}
+
 body.dark-mode footer {
     border-top-color: $dark-mode-blue-medium;
+}
+
+footer .content {
+    width: 1200px;
+    margin: 0 auto;
 }
 
 footer .copyright {
     font-size: 1rem;
     font-style: italic;
     color: $dark-grey;
+    float: left;
 }
 
 footer ul {
     margin: 0;
+}
+
+footer ul.navigation {
+    float: right;
+    text-align: right;
 }
 
 footer ul li {
@@ -89,123 +104,19 @@ footer ul li {
     padding: 0 15px;
 }
 
-footer ul li.link-start {
-    padding-left: 60px;
-}
-
-footer ul li.link-end {
-    padding-right: 60px;
-}
-
-footer ul li#toggledarkmode {
-    position: relative;
-}
-
 footer button,
 body.light-mode footer button {
-    display: inline-block;
-    border: none;
-    margin: 0;
-    padding: 0;
-    font-family: $base-font-family;
-    font-size: 1rem;
-    line-height: 1;
     background: transparent;
-    font-weight: 300;
-    color: $blue-medium;
+    background-image: url('../assets/images/toggle-lightmode.png');
     cursor: pointer;
+    width: 30px;
+    height: 16px;
+    border: none;
+    vertical-align: middle;
 }
 
 body.dark-mode footer button {
-    color: $dark-mode-blue-medium;
-}
-
-footer button:hover,
-footer button:focus,
-body.light-mode footer button:hover,
-body.light-mode footer button:focus {
-    color: $blue-dark;
-}
-
-body.dark-mode footer button:hover,
-body.dark-mode footer button:focus {
-    color: $dark-mode-blue-dark;
-}
-
-footer .mode-switcher {
-    display: none;
-    position: absolute;
-    z-index: 10;
-    bottom: 50px;
-    left: -90px;
-    width: 320px;
-}
-
-footer .mode-switcher .content,
-body.light-mode .mode-switcher .content {
-    background: #dbdbdb;
-    border-radius: 6px;
-}
-
-body.dark-mode footer .mode-switcher .content {
-    background: #434343;
-}
-
-footer .mode-switcher .arrow,
-body.light-mode footer .mode-switcher .arrow {
-    width: 0;
-    height: 0;
-    border-left: 30px solid transparent;
-    border-right: 30px solid transparent;
-    border-top: 20px solid #dbdbdb;
-    left: 50%;
-    position: absolute;
-    margin-left: -30px;
-}
-
-body.dark-mode footer .mode-switcher .arrow {
-    border-top-color: #434343;
-}
-
-footer .mode-switcher ul {
-    padding: 10px;
-    margin: 0;
-}
-
-footer .mode-switcher ul li button {
-    padding: 5px 10px;
-    border-radius: 6px;
-}
-
-footer .mode-switcher ul li.active button,
-body.light-mode footer .mode-switcher ul li.active button {
-    color: #eee;
-    background: $blue-medium;
-    padding: 5px 10px;
-    border-radius: 6px;
-}
-
-footer .mode-switcher ul li button:hover,
-footer .mode-switcher ul li button:focus,
-body.light-mode footer .mode-switcher ul li button:hover,
-body.light-mode footer .mode-switcher ul li button:focus {
-    color: #eee;
-    background: $blue-medium;
-}
-
-body.dark-mode footer .mode-switcher ul li.active button {
-    color: #eee;
-    background: $dark-mode-blue-medium;
-    padding: 5px 10px;
-    border-radius: 6px;
-}
-
-body.dark-mode .mode-switcher ul li button:hover,
-body.dark-mode .mode-switcher ul li button:focus,
-body.dark-mode .mode-switcher ul li.active button:hover,
-body.dark-mode .mode-switcher ul li.active button:focus {
-    color: #eee;
-    background: $dark-mode-blue-medium;
+    background-image: url('../assets/images/toggle-darkmode.png');
 }
 
 article {
@@ -380,9 +291,18 @@ article hr {
     text-align: right;
 }
 
+main.current h1 {
+    color: #0052cc;
+    font-weight: bold;
+}
+
+body.dark-mode main.current h1 {
+    color: #029fe8;
+}
+
 .current-list {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
     grid-column-gap: 10px;
     grid-row-gap: 25px;
     margin: 12px 0 50px;
@@ -499,13 +419,27 @@ ul.contact-list li img {
 
 @media all and (max-width: 1280px) {
     main {
-        margin: auto;
-        width: 100%;
+        margin: 0 auto;
+        width: 960px;
+        padding: 0;
+    }
+
+    header {
+        width: 960px;
+        margin: 0 auto 40px auto;
         padding: 0;
     }
 
     main .main-content {
         padding: 0 15px;
+    }
+
+    footer {
+        padding: 0;
+    }
+
+    footer .content {
+        width: 960px;
     }
 }
 
@@ -519,62 +453,92 @@ ul.contact-list li img {
     }
 }
 
-@media all and (max-width: 800px) {
-    article .centered-image img {
+@media all and (max-width: 1023px) {
+    main {
         width: 100%;
     }
 
-    footer ul li.hidden-tablet {
-        display: none;
+    header {
+        width: 100%;
     }
 
-    footer ul li.link-end {
-        padding: 0 60px;
+    header div.site-title {
+        padding-left: 10px;
+    }
+
+    header nav {
+        padding-right: 10px;
+    }
+
+    footer .content {
+        width: 100%;
     }
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 800px) {
+    header {
+        line-height: 1;
+        padding: 10px 0;
+        height: auto;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    header div.site-title {
+        float: none;
+        padding: 0;
+    }
+
     header img.logo {
         display: none;
     }
 
-    header span.title {
-        font-size: 1.1rem;
-        padding: 0 10px 0 0;
-    }
-
-    header nav {
-        display: inline;
-    }
-
-    header nav a {
-        padding: 0 10px;
-        font-size: 1rem;
-    }
-
-    header nav a.hidden-mobile {
-        display: none;
-    }
-
-    footer ul li.hidden-mobile {
-        display: none;
-    }
-
-    footer ul li.link-end {
+    header div.site-title span.title {
         padding: 0;
     }
 
-    footer .mode-switcher {
-        left: -180px;
+    header nav {
+        display: block;
+        float: none;
+        padding: 0;
+        margin: 25px 0 15px 0;
     }
 
-    footer .mode-switcher .arrow,
-    body.light-mode footer .mode-switcher .arrow {
-        left: 71%;
+    header nav a {
+        font-size: 1rem;
+        padding: 0 8px;
     }
 
-    article .cover-image {
-        display: none;
+    footer {
+        height: auto;
+        line-height: 1;
+        text-align: center;
+        padding: 0;
+    }
+
+    footer .content {
+        padding: 10px;
+        width: auto;
+    }
+
+    footer .content .copyright {
+        float: none;
+    }
+
+    footer .content ul.navigation {
+        float: none;
+        text-align: center;
+        height: auto;
+        margin: 15px 0;
+    }
+
+    footer .content ul.navigation li {
+        float: none;
+        line-height: 2;
+    }
+
+    main.current h1 {
+        font-size: 1.5rem;
     }
 
     article h1 {
@@ -605,20 +569,8 @@ ul.contact-list li img {
         font-size: 1.05rem;
     }
 
-    main.gallery {
-        width: auto;
-        margin: auto;
-        padding: 0 10px;
-    }
-
-    .about-image {
-        float: none;
-        margin: 30px 0;
-        text-align: center;
-    }
-
-    .about-image img {
-        width: 250px;
+    article .centered-image img {
+        width: 100%;
     }
 
     .projects .project {
@@ -629,12 +581,117 @@ ul.contact-list li img {
         margin-top: 15px;
     }
 
-    .current-list .book .image,
-    .current-list .game .image,
-    .current-list .watching .image {
-        display: none;
+    .projects .project .description h2.shrink {
+        font-size: 1.25rem;
+    }
+
+    ul.uses {
+        margin: 0 15px 25px 15px;
     }
 }
+
+// @media all and (max-width: 600px) {
+//     header img.logo {
+//         display: none;
+//     }
+
+//     header span.title {
+//         font-size: 1.1rem;
+//         padding: 0 10px 0 0;
+//     }
+
+//     header nav {
+//         display: inline;
+//     }
+
+//     header nav a {
+//         padding: 0 10px;
+//         font-size: 1rem;
+//     }
+
+//     header nav a.hidden-mobile {
+//         display: none;
+//     }
+
+//     footer ul li.hidden-mobile {
+//         display: none;
+//     }
+
+//     footer ul li.link-end {
+//         padding: 0;
+//     }
+
+//     footer .mode-switcher {
+//         left: -180px;
+//     }
+
+//     footer .mode-switcher .arrow,
+//     body.light-mode footer .mode-switcher .arrow {
+//         left: 71%;
+//     }
+
+//     article .cover-image {
+//         display: none;
+//     }
+
+//     article h1 {
+//         font-size: 1.8rem;
+//     }
+
+//     article h2 {
+//         font-size: 1.5rem;
+//     }
+
+//     article .meta {
+//         font-size: 1rem;
+//     }
+
+//     article.post-page h2 {
+//         font-size: 1.4rem;
+//     }
+
+//     article h3 {
+//         font-size: 1.3rem;
+//     }
+
+//     article h4 {
+//         font-size: 1.2rem;
+//     }
+
+//     article {
+//         font-size: 1.05rem;
+//     }
+
+//     main.gallery {
+//         width: auto;
+//         margin: auto;
+//         padding: 0 10px;
+//     }
+
+//     .about-image {
+//         float: none;
+//         margin: 30px 0;
+//         text-align: center;
+//     }
+
+//     .about-image img {
+//         width: 250px;
+//     }
+
+//     .projects .project {
+//         display: block;
+//     }
+
+//     .projects .project .description {
+//         margin-top: 15px;
+//     }
+
+//     .current-list .book .image,
+//     .current-list .game .image,
+//     .current-list .watching .image {
+//         display: none;
+//     }
+// }
 
 @media (prefers-color-scheme: dark) {
     body {
