@@ -139,7 +139,7 @@ article.index .cover-image {
 article h1,
 body.light-mode article h1 {
     font-weight: bold;
-    color: $blue-dark;
+    color: $blue-medium;
     font-size: 2.1rem;
     margin: 0;
     padding: 0;
@@ -393,6 +393,21 @@ body.dark-mode .current-list .book .review button:hover {
     margin: 10px 0;
 }
 
+ul.about-contact-list {
+    text-align: center;
+}
+
+ul.about-contact-list li {
+    padding: 0 20px;
+    margin: 15px 0;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+ul.about-contact-list li img {
+    width: 32px;
+}
+
 ul.contact-list {
     width: 300px;
     margin: 20px auto;
@@ -588,110 +603,17 @@ ul.contact-list li img {
     ul.uses {
         margin: 0 15px 25px 15px;
     }
+
+    ul.about-contact-list {
+        margin: 0 10px 40px 10px;
+    }
+
+    ul.about-contact-list li {
+        padding: 0;
+        margin: 20px 0;
+        display: block;
+    }
 }
-
-// @media all and (max-width: 600px) {
-//     header img.logo {
-//         display: none;
-//     }
-
-//     header span.title {
-//         font-size: 1.1rem;
-//         padding: 0 10px 0 0;
-//     }
-
-//     header nav {
-//         display: inline;
-//     }
-
-//     header nav a {
-//         padding: 0 10px;
-//         font-size: 1rem;
-//     }
-
-//     header nav a.hidden-mobile {
-//         display: none;
-//     }
-
-//     footer ul li.hidden-mobile {
-//         display: none;
-//     }
-
-//     footer ul li.link-end {
-//         padding: 0;
-//     }
-
-//     footer .mode-switcher {
-//         left: -180px;
-//     }
-
-//     footer .mode-switcher .arrow,
-//     body.light-mode footer .mode-switcher .arrow {
-//         left: 71%;
-//     }
-
-//     article .cover-image {
-//         display: none;
-//     }
-
-//     article h1 {
-//         font-size: 1.8rem;
-//     }
-
-//     article h2 {
-//         font-size: 1.5rem;
-//     }
-
-//     article .meta {
-//         font-size: 1rem;
-//     }
-
-//     article.post-page h2 {
-//         font-size: 1.4rem;
-//     }
-
-//     article h3 {
-//         font-size: 1.3rem;
-//     }
-
-//     article h4 {
-//         font-size: 1.2rem;
-//     }
-
-//     article {
-//         font-size: 1.05rem;
-//     }
-
-//     main.gallery {
-//         width: auto;
-//         margin: auto;
-//         padding: 0 10px;
-//     }
-
-//     .about-image {
-//         float: none;
-//         margin: 30px 0;
-//         text-align: center;
-//     }
-
-//     .about-image img {
-//         width: 250px;
-//     }
-
-//     .projects .project {
-//         display: block;
-//     }
-
-//     .projects .project .description {
-//         margin-top: 15px;
-//     }
-
-//     .current-list .book .image,
-//     .current-list .game .image,
-//     .current-list .watching .image {
-//         display: none;
-//     }
-// }
 
 @media (prefers-color-scheme: dark) {
     body {
