@@ -1,11 +1,11 @@
 {
-    "lastupdate": "October 2020",
+    "lastupdate": "November 2020",
     "reading": [
         {
-            "title": "Head On",
-            "author": "John Scalzi",
-            "cover": "headon.jpg",
-            "link": "https://bookshop.org/books/head-on-a-novel-of-the-near-future/9780765388933",
+            "title": "The End is Always Near",
+            "author": "Dan Carlin",
+            "cover": "endisalwaysnear.jpg",
+            "link": "https://bookshop.org/books/the-end-is-always-near-apocalyptic-moments-from-the-bronze-age-collapse-to-nuclear-near-misses/9780062868046",
             "rating": null,
             "thoughts": null
         }
@@ -30,26 +30,30 @@
         {
             "title": "The Expanse",
             "cover": "expanse.jpg"
+        },
+        {
+            "title": "30 Rock",
+            "cover": "30rock.jpg"
         }
     ],
     "playing": [
         {
             "title": "Jedi: Fallen Order",
-            "system": "Xbox One",
+            "system": "Xbox Series X",
             "cover": "fallenorder.jpg",
             "link": "https://www.xbox.com/en-US/games/star-wars-jedi-fallen-order"
         },
         {
             "title": "Destiny 2",
-            "system": "Xbox One & PC",
+            "system": "Xbox Series X & PC",
             "cover": "destiny2.jpg",
-            "link": "https://www.playstation.com/en-us/games/the-last-of-us-remastered-ps4/"
+            "link": "https://www.bungie.net/7/en/Destiny/NewLight"
         },
         {
-            "title": "Star Wars: Battlefront II",
-            "system": "Xbox One & PS4",
-            "cover": "battlefront2.jpg",
-            "link": "https://www.xbox.com/en-us/games/star-wars-battlefront-II"
+            "title": "Borderlands 3",
+            "system": "Xbox Series X",
+            "cover": "borderlands3.jpg",
+            "link": "https://www.microsoft.com/en-us/p/Borderlands-3/C34NB0F1B5WQ"
         }
     ]
 }

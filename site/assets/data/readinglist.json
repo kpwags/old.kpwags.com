@@ -1,16 +1,24 @@
 {
-    "lastupdate": "October 2020",
+    "lastupdate": "November 2020",
     "current": [
         {
-            "title": "Head On",
-            "author": "John Scalzi",
-            "cover": "headon.jpg",
-            "link": "https://bookshop.org/books/head-on-a-novel-of-the-near-future/9780765388933",
+            "title": "The End is Always Near",
+            "author": "Dan Carlin",
+            "cover": "endisalwaysnear.jpg",
+            "link": "https://bookshop.org/books/the-end-is-always-near-apocalyptic-moments-from-the-bronze-age-collapse-to-nuclear-near-misses/9780062868046",
             "rating": null,
             "thoughts": null
         }
     ],
     "2020": [
+        {
+            "title": "Head On",
+            "author": "John Scalzi",
+            "cover": "headon.jpg",
+            "link": "https://bookshop.org/books/head-on-a-novel-of-the-near-future/9780765388933",
+            "rating": 4,
+            "thoughts": "Solid detective novel and a good follow-up to Lock In."
+        },
         {
             "title": "The Last Emperox",
             "author": "John Scalzi",
