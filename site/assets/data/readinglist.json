@@ -2,15 +2,23 @@
     "lastupdate": "November 2020",
     "current": [
         {
-            "title": "The End is Always Near",
-            "author": "Dan Carlin",
-            "cover": "endisalwaysnear.jpg",
-            "link": "https://bookshop.org/books/the-end-is-always-near-apocalyptic-moments-from-the-bronze-age-collapse-to-nuclear-near-misses/9780062868046",
+            "title": "The 99% Invisible City: A Field Guide to the Hidden World of Everyday Design",
+            "author": "Roman Mars & Kurt Kohlstedt",
+            "cover": "99invisiblecity.jpg",
+            "link": "https://bookshop.org/books/the-99-invisible-city-a-field-guide-to-the-hidden-world-of-everyday-design-9780358396383/9780358126607",
             "rating": null,
             "thoughts": null
         }
     ],
     "2020": [
+        {
+            "title": "The End is Always Near",
+            "author": "Dan Carlin",
+            "cover": "endisalwaysnear.jpg",
+            "link": "https://bookshop.org/books/the-end-is-always-near-apocalyptic-moments-from-the-bronze-age-collapse-to-nuclear-near-misses/9780062868046",
+            "rating": 4,
+            "thoughts": "As a Hardcore History fan, Dan Carlin does a great job writing about close calls to having humanity being wiped out or the population dramatically reduced."
+        },
         {
             "title": "Head On",
             "author": "John Scalzi",
