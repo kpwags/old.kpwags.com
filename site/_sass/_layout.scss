@@ -50,7 +50,8 @@ header nav {
     float: right;
 }
 
-header nav a {
+header nav a,
+header nav a:visited {
     padding: 0 12px;
     font-size: 1.2rem;
     color: $blue-medium;
@@ -397,6 +398,14 @@ body.dark-mode .current-list .book .review button:hover {
 .current-list .book .review div {
     line-height: 1.5;
     margin: 10px 0;
+    border: 1px solid #0052cc;
+    padding: 10px;
+    border-radius: 6px;
+    background: rgba(200, 200, 200, 0.2);
+}
+
+body.dark-mode .current-list .book .review div {
+    border: 1px solid rgb(239, 239, 239);
 }
 
 ul.about-contact-list {
@@ -404,7 +413,7 @@ ul.about-contact-list {
 }
 
 ul.about-contact-list li {
-    padding: 0 20px;
+    padding: 0 12px;
     margin: 15px 0;
     display: inline-block;
     white-space: nowrap;
@@ -608,6 +617,16 @@ ul.contact-list li img {
 
     ul.uses {
         margin: 0 15px 25px 15px;
+    }
+
+    .about-image {
+        float: none;
+        text-align: center;
+        margin: 0 0 30px 0;
+    }
+
+    .about-image img {
+        width: 300px;
     }
 
     ul.about-contact-list {

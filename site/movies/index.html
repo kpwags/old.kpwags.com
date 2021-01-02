@@ -1,0 +1,135 @@
+---
+layout: current
+title: "Movies I've Watched"
+---
+
+<script type="text/javascript">
+    function toggleReview(element) {
+        if (element.nextElementSibling.style.display === 'none') {
+            element.nextElementSibling.style.display = 'block';
+            element.innerText = 'Hide Thoughts';
+        } else {
+            element.nextElementSibling.style.display = 'none';
+            element.innerText = 'View My Thoughts';
+        }
+
+        return false;
+    }
+
+    window.onload = function () {
+        initializeMode();
+
+        let dataJson = new Request('/assets/data/movies.json', {
+            method: 'GET',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+        });
+
+        fetch(dataJson)
+            .then(function (resp) {
+                return resp.json();
+            })
+            .then(function (result) {
+                processMovies(result);
+            });
+    };
+
+    function processMovies(data) {
+        const years = [];
+        Object.keys(data).forEach((key) => {
+            switch (key) {
+                case 'lastupdate':
+                    document.getElementById('lastupdate').innerText = data[key];
+                    break;
+                default:
+                    years.push(parseInt(key));
+                    break;
+            }
+        });
+
+        years.sort();
+        years.reverse();
+
+        years.forEach((y) => {
+            processYear(y, data[y.toString()]);
+        });
+    }
+
+    function processYear(year, data) {
+        let newNode = document.createElement('div');
+        newNode.innerHTML = `
+            <h3>${year}</h3>
+            <div id="movies_${year}" class="current-list"></div>
+        `;
+        document.getElementById('movies_previous').appendChild(newNode);
+
+        data.forEach((movie) => {
+            let html = `
+                <div class="book" id="movie_${movie.cover}">
+                    <div class="image">
+                        <a href="${movie.link}">
+                            <picture>
+                                <source srcset="/assets/images/movies/${movie.cover}" media="(min-width: 600px)" />
+                                <img src="/assets/images/1x1.png" alt="${movie.title}" />
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="info">
+                        <h3>
+                            <a href="${movie.link}">${movie.title}</a>
+                        </h3>
+                        <em>${movie.dateWatched}</em>
+                    </div>
+                </div>
+            `;
+
+            newNode = document.createElement('div');
+            newNode.innerHTML = html;
+            document.getElementById(`movies_${year}`).appendChild(newNode);
+
+            if (movie.rating !== null) {
+                html = '<div class="rating">';
+                for (let i = 0; i < movie.rating; i++) {
+                    html += '<img src="/assets/images/rating-star.png" alt="star" />';
+                }
+                html += '</div>';
+
+                newNode = document.createElement('div');
+                newNode.innerHTML = html;
+                document.getElementById(`movie_${movie.cover}`).appendChild(newNode);
+            }
+
+            if (movie.thoughts !== null) {
+                html = `
+                    <div class="review">
+                        <button onclick="toggleReview(this);return false;">View My Thoughts</button>
+                        <div style="display: none;">${movie.thoughts}</div>
+                    </div>
+                `;
+
+                newNode = document.createElement('div');
+                newNode.innerHTML = html;
+                document.getElementById(`movie_${movie.cover}`).appendChild(newNode);
+            }
+        });
+    }
+</script>
+
+<h1>Movies I've Watched</h1>
+
+<div class="content">
+    <noscript>
+        <p class="centered error"><em>This page requires Javascript to be turned on.</em></p>
+    </noscript>
+
+    <p>I've certainly seen more than this, but I figured I'd update this list with some of my thoughts for the movies I've watched more recently.</p>
+
+    <p>
+        <em>Last Updated: <span id="lastupdate"></span></em>
+    </p>
+
+    <p><em>Most Recent at Top</em></p>
+
+    <div id="movies_previous"></div>
+</div>
