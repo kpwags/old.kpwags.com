@@ -2,10 +2,10 @@
     "lastupdate": "November 2020",
     "reading": [
         {
-            "title": "Franchise: The Golden Arches in Black America",
-            "author": "Marcia Chatelain",
-            "cover": "franchise_golden_arches.jpg",
-            "link": "https://bookshop.org/books/franchise-the-golden-arches-in-black-america/9781631493942",
+            "title": "The MVP Machine",
+            "author": "Ben Lindbergh & Travis Sawchik",
+            "cover": "mvpmachine.jpg",
+            "link": "https://bookshop.org/books/the-mvp-machine-how-baseball-s-new-nonconformists-are-using-data-to-build-better-players/9781541698925",
             "rating": null,
             "thoughts": null
         }
@@ -14,10 +14,6 @@
         {
             "title": "Star Trek: Lower Decks",
             "cover": "lowerdecks.jpg"
-        },
-        {
-            "title": "Star Trek",
-            "cover": "startrek.jpg"
         },
         {
             "title": "Star Trek: Picard",
@@ -37,12 +33,6 @@
         }
     ],
     "playing": [
-        {
-            "title": "Jedi: Fallen Order",
-            "system": "Xbox Series X",
-            "cover": "fallenorder.jpg",
-            "link": "https://www.xbox.com/en-US/games/star-wars-jedi-fallen-order"
-        },
         {
             "title": "Destiny 2",
             "system": "Xbox Series X & PC",

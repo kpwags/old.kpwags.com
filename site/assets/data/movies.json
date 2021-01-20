@@ -2,6 +2,22 @@
     "lastupdate": "January 2021",
     "2021": [
         {
+            "title": "Star Trek II: The Wrath of Khan",
+            "cover": "star-trek-ii.jpg",
+            "link": "https://www.imdb.com/title/tt0084726/",
+            "dateWatched": "January 17, 2021",
+            "rating": 5,
+            "thoughts": "The quintessential Star Trek film. Definitely one of the best, if not the best Trek film."
+        },
+        {
+            "title": "Star Trek: The Motion Picture",
+            "cover": "star-trek-i.jpg",
+            "link": "https://www.imdb.com/title/tt0079945/",
+            "dateWatched": "January 16, 2021",
+            "rating": 3,
+            "thoughts": "Better than I remember it, but awfully slow."
+        },
+        {
             "title": "Quantum of Solace",
             "cover": "quantumofsolace.jpg",
             "link": "https://www.imdb.com/title/tt0830515/",
