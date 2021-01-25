@@ -2,6 +2,22 @@
     "lastupdate": "January 2021",
     "2021": [
         {
+            "title": "Star Trek IV: The Voyage Home",
+            "cover": "star-trek-iv.jpg",
+            "link": "https://www.imdb.com/title/tt0092007/",
+            "dateWatched": "January 24, 2021",
+            "rating": 4,
+            "thoughts": "Star Trek & time travel...often a fun mix."
+        },
+        {
+            "title": "Star Trek III: The Search for Spock",
+            "cover": "star-trek-iii.jpg",
+            "link": "https://www.imdb.com/title/tt0088170/",
+            "dateWatched": "January 23, 2021",
+            "rating": 4,
+            "thoughts": "Being an odd-numbered Trek film, this one often gets overlooked. It’s still one of my favorites."
+        },
+        {
             "title": "Star Trek II: The Wrath of Khan",
             "cover": "star-trek-ii.jpg",
             "link": "https://www.imdb.com/title/tt0084726/",
