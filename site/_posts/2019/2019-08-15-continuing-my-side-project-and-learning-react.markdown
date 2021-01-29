@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_with_code
 title: 'Continuing My Side Project & Learning React'
 date: 2019-08-15 10:00 am
 ---
@@ -18,8 +18,7 @@ I wrote the code to go through each ingredient and direction, add it to the data
 
 A quick change corrected that problem and all of a sudden, the form worked as expected.
 
-<!-- prettier-ignore-start -->
-{% highlight javascript %}
+```js
 const directionCreations = formValues.directions.map(async (d) => {
     const direction = await ctx.db.mutation.createDirection(
         {
@@ -35,9 +34,7 @@ const directionCreations = formValues.directions.map(async (d) => {
 });
 
 const directions = await Promise.all(directionCreations);
-
-{% endhighlight %}
-<!-- prettier-ignore-end -->
+```
 
 In the end, it was a pretty easy mistake to make, but it’s one I’m going to remember and learn from.
 

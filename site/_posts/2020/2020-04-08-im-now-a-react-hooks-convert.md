@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_with_code
 title: "I'm Now a React Hooks Convert"
 date: 2020-04-08 9:55am
 ---

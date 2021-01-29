@@ -12,4 +12,4 @@ github_username: kpwags
 markdown: kramdown
 paginate: 10
 plugins: [jekyll-paginate]
-highlighter: rouge
+highlighter: none
