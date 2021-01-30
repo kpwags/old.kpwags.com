@@ -1,0 +1,103 @@
+main.bookshelf {
+    width: auto;
+    margin: auto 50px;
+}
+
+main.bookshelf h1 {
+    color: #0052cc;
+    font-weight: bold;
+}
+
+body.dark-mode main.bookshelf h1 {
+    color: #029fe8;
+}
+
+.bookshelf-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    margin: 12px 0 50px;
+    justify-items: center;
+}
+
+.bookshelf-list .item,
+.bookshelf-list .item .image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bookshelf-list .item .image img {
+    max-height: 200px;
+    box-shadow: 0 12px 24px 0 hsla(0, 0%, 0%, 0.2);
+}
+
+.bookshelf-list .item .info h3 {
+    font-size: 1.33rem;
+    margin: 8px 0;
+    color: $blue-medium;
+    text-align: center;
+}
+
+body.dark-mode .bookshelf-list .item .info h3 {
+    color: $dark-mode-blue-medium;
+}
+
+.bookshelf-list .item .info h3 span {
+    white-space: nowrap;
+}
+
+.bookshelf-list .item .info em {
+    font-size: 1.05rem;
+    margin: 8px 0 0 0;
+}
+
+.bookshelf-list .item .rating img {
+    padding: 0 4px;
+    margin: 12px 0;
+}
+
+.bookshelf-list .item .review {
+    font-size: 1.05rem;
+}
+
+.bookshelf-list .item .review button {
+    background: none !important;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    cursor: pointer;
+    color: $blue-medium;
+}
+
+.bookshelf-list .item .review button:hover {
+    color: $blue-dark;
+}
+
+body.dark-mode .bookshelf-list .item .review button {
+    color: $dark-mode-blue-medium;
+}
+
+body.dark-mode .bookshelf-list .item .review button:hover {
+    color: $dark-mode-blue-dark;
+}
+
+.bookshelf-list .item .review div {
+    line-height: 1.5;
+    margin: 10px 0;
+    border: 1px solid #0052cc;
+    padding: 10px;
+    border-radius: 6px;
+    background: rgba(200, 200, 200, 0.2);
+}
+
+body.dark-mode .bookshelf-list .item .review div {
+    border: 1px solid rgb(239, 239, 239);
+}
+
+@media all and (max-width: 800px) {
+    main.bookshelf h1 {
+        font-size: 1.5rem;
+    }
+}

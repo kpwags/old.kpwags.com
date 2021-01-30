@@ -1,6 +1,6 @@
 ---
 layout: bookshelf
-title: "Movies I've Watched"
+title: 'Bookshelf'
 ---
 
 <script type="text/javascript">
@@ -8,26 +8,22 @@ title: "Movies I've Watched"
         initializeMode();
 
         const bookshelf = new Bookshelf({
-            jsonFile: '/assets/data/movies.json',
-            mode: 'movies',
+            jsonFile: '/assets/data/readinglist.json',
+            mode: 'books',
         });
     };
 </script>
 
-<h1>Movies I've Watched</h1>
+<h1>Bookshelf</h1>
 
-<div class="content">
+<div class="listing-content">
     <noscript>
         <p class="centered error"><em>This page requires Javascript to be turned on.</em></p>
     </noscript>
 
-    <p>I've certainly seen more than this, but I figured I'd update this list with some of my thoughts for the movies I've watched more recently.</p>
-
     <p>
         <em>Last Updated: <span id="lastupdate"></span></em>
     </p>
-
-    <p><em>Most Recent at Top</em></p>
 
     <div id="list_previous"></div>
 </div>

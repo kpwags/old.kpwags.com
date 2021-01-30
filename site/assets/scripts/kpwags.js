@@ -100,3 +100,15 @@ function handleClickOutside(e) {
         closeModeSwitcher();
     }
 }
+
+function toggleReview(element) {
+    if (element.nextElementSibling.style.display === 'none') {
+        element.nextElementSibling.style.display = 'block';
+        element.innerText = 'Hide Thoughts';
+    } else {
+        element.nextElementSibling.style.display = 'none';
+        element.innerText = 'View My Thoughts';
+    }
+
+    return false;
+}

@@ -40,4 +40,4 @@ $dark-mode-blue-dark: hsl(209.1, 78.5%, 43.7%);
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import 'base', 'layout', 'photography', '_syntax-highlighting';
+@import 'base', 'layout', 'photography', 'bookshelf';

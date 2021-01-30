@@ -23,8 +23,7 @@ header {
     height: 60px;
     line-height: 60px;
     padding: 0 10px;
-    width: 1200px;
-    margin: 0 auto 50px auto;
+    margin: 0 0 50px 0;
 }
 
 header div.site-title {
@@ -76,11 +75,6 @@ body.light-mode footer {
 
 body.dark-mode footer {
     border-top-color: $dark-mode-blue-medium;
-}
-
-footer .content {
-    width: 1200px;
-    margin: 0 auto;
 }
 
 footer .copyright {
@@ -459,8 +453,7 @@ ul.contact-list li img {
     }
 
     header {
-        width: 960px;
-        margin: 0 auto 40px auto;
+        margin: 0 0 40px 0;
         padding: 0;
     }
 
@@ -470,10 +463,6 @@ ul.contact-list li img {
 
     footer {
         padding: 0;
-    }
-
-    footer .content {
-        width: 960px;
     }
 }
 
@@ -492,20 +481,12 @@ ul.contact-list li img {
         width: 100%;
     }
 
-    header {
-        width: 100%;
-    }
-
     header div.site-title {
         padding-left: 10px;
     }
 
     header nav {
         padding-right: 10px;
-    }
-
-    footer .content {
-        width: 100%;
     }
 }
 
