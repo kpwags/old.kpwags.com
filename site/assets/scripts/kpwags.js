@@ -2,16 +2,38 @@ window.onload = function (e) {
     initializeMode();
 };
 
-function initializeMode() {
-    if (getCookie('kpwagsoverridemode') === 'dark') {
-        document.body.classList.add('dark-mode');
-        currentMode = "DARK";
-    } else if (getCookie('kpwagsoverridemode') === 'light') {
-        document.body.classList.add('light-mode');
-        currentMode = "LIGHT";
+function detectColorScheme(){
+    var theme = 'light';    //default to light
+
+    //local storage is used to override OS theme settings
+    if(localStorage.getItem('theme')){
+        if(localStorage.getItem('theme') === 'dark'){
+            var theme = 'dark';
+        }
+    } else if(!window.matchMedia) {
+        //matchMedia method not supported
+        return false;
+    } else if(window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        //OS theme setting detected as dark
+        var theme = 'dark';
     }
 
-    document.getElementById('toggle-darkmode-button').onclick = function (e) {
+    //dark theme preferred, set document with a `data-theme` attribute
+    if (theme === 'dark') {
+        document.documentElement.setAttribute('data-theme', 'dark');
+    }
+}
+
+function initializeMode() {
+    if (localStorage.getItem('theme') === 'dark') {
+        document.body.classList.add('dark-mode');
+        currentMode = 'dark';
+    } else if (localStorage.getItem('theme') === 'light') {
+        document.body.classList.add('light-mode');
+        currentMode = 'light';
+    }
+
+    document.getElementById('toggledarkmode').onclick = function (e) {
         e.preventDefault();
         toggleMode();
     };
@@ -30,7 +52,7 @@ function toggleMode() {
             break;
 
         default:
-            if (document.body.classList.contains("dark-mode")) {
+            if (document.body.classList.contains('dark-mode')) {
                 // switch to light mode
                 switchMode('light');
             } else {
@@ -40,10 +62,11 @@ function toggleMode() {
             break;
     }
 }
+
 function getCurrentMode() {
-    if (getCookie('kpwagsoverridemode') === 'dark') {
+    if (localStorage.getItem('theme') === 'dark') {
         return 'dark';
-    } else if (getCookie('kpwagsoverridemode') === 'light') {
+    } else if (localStorage.getItem('theme') === 'light') {
         return 'light';
     } else {
         return 'system';
@@ -52,52 +75,13 @@ function getCurrentMode() {
 
 function switchMode(mode) {
     if (mode === 'light') {
-        setCookie('kpwagsoverridemode', 'light', 365);
+        localStorage.setItem('theme', 'light');
         document.body.classList.remove('dark-mode');
         document.body.classList.add('light-mode');
     } else if (mode === 'dark') {
-        setCookie('kpwagsoverridemode', 'dark', 365);
+        localStorage.setItem('theme', 'dark');
         document.body.classList.remove('light-mode');
         document.body.classList.add('dark-mode');
-    } else {
-        eraseCookie('kpwagsoverridemode');
-        document.body.classList.remove('light-mode');
-        document.body.classList.remove('dark-mode');
-    }
-}
-
-function setCookie(name, value, days) {
-    var expires = '';
-    if (days) {
-        var date = new Date();
-        date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
-        expires = '; expires=' + date.toUTCString();
-    }
-    document.cookie = name + '=' + (value || '') + expires + '; path=/';
-}
-
-function getCookie(name) {
-    var nameEQ = name + '=';
-    var ca = document.cookie.split(';');
-    for (var i = 0; i < ca.length; i++) {
-        var c = ca[i];
-        while (c.charAt(0) == ' ') c = c.substring(1, c.length);
-        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
-    }
-    return null;
-}
-
-function eraseCookie(name) {
-    document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
-}
-
-function handleClickOutside(e) {
-    e.preventDefault();
-
-    const isClickInside = document.getElementById('mode-switcher').contains(e.target);
-
-    if (!isClickInside && e.target.id !== 'open-mode-switcher') {
-        closeModeSwitcher();
     }
 }
 
