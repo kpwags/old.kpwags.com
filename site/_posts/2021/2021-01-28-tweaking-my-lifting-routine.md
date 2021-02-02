@@ -2,12 +2,11 @@
 layout: post
 title: 'Tweaking My Lifting Routine'
 date: 2021-01-28 6:12pm
-tags: lifting fitness
 ---
 
 Looking back at the last two months, I've noticed I've done a pretty good job of hitting the weights 5-6 days a week. Because of this, I decided I'd tweak my routine a little bit to help jumpstart some gains.
 
-Since I [built my home gym](/2020/08/04/so-i-finally-built-a-home-gym.html), I've been running a 4 day version of a 5/3/1 plan mixxed with the [PHUL](https://www.muscleandstrength.com/workouts/phul-workout) plan. This has generally worked out well for me. I was able to regain a decent chunk of the strength I lost. Now that I'm lifting around 6 days a week, I figured I'd add 2 more days worth of lifting to my cycle to hopefully help make more gains easier.
+Since I [built my home gym](/2020/08/04/so-i-finally-built-a-home-gym.html), I've been running a 4 day version of a 5/3/1 plan mixed with the [PHUL](https://www.muscleandstrength.com/workouts/phul-workout) plan. This has generally worked out well for me. I was able to regain a decent chunk of the strength I lost. Now that I'm lifting around 6 days a week, I figured I'd add 2 more days worth of lifting to my cycle to hopefully help make more gains easier.
 
 I thought I'd share the routine I've built myself in hopes that maybe it'll help inspire you or give you ideas on how to improve or build yours.
 
@@ -72,7 +71,7 @@ The other notations should be self explanatory. "3 x 8-12" means 3 sets of 8-12 
 7. **Timed Farmer Carries**: 3x
 8. **Twenty-Ones**: 1 x Narrow Grip, 1 x Wide Grip, 1 x Reverse Grip
 
-### Friday - Lower Body
+### Saturdays - Lower Body
 
 1. **Squat**: 4 x 6 @ 75%
 2. **Sumo Deadlift**: 4 x 6 @ 75%
@@ -81,3 +80,5 @@ The other notations should be self explanatory. "3 x 8-12" means 3 sets of 8-12 
 5. **Seated Calf Raise**: 4 x 10-12
 6. **Russian Twist**: 4 x 15-20
 7. **Ab Wheel**: 4 x 10+
+
+_Edit (2/1/21 7:13pm): Typos_

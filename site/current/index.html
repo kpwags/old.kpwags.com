@@ -1,11 +1,11 @@
 ---
-layout: current
-title: 'Current Activities'
+layout: default
+title: "What I'm Currently Doing"
 ---
 
 <script type="text/javascript">
     window.onload = function () {
-        initializeMode();
+        detectColorScheme();
 
         let dataJson = new Request('/assets/data/current.json', {
             method: 'GET',
@@ -33,7 +33,7 @@ title: 'Current Activities'
     function processReading(data) {
         data.forEach((book) => {
             const html = `
-                <div class="book">
+                <div class="item">
                     <div class="image">
                         <a href="${book.link}">
                             <picture>
@@ -60,7 +60,7 @@ title: 'Current Activities'
     function processPlaying(data) {
         data.forEach((game) => {
             const html = `
-                <div class="game">
+                <div class="item">
                     <div class="image">
                         <a href="${game.link}">
                             <picture>
@@ -86,7 +86,7 @@ title: 'Current Activities'
     function processWatching(data) {
         data.forEach((show) => {
             const html = `
-                <div class="watching">
+                <div class="item">
                     <div class="image">
                         <picture>
                             <source srcset="/assets/images/watching/${show.cover}" media="(min-width: 600px)" />
@@ -120,7 +120,7 @@ title: 'Current Activities'
 
     <div class="current-list" id="readinglist"></div>
 
-    <p>You can see my full reading list <a href="/reading-list">here</a>.</p>
+    <p>You can see everything I've read <a href="/bookshelf">here</a>.</p>
 
     <h2>Playing</h2>
 

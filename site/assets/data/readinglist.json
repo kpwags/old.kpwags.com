@@ -1,15 +1,5 @@
 {
     "lastupdate": "January 2021",
-    "current": [
-        {
-            "title": "The MVP Machine",
-            "author": "Ben Lindbergh & Travis Sawchik",
-            "cover": "mvpmachine.jpg",
-            "link": "https://bookshop.org/books/the-mvp-machine-how-baseball-s-new-nonconformists-are-using-data-to-build-better-players/9781541698925",
-            "rating": null,
-            "thoughts": null
-        }
-    ],
     "2021": [
         {
             "title": "Franchise: The Golden Arches in Black America",
@@ -22,7 +12,7 @@
     ],
     "2020": [
         {
-            "title": "The 99% Invisible City: A Field Guide to the Hidden World of Everyday Design",
+            "title": "The 99% Invisible City",
             "author": "Roman Mars & Kurt Kohlstedt",
             "cover": "99invisiblecity.jpg",
             "link": "https://bookshop.org/books/the-99-invisible-city-a-field-guide-to-the-hidden-world-of-everyday-design-9780358396383/9780358126607",
@@ -70,7 +60,7 @@
             "thoughts": "This was a good start to a good science fiction trilogy. I'll have to finish it to be able to say more, but it definitely kept me hooked and wanting to continue."
         },
         {
-            "title": "The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power",
+            "title": "The Age of Surveillance Capitalism",
             "author": "Shoshana Zuboff",
             "cover": "surveillancecapitalism.jpg",
             "link": "https://bookshop.org/books/the-age-of-surveillance-capitalism-the-fight-for-a-human-future-at-the-new-frontier-of-power/9781610395694",
@@ -94,7 +84,7 @@
             "thoughts": "I read this to get myself ready for the HBO series. I enjoyed the story and thought it provided a bit of supernatural mixed with just the right amount of suspense. If you're a Stephen King fan, you'll definitely enjoy this."
         },
         {
-            "title": "Open Borders: The Science and Ethics of Immigration",
+            "title": "Open Borders",
             "author": "Bryan Caplan & Zach Weinersmith",
             "cover": "openborders.jpg",
             "link": "https://bookshop.org/books/open-borders-the-science-and-ethics-of-immigration/9781250316967",
@@ -102,7 +92,7 @@
             "thoughts": "I don't think I would of expected something like this to have been done with a graphic novel, but it was anyway, and done well. It was an interesting read about the economics and some of the misunderstandings of immigration."
         },
         {
-            "title": "How To: Absurd Scientific Advice for Common Real-World Problems",
+            "title": "How To",
             "author": "Randall Munroe",
             "cover": "howto.jpg",
             "link": "https://bookshop.org/books/how-to-absurd-scientific-advice-for-common-real-world-problems/9780525537090",
@@ -126,7 +116,7 @@
             "thoughts": "Another solid novella set in the universe of The Expanse."
         },
         {
-            "title": "The Soul of America: The Battle for Our Better Angels",
+            "title": "The Soul of America",
             "author": "Jon Meacham",
             "cover": "soulofamerica.jpg",
             "link": "https://www.amazon.com/gp/product/0399589813",
@@ -190,7 +180,7 @@
             "thoughts": null
         },
         {
-            "title": "Working Futures: 14 Speculative Stories About The Future Of Work",
+            "title": "Working Futures",
             "author": "Mike Masnick & Others",
             "cover": "workingfutures.jpg",
             "link": "http://workingfutur.es/",
@@ -232,7 +222,7 @@
             "thoughts": null
         },
         {
-            "title": "The Imagineers of War: The Untold Story of DARPA, the Pentagon Agency That Changed the World",
+            "title": "The Imagineers of War",
             "author": "Sharon Weinberger",
             "cover": "imagineersofwar.jpg",
             "link": "https://www.amazon.com/gp/product/B01HA4JUEA",
@@ -290,7 +280,7 @@
             "thoughts": null
         },
         {
-            "title": "The Aisles Have Eyes: How Retailers Track Your Shopping, Strip Your Privacy, and Define Your Power",
+            "title": "The Aisles Have Eyes",
             "author": "Joseph Turow",
             "cover": "aisleshaveeyes.jpg",
             "link": "https://www.amazon.com/gp/product/B01MS0B68T",
@@ -306,7 +296,7 @@
             "thoughts": null
         },
         {
-            "title": "Ratf**ked: The True Story Behind the Secret Plan to Steal America's Democracy",
+            "title": "Ratf**ked",
             "author": "David Daley",
             "cover": "ratfucked.jpg",
             "link": "https://www.amazon.com/gp/product/B016APOCRU",
@@ -322,7 +312,7 @@
             "thoughts": null
         },
         {
-            "title": "Failure Is Not an Option: Mission Control from Mercury to Apollo 13 and Beyond",
+            "title": "Failure Is Not an Option",
             "author": "Gene Kranz",
             "cover": "failurenotanoption.jpg",
             "link": "https://www.amazon.com/gp/product/B000FC0O7M",
@@ -330,7 +320,7 @@
             "thoughts": null
         },
         {
-            "title": "Hit Refresh: The Quest to Rediscover Microsoft's Soul and Imagine a Better Future for Everyone",
+            "title": "Hit Refresh",
             "author": "Satya Nadella",
             "cover": "hitrefresh.jpg",
             "link": "https://www.amazon.com/gp/product/B01HOT5SQA",
@@ -354,7 +344,7 @@
             "thoughts": null
         },
         {
-            "title": "Shooting Ghosts: A U.S. Marine, a Combat Photographer, and Their Journey Back from War",
+            "title": "Shooting Ghosts",
             "author": "TJ Brennan & Finbarr O'Reilly",
             "cover": "shootingghosts.jpg",
             "link": "https://www.amazon.com/gp/product/B01N1RRDMH",
@@ -364,7 +354,7 @@
     ],
     "2017": [
         {
-            "title": "Peddling Protectionism: Smoot-Hawley and the Great Depression",
+            "title": "Peddling Protectionism",
             "author": "Douglas Irwin",
             "cover": "peddlingprotectionism.jpg",
             "link": "https://www.amazon.com/gp/product/B072HJJ73M",
@@ -388,7 +378,7 @@
             "thoughts": null
         },
         {
-            "title": "The Arm: Inside the Billion-Dollar Mystery of the Most Valuable Commodity in Sports",
+            "title": "The Arm",
             "author": "Jeff Passan",
             "cover": "thearm.jpg",
             "link": "https://www.amazon.com/gp/product/B011ISW5C8",
@@ -412,7 +402,7 @@
             "thoughts": null
         },
         {
-            "title": "The Trouble with Reality: A Rumination on Moral Panic in Our Time",
+            "title": "The Trouble with Reality",
             "author": "Brooke Gladstone",
             "cover": "troublewithreality.jpg",
             "link": "https://www.amazon.com/gp/product/B06XHGZ9B2",
@@ -502,7 +492,7 @@
             "thoughts": null
         },
         {
-            "title": "The Only Rule Is It Has to Work: Our Wild Experiment Building a New Kind of Baseball Team",
+            "title": "The Only Rule Is It Has to Work",
             "author": "Ben Lindbergh & Sam Miller",
             "cover": "onlyrule.jpg",
             "link": "https://www.amazon.com/gp/product/B016IBVN6Y",
@@ -552,7 +542,7 @@
             "thoughts": null
         },
         {
-            "title": "The Bonobo and the Atheist: In Search of Humanism Among the Primates",
+            "title": "The Bonobo and the Atheist",
             "author": "Frans de Waal",
             "cover": "bonoboathiest.jpg",
             "link": "https://www.amazon.com/gp/product/B007Q6XKEY",
@@ -570,7 +560,7 @@
     ],
     "2014": [
         {
-            "title": "Pale Blue Dot: A Vision of the Human Future in Space",
+            "title": "Pale Blue Dot",
             "author": "Carl Sagan",
             "cover": "palebluedot.jpg",
             "link": "https://www.amazon.com/gp/product/B004W0I3LW",
@@ -594,7 +584,7 @@
             "thoughts": null
         },
         {
-            "title": "Superfreakonomics: Global Cooling, Patriotic Prostitutes And Why Suicide Bombers Should Buy Life Insurance",
+            "title": "Superfreakonomics",
             "author": "Steven Levitt & Stephen Dubner",
             "cover": "superfreakonomics.jpg",
             "link": "https://www.amazon.com/gp/product/B002R2OFGY",
@@ -602,7 +592,7 @@
             "thoughts": null
         },
         {
-            "title": "Freakonomics: A Rogue Economist Explores the Hidden Side of Everything",
+            "title": "Freakonomics",
             "author": "Steven Levitt & Stephen Dubner",
             "cover": "freakonomics.jpg",
             "link": "https://www.amazon.com/gp/product/B000MAH66Y",
@@ -618,7 +608,7 @@
             "thoughts": null
         },
         {
-            "title": "Because I Said So! : The Truth Behind the Myths, Tales, and Warnings Every Generation Passes Down to Its Kids",
+            "title": "Because I Said So!",
             "author": "Ken Jennings",
             "cover": "becauseisaidso.jpg",
             "link": "https://www.amazon.com/gp/product/B007EE5852",
@@ -722,7 +712,7 @@
             "thoughts": null
         },
         {
-            "title": "Cooked: A Natural History of Transformation",
+            "title": "Cooked",
             "author": "Michael Pollan",
             "cover": "cooked.jpg",
             "link": "https://www.amazon.com/gp/product/B008EKOIN8",
@@ -754,7 +744,7 @@
             "thoughts": null
         },
         {
-            "title": "Wherever I Wind Up: My Quest for Truth, Authenticity and the Perfect Knuckleball",
+            "title": "Wherever I Wind Up",
             "author": "R.A. Dickey",
             "cover": "whereveriwindup.jpg",
             "link": "https://www.amazon.com/gp/product/B005HN2080",
@@ -876,7 +866,7 @@
             "thoughts": null
         },
         {
-            "title": "Just a Geek: Unflinchingly honest tales of the search for life, love, and fulfillment beyond the Starship Enterprise",
+            "title": "Just a Geek",
             "author": "Wil Wheaton",
             "cover": "justageek.jpg",
             "link": "https://www.amazon.com/gp/product/0596806310",
@@ -1030,7 +1020,7 @@
             "thoughts": null
         },
         {
-            "title": "Lost Moon: The Perilous Voyage of Apollo 13",
+            "title": "Lost Moon",
             "author": "Jim Lovell & Jeffrey Kluger",
             "cover": "lostmoon.jpg",
             "link": "https://www.amazon.com/gp/product/0618619585",
@@ -1110,7 +1100,7 @@
             "thoughts": null
         },
         {
-            "title": "Drift: The Unmooring of American Military Power",
+            "title": "Drift",
             "author": "Rachel Maddow",
             "cover": "drift.jpg",
             "link": "https://www.amazon.com/gp/product/B005BUG6T8",
@@ -1160,7 +1150,7 @@
             "thoughts": null
         },
         {
-            "title": "God is Not Great: How Religion Poisons Everything",
+            "title": "God is Not Great",
             "author": "Christopher Hitchens",
             "cover": "godisnotgreat.jpg",
             "link": "https://www.amazon.com/gp/product/B00287KD4Q",
@@ -1168,7 +1158,7 @@
             "thoughts": null
         },
         {
-            "title": "The Moral Landscape: How Science Can Determine Human Values",
+            "title": "The Moral Landscape",
             "author": "Sam Harris",
             "cover": "morallandscape.jpg",
             "link": "https://www.amazon.com/gp/product/B003V1WT72",
