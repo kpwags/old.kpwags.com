@@ -5,7 +5,7 @@ title: "What I'm Currently Doing"
 
 <script type="text/javascript">
     window.onload = function () {
-        initializeMode();
+        detectColorScheme();
 
         let dataJson = new Request('/assets/data/current.json', {
             method: 'GET',
@@ -120,7 +120,7 @@ title: "What I'm Currently Doing"
 
     <div class="current-list" id="readinglist"></div>
 
-    <p>You can see my full reading list <a href="/reading-list">here</a>.</p>
+    <p>You can see everything I've read <a href="/bookshelf">here</a>.</p>
 
     <h2>Playing</h2>
 

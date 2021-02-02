@@ -1,88 +1,45 @@
 window.onload = function (e) {
-    initializeMode();
+    detectColorScheme();
 };
 
+function switchTheme() {
+    let theme = 'light';
+
+    if (localStorage.getItem('theme')) {
+        theme = localStorage.getItem('theme');
+    } else if (document.documentElement.getAttribute('data-theme')) {
+        theme = document.documentElement.getAttribute('data-theme');
+    }
+
+    if (theme === 'light') {
+        localStorage.setItem('theme', 'dark');
+        document.documentElement.setAttribute('data-theme', 'dark');
+    } else {
+        localStorage.setItem('theme', 'light');
+        document.documentElement.setAttribute('data-theme', 'light');
+    }
+}
+
 function detectColorScheme(){
-    var theme = 'light';    //default to light
+    let theme = 'light';    //default to light
 
     //local storage is used to override OS theme settings
     if(localStorage.getItem('theme')){
         if(localStorage.getItem('theme') === 'dark'){
-            var theme = 'dark';
+            theme = 'dark';
         }
     } else if(!window.matchMedia) {
-        //matchMedia method not supported
         return false;
     } else if(window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        //OS theme setting detected as dark
-        var theme = 'dark';
+        theme = 'dark';
     }
 
-    //dark theme preferred, set document with a `data-theme` attribute
-    if (theme === 'dark') {
-        document.documentElement.setAttribute('data-theme', 'dark');
-    }
-}
-
-function initializeMode() {
-    if (localStorage.getItem('theme') === 'dark') {
-        document.body.classList.add('dark-mode');
-        currentMode = 'dark';
-    } else if (localStorage.getItem('theme') === 'light') {
-        document.body.classList.add('light-mode');
-        currentMode = 'light';
-    }
+    document.documentElement.setAttribute('data-theme', theme);
 
     document.getElementById('toggledarkmode').onclick = function (e) {
         e.preventDefault();
-        toggleMode();
+        switchTheme();
     };
-}
-
-function toggleMode() {
-    let currentMode = getCurrentMode();
-
-    switch (currentMode) {
-        case 'light':
-            switchMode('dark');
-            break;
-
-        case 'dark':
-            switchMode('light');
-            break;
-
-        default:
-            if (document.body.classList.contains('dark-mode')) {
-                // switch to light mode
-                switchMode('light');
-            } else {
-                // switch to dark mode
-                switchMode('dark');
-            }
-            break;
-    }
-}
-
-function getCurrentMode() {
-    if (localStorage.getItem('theme') === 'dark') {
-        return 'dark';
-    } else if (localStorage.getItem('theme') === 'light') {
-        return 'light';
-    } else {
-        return 'system';
-    }
-}
-
-function switchMode(mode) {
-    if (mode === 'light') {
-        localStorage.setItem('theme', 'light');
-        document.body.classList.remove('dark-mode');
-        document.body.classList.add('light-mode');
-    } else if (mode === 'dark') {
-        localStorage.setItem('theme', 'dark');
-        document.body.classList.remove('light-mode');
-        document.body.classList.add('dark-mode');
-    }
 }
 
 function toggleReview(element) {

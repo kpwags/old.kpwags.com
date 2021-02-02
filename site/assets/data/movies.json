@@ -1,6 +1,22 @@
 {
-    "lastupdate": "January 2021",
+    "lastupdate": "February 2021",
     "2021": [
+        {
+            "title": "Skyfall",
+            "cover": "skyfall.jpg",
+            "link": "https://www.imdb.com/title/tt1074638/",
+            "dateWatched": "January 31, 2021",
+            "rating": 5,
+            "thoughts": "Definitely my favorite Daniel Craig Bond film. The interaction between Judi Dench as 'M' and Craig really shines here."
+        },
+        {
+            "title": "Star Trek V: The Final Frontier",
+            "cover": "star-trek-v.jpg",
+            "link": "https://www.imdb.com/title/tt0098382/",
+            "dateWatched": "January 30, 2021",
+            "rating": 2,
+            "thoughts": "As much as I love Star Trek, the only redeeming part of this movie is probably Kirk's \"What does God need with a starship?\" line"
+        },
         {
             "title": "Capital in the 21st Century",
             "cover": "capital21stcentury.jpg",
