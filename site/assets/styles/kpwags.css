@@ -260,6 +260,14 @@ header nav button {
     vertical-align: middle;
 }
 
+hr.header-separator {
+    width: 250px;
+    margin: 20px auto 35px auto;
+    border-bottom: 1px solid hsl(0, 0%, 87.1%);
+    background-color: transparent;
+    display: none;
+}
+
 /* --- FOOTER --- */
 footer {
     padding: 15px 15px 0 15px;
@@ -815,6 +823,10 @@ main.bookshelf h1 {
 
     header nav a.hide-on-mobile {
         display: none;
+    }
+
+    hr.header-separator {
+        display: block;
     }
 
     footer {

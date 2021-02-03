@@ -132,7 +132,6 @@ class Bookshelf
                 return resp.json();
             })
             .then((result) => {
-                console.log({result})
                 this.processList(result);
             });
     }
