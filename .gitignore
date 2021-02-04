@@ -5,3 +5,4 @@
 .DS_Store
 /site/s3_website.yml
 .jekyll-cache
+*Zone.Identifier
