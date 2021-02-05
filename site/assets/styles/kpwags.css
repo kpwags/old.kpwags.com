@@ -724,6 +724,33 @@ main.bookshelf h1 {
     background: rgba(200, 200, 200, 0.2);
 }
 
+/* --- LIKES --- */
+
+div.likes {
+    width: 800px;
+    margin: 50px auto 30px auto;
+}
+
+ul#likes {
+    margin: 0;
+    padding: 0;
+}
+
+ul#likes li {
+    display: block;
+    list-style-type: none;
+    margin: 24px 0;
+}
+
+ul#likes div.title {
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+ul#likes div.source {
+    color: var(--dark-grey);
+}
+
 /* --- MISC --- */
 .clearfix {
     clear: both;

@@ -1,0 +1,51 @@
+---
+layout: default
+title: Likes
+---
+
+<script type="text/javascript">
+    function parseJson(articles) {
+        articles.forEach((article) => {
+            const html = `
+                <div class="title">
+                    <a href="${article.url}" target="_blank" rel="noopener">
+                        ${article.title}
+                    </a>
+                </div>
+                <div class="source">
+                    ${article.source}
+                </div>
+            `;
+
+            let newNode = document.createElement('li');
+            newNode.innerHTML = html;
+
+            document.getElementById('likes').appendChild(newNode);
+        });
+    }
+
+    window.onload = function () {
+        detectColorScheme();
+
+        let dataJson = new Request('/assets/data/likes.json', {
+            method: 'GET',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+        });
+
+        fetch(dataJson)
+            .then(function (resp) {
+                return resp.json();
+            })
+            .then(function (data) {
+                parseJson(data);
+            });
+    }
+</script>
+
+<div class="likes">
+    <h1>Likes</h1>
+
+    <ul id="likes"></ul>
+</div>
