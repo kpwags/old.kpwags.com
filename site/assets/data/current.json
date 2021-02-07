@@ -30,6 +30,14 @@
         {
             "title": "30 Rock",
             "cover": "30rock.jpg"
+        },
+        {
+            "title": "Jack Ryan",
+            "cover": "jackryan.jpg"
+        },
+        {
+            "title": "Cosmos",
+            "cover": "cosmos.jpg"
         }
     ],
     "playing": [
