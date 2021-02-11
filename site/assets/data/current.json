@@ -62,7 +62,12 @@
             "system": "PC",
             "cover": "wow_shadowlands.jpg",
             "link": "https://worldofwarcraft.com/en-us/"
+        },
+        {
+            "title": "MLB 19 The Show",
+            "system": "PS4",
+            "cover": "mlb19.jpg",
+            "link": "https://theshow.com/"
         }
-
     ]
 }
