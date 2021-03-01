@@ -1,6 +1,14 @@
 {
-    "lastupdate": "February 2021",
+    "lastupdate": "March 2021",
     "2021": [
+        {
+            "title": "Moneyball",
+            "cover": "moneyball.jpg",
+            "link": "https://www.imdb.com/title/tt1210166/",
+            "dateWatched": "February 28, 2021",
+            "rating": 4,
+            "thoughts": "As a baseball fan, and a fan of Michael Lewis' writing, I loved the story of how baseball has probably seen its biggest change in the last 50 years with how teams are built and players evaluated."
+        },
         {
             "title": "9to5: The Story of a Movement",
             "cover": "9to5.jpg",

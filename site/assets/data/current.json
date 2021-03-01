@@ -1,5 +1,5 @@
 {
-    "lastupdate": "February 2021",
+    "lastupdate": "March 2021",
     "reading": [
         {
             "title": "Field of Schemes",
@@ -12,28 +12,12 @@
     ],
     "watching": [
         {
-            "title": "Star Trek: Lower Decks",
-            "cover": "lowerdecks.jpg"
-        },
-        {
-            "title": "Star Trek: Picard",
-            "cover": "picard.jpg"
-        },
-        {
-            "title": "Star Trek: Discovery",
-            "cover": "discovery.jpg"
-        },
-        {
             "title": "The Expanse",
             "cover": "expanse.jpg"
         },
         {
-            "title": "30 Rock",
-            "cover": "30rock.jpg"
-        },
-        {
-            "title": "Jack Ryan",
-            "cover": "jackryan.jpg"
+            "title": "Sherlock",
+            "cover": "sherlock.jpg"
         },
         {
             "title": "Cosmos",

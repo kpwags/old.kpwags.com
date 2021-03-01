@@ -5,7 +5,9 @@ title: Likes
 
 <script type="text/javascript">
     function parseJson(articles) {
-        articles.forEach((article) => {
+        const maxArticleCount = 25
+
+        articles.slice(0, maxArticleCount).forEach((article) => {
             const html = `
                 <div class="title">
                     <a href="${article.url}" target="_blank" rel="noopener">
