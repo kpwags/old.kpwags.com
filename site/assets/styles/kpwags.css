@@ -755,6 +755,36 @@ ul#likes div.source {
     color: var(--dark-grey);
 }
 
+/* --- PODCASTS --- */
+
+div.podcasts {
+    width: 800px;
+    margin: 50px auto 30px auto;
+}
+
+ul#podcasts {
+    margin: 0;
+    padding: 0;
+}
+
+ul#podcasts li.category {
+    font-weight: bold;
+    font-size: 1.3rem;
+    list-style-type: none;
+    margin: 25px 0 12px 0;
+}
+
+ul#podcasts li.podcast-list ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul#podcasts li.podcast-list ul li {
+    display: block;
+    margin: 10px 0;
+    list-style-type: disc;
+}
+
 /* --- MISC --- */
 .clearfix {
     clear: both;

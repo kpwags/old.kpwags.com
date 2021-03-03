@@ -1,0 +1,64 @@
+---
+layout: default
+title: Podcasts I Listen To
+---
+
+<script type="text/javascript">
+    function parseJson(podcastCategories) {
+        podcastCategories.forEach((category) => {
+            let newNode = document.createElement('li');
+            newNode.className = 'category';
+            newNode.innerHTML = category.name;
+
+            document.getElementById('podcasts').appendChild(newNode);
+
+            processPodcasts(category.podcasts);
+        });
+    }
+
+    function processPodcasts(podcasts) {
+        const list = document.createElement('ul');
+
+        podcasts.forEach((podcast) => {
+            const html = `
+                <a href="${podcast.link}" title="${podcast.name}" target="_blank" rel="noreferrer">
+                    ${podcast.name}
+                </a>
+            `;
+
+            let newNode = document.createElement('li');
+            newNode.innerHTML = html;
+
+            list.appendChild(newNode);
+        });
+
+        document.getElementById('podcasts').appendChild(list);
+    }
+
+    window.onload = function () {
+        detectColorScheme();
+
+        let dataJson = new Request('/assets/data/podcasts.json', {
+            method: 'GET',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+        });
+
+        fetch(dataJson)
+            .then(function (resp) {
+                return resp.json();
+            })
+            .then(function (data) {
+                parseJson(data);
+            });
+    }
+</script>
+
+<article class="podcasts">
+    <h1>Podcasts I Listen To</h1>
+
+    <p>Yes, I subscribe to a lot of podcasts. No, I don't necessarily listen to every episode.</p>
+
+    <ul id="podcasts"></ul>
+</article>
