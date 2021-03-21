@@ -2,6 +2,22 @@
     "lastupdate": "March 2021",
     "2021": [
         {
+            "title": "The Departed",
+            "cover": "thedeparted.jpg",
+            "link": "https://www.imdb.com/title/tt0407887/",
+            "dateWatched": "March 20, 2021",
+            "rating": 3,
+            "thoughts": "This had been on my list to watch for a while. It was a good movie, but I guess I didn't feel like the ending was as satisfying as I hoped it would be."
+        },
+        {
+            "title": "Gordon Lightfoot: If You Could Read My Mind",
+            "cover": "gordonlightfoot.jpg",
+            "link": "https://www.imdb.com/title/tt10237902/",
+            "dateWatched": "March 18, 2021",
+            "rating": 4,
+            "thoughts": "My Dad often listened to Gordon Lightfoot while I was growing up, so needless to say, I've grown an appreciation for his music. This was an interesting documentary about his life and history with folk music."
+        },
+        {
             "title": "Moneyball",
             "cover": "moneyball.jpg",
             "link": "https://www.imdb.com/title/tt1210166/",

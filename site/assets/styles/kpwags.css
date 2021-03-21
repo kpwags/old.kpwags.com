@@ -399,6 +399,13 @@ article .twitter-tweet-rendered {
     margin: 20px auto !important;
 }
 
+article blockquote {
+    border-left: 4px solid var(--blue);
+    padding-left: 15px;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
 article hr {
     width: 250px;
     margin: 40px auto;
@@ -956,6 +963,11 @@ ul#podcasts li.podcast-list ul li {
     article ul,
     article ol {
         margin: 25px 10px;
+    }
+
+    article blockquote {
+        margin-left: 0;
+        font-size: 1.25rem;
     }
 
     .projects .project {
