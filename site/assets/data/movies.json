@@ -1,6 +1,22 @@
 {
-    "lastupdate": "March 2021",
+    "lastupdate": "April 2021",
     "2021": [
+        {
+            "title": "The Hunt for Red October",
+            "cover": "huntforredoctober.jpg",
+            "link": "https://www.imdb.com/title/tt0099810/",
+            "dateWatched": "April 3, 2021",
+            "rating": 4,
+            "thoughts": "I've generally enjoyed Tom Clancy novels, and this movie was done well. Connery & Baldwin do a great job."
+        },
+        {
+            "title": "Breach",
+            "cover": "breach.jpg",
+            "link": "https://www.imdb.com/title/tt0401997/",
+            "dateWatched": "March 28, 2021",
+            "rating": 3,
+            "thoughts": "I had only heard of Robert Hanssen, while dramatized, this did fill in some of the gaps. Great acting by Cooper and Ryan Phillipe."
+        },
         {
             "title": "The Highwaymen",
             "cover": "thehighwaymen.jpg",

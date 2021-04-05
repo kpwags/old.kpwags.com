@@ -327,6 +327,10 @@
                 "link": "https://30for30podcasts.com/"
             },
             {
+                "name": "The Athletic Baseball Show",
+                "link": "https://theathletic.com/podcast/243-the-athletic-baseball-show/"
+            },
+            {
                 "name": "The Athletic Football Show",
                 "link": "https://theathletic.com/podcast/211-the-athletic-football-show/"
             },
@@ -401,10 +405,6 @@
             {
                 "name": "Sixers Beat",
                 "link": "https://theathletic.com/podcast/132-sixers-beat/"
-            },
-            {
-                "name": "Starkville",
-                "link": "https://theathletic.com/podcast/25-starkville/"
             }
         ]
     },
