@@ -1,5 +1,5 @@
 {
-    "lastupdate": "March 2021",
+    "lastupdate": "April 2021",
     "reading": [
         {
             "title": "Without Remorse",
@@ -12,8 +12,8 @@
     ],
     "watching": [
         {
-            "title": "The Expanse",
-            "cover": "expanse.jpg"
+            "title": "Person of Interest",
+            "cover": "personofinterest.jpg"
         },
         {
             "title": "Cosmos",
@@ -32,10 +32,10 @@
             "link": "https://www.bungie.net/7/en/Destiny/NewLight"
         },
         {
-            "title": "Borderlands 3",
+            "title": "MLB The Show 21",
             "system": "Xbox Series X",
-            "cover": "borderlands3.jpg",
-            "link": "https://www.microsoft.com/en-us/p/Borderlands-3/C34NB0F1B5WQ"
+            "cover": "mlb21.jpg",
+            "link": "https://www.microsoft.com/en-us/p/mlb-the-show-21-xbox-series-x-s/9nsdl005mbtg"
         },
         {
             "title": "World of Warcraft",
