@@ -1,11 +1,11 @@
 {
-    "lastupdate": "April 2021",
+    "lastupdate": "June 2021",
     "reading": [
         {
-            "title": "Without Remorse",
-            "author": "Tom Clancy",
-            "cover": "withoutremorse.jpg",
-            "link": "https://bookshop.org/books/without-remorse/9780425143322",
+            "title": "The Premonition",
+            "author": "Michael Lewis",
+            "cover": "premonition.jpg",
+            "link": "https://bookshop.org/books/the-premonition-a-pandemic-story-9781713631897/9780393881554",
             "rating": null,
             "thoughts": null
         }
@@ -40,7 +40,7 @@
         {
             "title": "World of Warcraft",
             "system": "PC",
-            "cover": "wow_shadowlands.jpg",
+            "cover": "wow_tbc_classic.jpg",
             "link": "https://worldofwarcraft.com/en-us/"
         }
     ]
