@@ -12,8 +12,8 @@
     ],
     "watching": [
         {
-            "title": "Person of Interest",
-            "cover": "personofinterest.jpg"
+            "title": "The Mandalorian",
+            "cover": "mandalorian.jpg"
         },
         {
             "title": "Cosmos",
@@ -38,10 +38,10 @@
             "link": "https://www.microsoft.com/en-us/p/mlb-the-show-21-xbox-series-x-s/9nsdl005mbtg"
         },
         {
-            "title": "World of Warcraft",
-            "system": "PC",
-            "cover": "wow_tbc_classic.jpg",
-            "link": "https://worldofwarcraft.com/en-us/"
+            "title": "Mass Effect",
+            "system": "Xbox Series X",
+            "cover": "masseffect.jpg",
+            "link": "https://www.ea.com/games/mass-effect/mass-effect-legendary-edition"
         }
     ]
 }
