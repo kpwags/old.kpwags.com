@@ -1,5 +1,25 @@
 [
     {
+        "title": "Biased Algorithms, Biased World",
+        "url": "https://www.wnycstudios.org/podcasts/otm/episodes/biased-algorithms-biased-world-on-the-media",
+        "source": "wnycstudios.org"
+    },
+    {
+        "title": "Exploring Deno Land",
+        "url": "https://changelog.com/podcast/443",
+        "source": "changelog.com"
+    },
+    {
+        "title": "Michael Lewis' 2012 Princeton Commencement Speech",
+        "url": "https://www.youtube.com/watch?v=CiQ_T5C3hIM",
+        "source": "youtube.com"
+    },
+    {
+        "title": "You're Wrong About: Cancel Culture",
+        "url": "https://www.buzzsprout.com/1112270/8656464-cancel-culture",
+        "source": "yourewrongabout.com"
+    },
+    {
         "title": "If we're gonna criticize utility-class frameworks, let's be fair about it",
         "url": "https://css-tricks.com/if-were-gonna-criticize-utility-class-frameworks-lets-be-fair-about-it/",
         "source": "css-tricks.com"
