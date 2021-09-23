@@ -1,5 +1,20 @@
 [
     {
+        "title": "The Toxic Supplement Hunter",
+        "url": "https://www.menshealth.com/health/a36945827/toxic-supplement-hunter-pieter-cohen-md/",
+        "source": "menshealth.com"
+    },
+    {
+        "title": "What I Wish I Knew About CSS When Starting Out As A Frontender",
+        "url": "https://engineering.kablamo.com.au/posts/2021/my-first-css",
+        "source": "kablamo.com.au"
+    },
+    {
+        "title": "In Quest of Search",
+        "url": "https://www.sarasoueidan.com/blog/in-quest-of-search/",
+        "source": "sarasoueidan.com"
+    },
+    {
         "title": "Biased Algorithms, Biased World",
         "url": "https://www.wnycstudios.org/podcasts/otm/episodes/biased-algorithms-biased-world-on-the-media",
         "source": "wnycstudios.org"
